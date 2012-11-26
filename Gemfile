@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in cucumber-sample_kernel.gemspec
+# Specify your gem's dependencies in Vicom-pos-tagger-lite_FR.gemspec
 gemspec

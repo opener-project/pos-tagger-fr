@@ -2,14 +2,14 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'cucumber-sample_kernel'
+require 'Vicom-pos-tagger-lite_FR'
 
 Gem::Specification.new do |gem|
-  gem.name          = "cucumber-sample_kernel"
-  gem.version       = Opener::Sample::Kernel::VERSION
+  gem.name          = "Vicom-pos-tagger-lite_FR"
+  gem.version       = Opener::Kernel::Vicom::POSTagger::Lite::FR::VERSION
   gem.authors       = ["sb-olr","sparkboxx"]
   gem.email         = ["sujit@olery.com", "wilco@olery.com"]
-  gem.description   = %q{Sample Gem to demonstrate how to setup and test a kernel gem}
+  gem.description   = %q{POS Tagger kernel for french lite version}
   gem.summary       = %q{Use this gem in a component}
   gem.homepage      = "http://opener-project.github.com/"
 
