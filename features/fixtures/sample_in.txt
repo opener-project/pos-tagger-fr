@@ -1,0 +1,4 @@
+<text>
+	<wf wid="w1">Hello</wf>
+	<wf wid="w2">world</wf>
+</text>
