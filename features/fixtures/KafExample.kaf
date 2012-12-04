@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="fr" doc="example.txt">
+<kafHeader>
+<linguisticProcessors layer="nlp">
+<lp name="Vicom" version="0.1" timestamp="2012-10-09T12:16:30+00:00"/>
+</linguisticProcessors>
+</kafHeader>
+<text>
+  <wf wid="w1" sent="1" page="1">Les</wf>
+  <wf wid="w2" sent="1" page="1">études</wf>
+  <wf wid="w3" sent="1" page="1">récentes</wf>
+  <wf wid="w4" sent="1" page="1">sont</wf>
+  <wf wid="w5" sent="1" page="1">formelles</wf>
+</text>
+</KAF>

@@ -7,7 +7,8 @@ Given /^I put it through the kernel$/ do
   @tmp_filename = "output_#{rand(1000)}_#{@filename}"
   @output = tmp_file(@tmp_filename)
 
-  `cat #{@input} | #{KERNEL_CORE} > #{@output}`
+  `cat #{@input} | java -jar #{KERNEL_CORE} > #{@output}`
+ #`java -jar #{KERNEL_CORE} < #{@input} > #{@output}`
 end
 
 Then /^the output should match the fixture "(.*?)"$/ do |filename|
