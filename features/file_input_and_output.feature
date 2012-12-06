@@ -4,9 +4,9 @@ Feature: Using files as input and output
   Using a file as an output
 
   Scenario Outline: Reverse the text
-    Given the fixture file "KafExample.kaf"
+    Given the fixture file "<input_file>"
     And I put it through the kernel
-    Then the output should match the fixture "postagger-output.kaf"
+    Then the output should match the fixture "<output_file>"
   Examples:
-    | input_file         | output_file         |
-    | sample_in.txt      | sample_out.txt      |
+    | input_file          | output_file               |
+    | KafExample.kaf      | postagger-output.kaf      |
