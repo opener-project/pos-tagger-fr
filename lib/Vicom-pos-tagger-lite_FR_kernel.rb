@@ -3,7 +3,7 @@ module Opener
      module Vicom
        module POSTagger
     	 module Lite
-    	   module FR
+    	   module FR 
       		VERSION = "0.0.1"
 
       		class Configuration

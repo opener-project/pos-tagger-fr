@@ -2,14 +2,14 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'Vicom-pos-tagger-lite_FR'
+require 'Vicom-pos-tagger-lite_FR_kernel'
 
 Gem::Specification.new do |gem|
-  gem.name          = "Vicom-pos-tagger-lite_FR"
+  gem.name          = "Vicom-pos-tagger-lite_FR_kernel"
   gem.version       = Opener::Kernel::Vicom::POSTagger::Lite::FR::VERSION
   gem.authors       = ["sb-olr","sparkboxx"]
   gem.email         = ["sujit@olery.com", "wilco@olery.com"]
-  gem.description   = %q{POS Tagger kernel for french lite version}
+  gem.description   = %q{Part of Speech tagger for french lite version }
   gem.summary       = %q{Use this gem in a component}
   gem.homepage      = "http://opener-project.github.com/"
 
