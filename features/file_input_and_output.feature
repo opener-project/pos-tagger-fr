@@ -8,5 +8,5 @@ Feature: Using files as input and output
     And I put it through the kernel
     Then the output should match the fixture "<output_file>"
   Examples:
-    | input_file          | output_file               |
-    | KafExample.kaf      | postagger-output.kaf      |
+    | input_file	| output_file		|
+    | french.kaf	| french_tagged.kaf	|

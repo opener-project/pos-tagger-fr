@@ -3,4 +3,4 @@ $:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(_
 
 require 'Vicom-pos-tagger-lite_FR_kernel'
 
-puts `#{KERNEL_CORE}`
+puts `java -jar #{KERNEL_CORE}`
