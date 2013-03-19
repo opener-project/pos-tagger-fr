@@ -30,7 +30,7 @@ public class kaf {
     	else {
     		models_dir = args[0];
     		InputStream file = System.in;
-    		String outfile = file+".total.kaf";
+    		//String outfile = file+".total.kaf";
 		
     		pos_model = models_dir + "french-pos-treetagger.bin";
     		multiword_model = models_dir + "fr-multiword-maxent.bin";
@@ -44,6 +44,7 @@ public class kaf {
     		KafSaxParser parser = new KafSaxParser();
 
     		parser.parseFile(file);
+    		//parser.parseFile("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french.kaf");
     		
     		if (timestamp) {
     			parser.addLP("terms", "opennlp-pos-treetagger-fr", "1.0");
@@ -194,8 +195,16 @@ public class kaf {
 	        	tid++;
 	        	parser.kafTermList.add(kt);
 	        }
+	        
+	        //try {
 	        parser.writeKafToStream(System.out);
+	        	//FileOutputStream fos = new FileOutputStream("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french2.total.kaf");
+	        	//parser.writeKafToFile(fos);
+	        	//fos.close();
 	        System.out.close();
+	        //} catch (IOException e) {
+	        	//e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+	        //}
     	}
     }
     
@@ -357,10 +366,10 @@ public class kaf {
 	private static void readSerializedObject() {
 		try {
 			InputStream file;
-			if (System.getProperty("java.version").substring(0, 3).compareTo("1.7") == 0)
+			//if (System.getProperty("java.version").substring(0, 3).compareTo("1.7") == 0)
 				file = new FileInputStream(models_dir + "FrenchLemmatizationMap.ser");
-			else
-				file = Class.class.getResourceAsStream(models_dir + "FrenchLemmatizationMap.ser");
+			//else
+				//file = Class.class.getResourceAsStream(models_dir + "FrenchLemmatizationMap.ser");
 			
 			InputStream buffer = new BufferedInputStream( file );
 		    ObjectInput input = new ObjectInputStream ( buffer );
