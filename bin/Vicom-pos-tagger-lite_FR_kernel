@@ -3,4 +3,7 @@ $:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(_
 
 require 'Vicom-pos-tagger-lite_FR_kernel'
 
-puts `java -jar #{KERNEL_CORE}`
+kernel = Opener::Kernel::Vicom::POSTagger::Lite::FR.new
+command = "#{kernel.command(:input=>ARGV[0], :arguments=>ARGV[1..-1])}"
+
+puts `#{command}`
