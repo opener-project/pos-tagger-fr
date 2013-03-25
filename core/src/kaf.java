@@ -9,16 +9,7 @@ import eu.kyotoproject.kaf.*;
 public class kaf {
 	
 	private static String models_dir;
-	private static String pos_model;
-	private static String multiword_model;
-	private static Map<String,String> lemmatizationMap;
-	private static String[] words;
-	private static String[] wids;
-	private static HashMap<String,ArrayList<String>> hashterm; //compound terms and its components
-	private static ArrayList<String> guessArray; //word list with compound terms separated
-	private static String[] kafTags;
-    private static String[] kafTags_compound;
-    private static String[] multiword_tags;
+	private static KafTextLayer ktl;
 		
     static public void main (String[] args) {
 	
@@ -29,13 +20,9 @@ public class kaf {
     	}
     	else {
     		models_dir = args[0];
-    		InputStream file = System.in;
-    		//String outfile = file+".total.kaf";
-		
-    		pos_model = models_dir + "french-pos-treetagger.bin";
-    		multiword_model = models_dir + "fr-multiword-maxent.bin";
     		
-    		readSerializedObject();
+    		LemmatizationMap lm = new LemmatizationMap(models_dir);
+    		lm.readSerializedObject();
     		
     		Boolean timestamp = true;
 	        if (args.length > 1)
@@ -43,7 +30,7 @@ public class kaf {
 	        
     		KafSaxParser parser = new KafSaxParser();
 
-    		parser.parseFile(file);
+    		parser.parseFile(System.in);
     		//parser.parseFile("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french.kaf");
     		
     		if (timestamp) {
@@ -55,18 +42,22 @@ public class kaf {
     			parser.addLP_notimestamp("terms", "opennlp-multiword-fr", "1.0");
     		}
     		
-        
+    		String pos_model = models_dir + "french-pos-treetagger.bin";
+    		String multiword_model = models_dir + "fr-multiword-maxent.bin";
+    		
+    		ktl = new KafTextLayer(parser, pos_model, multiword_model);
+    		
     		//get words
-    		getWordsWids(parser);
+    		ktl.getKafWordsWids();
         
     		//compounds
-    		getCompounds();
+    		ktl.getKafCompounds();
         
     		//tags
-    		getKafTags();
+    		ktl.getKafPosTags();
 		
     		//multiwords
-    		getMultiwordTags();
+    		ktl.getKafMultiwordTags();
 		
     		//Kaf construction
     		KafTerm kt;
@@ -80,44 +71,43 @@ public class kaf {
 	        int mw = 1;
 	        int tid = 1;
 	        Iterator<String> itr;
-	        for (int i = 0; i < words.length; i++) {
+	        
+	        for (int i = 0; i < ktl.getKafWordsLength(); i++) {
 	        	kt = new KafTerm();
 	        	kt.setTid("t"+(tid));
 	        	
 	        	//word is a multiword part
-	        	if (multiword_tags[i].compareTo("C") == 0){
+	        	if (ktl.isMW(i)){
 	        		mw = 1;
 	        		multiword_lemma = "";
-	        		kt.setPos(kafTags[i]);
-	        		kt.setType(getType(kt.getPos()));
+	        		kt.setPos(ktl.getKafPoS(i));
+	        		kt.setType(ktl.getKafType(kt.getPos()));
 	        		kt.setHead("t"+(tid)+".1");
 	        		head_word = "";
 	        		termPoSTags = new ArrayList<String>();
 	        		
 	        		//for all multiword components do
-	        		while (i < multiword_tags.length && multiword_tags[i].compareTo("C") == 0){
-	        			termPoSTags.add(kafTags[i]+"#"+"t"+(tid)+"."+mw);
-	        			lemma = getLemma(words[i], kafTags[i]);
+	        		while (i < ktl.getKafMWLength() && ktl.isMW(i)){
+	        			termPoSTags.add(ktl.getKafPoS(i)+"#"+"t"+(tid)+"."+mw);
+	        			lemma = lm.getLemma(ktl.getKafWord(i), ktl.getKafPoS(i));
 	        			
-	        			kt.addSpans(wids[i]);
+	        			kt.addSpans(ktl.getKafWid(i));
 	        			//if multiword component is a compound
-	        			if (hashterm.get(words[i]+wids[i]).isEmpty() == false) {
+	        			if (ktl.isCompound(i)) {
 	        				compound_lemma = "";
-	        				for (int z = 0; z < hashterm.get(words[i]+wids[i]).size(); z++){
+	        				for (int z = 0; z < ktl.getKafCompoundSize(i); z++){
 	        					//find compound's head
-	        					if (kafTags[i].compareTo(kafTags_compound[c]) == 0 && 
-	                					hashterm.get(words[i]+wids[i]).get(z).length() > head_word.length()) {
+	        					if (ktl.getKafPoS(i).compareTo(ktl.getKafCompoundPoS(c)) == 0 && 
+	                					ktl.getKafCompundComponent(i, z).length() > head_word.length()) {
 	        						termPoSTags.remove(termPoSTags.size()-1);
-	                				termPoSTags.add(kafTags[i]+"#"+"t"+(tid)+"."+(z+1));
-	                				head_word = hashterm.get(words[i]+wids[i]).get(z);
+	                				termPoSTags.add(ktl.getKafPoS(i)+"#"+"t"+(tid)+"."+(z+1));
+	                				head_word = ktl.getKafCompundComponent(i, z);
 	                			}
-	        					tc = new TermComponent();
-	        					tc.setId("t"+(tid)+"."+(mw));
-	        					tc.setPos(kafTags_compound[c]);
-	        					if (hashterm.get(words[i]+wids[i]).get(z).matches("[A-Z].*") )
-	        						tc.setLemma(hashterm.get(words[i]+wids[i]).get(z));
+	        					//build TermComponent object
+	        					if (ktl.getKafCompundComponent(i, z).matches("[A-Z].*") )
+		            				tc = ktl.builKafTermComponent("t"+(tid)+"."+(mw), ktl.getKafCompoundPoS(c), ktl.getKafCompundComponent(i, z));
 	        					else
-	        						tc.setLemma(getLemma(hashterm.get(words[i]+wids[i]).get(z), kafTags_compound[c]));
+	        						tc = ktl.builKafTermComponent("t"+(tid)+"."+(mw), ktl.getKafCompoundPoS(c), lm.getLemma(ktl.getKafCompundComponent(i, z), ktl.getKafCompoundPoS(c)));
 	        					compound_lemma += tc.getLemma();
 	        					kt.addComponents(tc);
 	        					c++;
@@ -127,16 +117,12 @@ public class kaf {
 	        			}
 	        			//word is not a compound
 	        			else {
-	        				tc = new TermComponent();
-	        				tc.setId("t"+(tid)+"."+(mw));
-	        				tc.setPos(kafTags[i]);
-	        				if (words[i].matches("[A-Z].*") ) {
-	        					tc.setLemma(words[i]);
-	        					multiword_lemma += words[i]+"_";
-	        				} else {
-	        					tc.setLemma(lemma);
-	        					multiword_lemma += lemma+"_";
-	        				}
+	        				
+	        				if (ktl.getKafWord(i).matches("[A-Z].*") )
+	            				tc = ktl.builKafTermComponent("t"+(tid)+"."+(mw), ktl.getKafPoS(i), ktl.getKafWord(i));
+        					else
+        						tc = ktl.builKafTermComponent("t"+(tid)+"."+(mw), ktl.getKafPoS(i), lemma);
+	        				multiword_lemma += tc.getLemma()+"_";
 	        				kt.addComponents(tc);
 	        				mw++;
 	        				c++;
@@ -151,37 +137,35 @@ public class kaf {
 	        		//set term's head and PoS. The candidates are at the termPoSTags array
 	        		else {
 	        			itr = termPoSTags.iterator();
-	        			setHeadPoS(kt, itr);
-	        			kt.setType(getType(kt.getPos()));
+	        			ktl.setTermHeadPoS(kt, itr);
+	        			kt.setType(ktl.getKafType(kt.getPos()));
 	        		}
 	        		kt.setLemma(multiword_lemma.substring(0, multiword_lemma.length()-1));
 	        		i--;
 	        	}
 	        	//word is not multiword component
 	        	else {
-	        		kt.setPos(kafTags[i]);
-	        		kt.setType(getType(kt.getPos()));
-	            	kt.setLemma(getLemma(words[i], kafTags[i]));
-	            	kt.addSpans(wids[i]);
+	        		kt.setPos(ktl.getKafPoS(i));
+	        		kt.setType(ktl.getKafType(kt.getPos()));
+	            	kt.setLemma(lm.getLemma(ktl.getKafWord(i), ktl.getKafPoS(i)));
+	            	kt.addSpans(ktl.getKafWid(i));
 	            	//word is a compound
-	            	if (hashterm.get(words[i]+wids[i]).isEmpty() == false) {
+	            	if (ktl.isCompound(i)) {
 	            		compound_lemma = "";
 	                	kt.setHead("t"+(tid)+".1");
 	                	head_word = "";
-	            		for (int z = 0; z < hashterm.get(words[i]+wids[i]).size(); z++){
-	            			tc = new TermComponent();
+	            		for (int z = 0; z < ktl.getKafCompoundSize(i); z++){
 	            			//find compound's head
-	            			if (kafTags[i].compareTo(kafTags_compound[c]) == 0 && 
-	            					hashterm.get(words[i]+wids[i]).get(z).length() > head_word.length()) {
+	            			if (ktl.getKafPoS(i).compareTo(ktl.getKafCompoundPoS(c)) == 0 && 
+	            					ktl.getKafCompundComponent(i, z).length() > head_word.length()) {
 	            				kt.setHead("t"+(tid)+"."+(z+1));
-	            				head_word = hashterm.get(words[i]+wids[i]).get(z);
+	            				head_word = ktl.getKafCompundComponent(i, z);
 	            			}
-	            			tc.setId("t"+(tid)+"."+(z+1));
-	            			tc.setPos(kafTags_compound[c]);
-	            			if (hashterm.get(words[i]+wids[i]).get(z).matches("[A-Z].*") )
-	            				tc.setLemma(hashterm.get(words[i]+wids[i]).get(z));
+	            			//build TermComponent object
+	            			if (ktl.getKafCompundComponent(i, z).matches("[A-Z].*") )
+	            				tc = ktl.builKafTermComponent("t"+(tid)+"."+(z+1), ktl.getKafCompoundPoS(c), ktl.getKafCompundComponent(i, z));
         					else
-        						tc.setLemma(getLemma(hashterm.get(words[i]+wids[i]).get(z), kafTags_compound[c]));
+        						tc = ktl.builKafTermComponent("t"+(tid)+"."+(z+1), ktl.getKafCompoundPoS(c), lm.getLemma(ktl.getKafCompundComponent(i, z), ktl.getKafCompoundPoS(c)));
 	            			compound_lemma += tc.getLemma();
 	            			kt.addComponents(tc);
 	            			c++;
@@ -198,191 +182,14 @@ public class kaf {
 	        
 	        //try {
 	        parser.writeKafToStream(System.out);
-	        	//FileOutputStream fos = new FileOutputStream("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french2.total.kaf");
+	        	//FileOutputStream fos = new FileOutputStream("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french.total2.kaf");
 	        	//parser.writeKafToFile(fos);
 	        	//fos.close();
 	        System.out.close();
 	        //} catch (IOException e) {
-	        	//e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+	        //	e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 	        //}
     	}
     }
-    
-    private static String getLemma(String surfaceForm,String postag){
-    	
-		String lemmasAndTags=lemmatizationMap.get(surfaceForm.toLowerCase());
-		if(lemmasAndTags==null){
-			return surfaceForm;
-		}
-		String[]splittedLemmasAndTags=lemmasAndTags.split(" ");
-		for(int i=0;i<splittedLemmasAndTags.length-1;i+=2){
-			String currentLemma=splittedLemmasAndTags[i];
-			String currentTag=TagsetMappings.convertFromLemmatagsToKaf(splittedLemmasAndTags[i+1]);
-			
-		//	System.out.println("Comparing "+currentTag+" and "+postag);
-			
-			if(currentTag.equalsIgnoreCase(postag)){
-				return currentLemma;
-			}
-		}
-		return surfaceForm;
-	}
-    
-    private static void getWordsWids(KafSaxParser parser) {
-		String word;
-        String wid;
-        words = new String[parser.getKafWordFormList().size()];
-        wids = new String[parser.getKafWordFormList().size()];
-        for (int i = 0; i < parser.getKafWordFormList().size(); i++) {
-        	word = parser.getKafWordFormList().get(i).getWf();
-        	wid = parser.getKafWordFormList().get(i).getWid();
-        	words[i] = word;
-        	wids[i] = wid;
-        }
-	}
-    
-    private static void getCompounds() {
-    	String word;
-    	hashterm = new HashMap<String,ArrayList<String>>();
-    	guessArray = new ArrayList<String>();
-    	boolean b = false;
-    	for (int i = 0; i < words.length; i++){
-    		b = false;
-    		word = words[i];
-    		hashterm.put(word+wids[i], new ArrayList<String>());
-    		if (word.indexOf("'") > 0) {
-    			//d', l'...
-    			if (word.indexOf("'") == word.length()-1){
-    				guessArray.add(word);
-    			}
-    		}else if (word.indexOf("-") < 0 || word.compareTo("-") == 0) {
-    			guessArray.add(word);
-    		}
-    		if (word.compareTo("-") != 0)
-    			while (word.indexOf("-") > -1 || (word.indexOf("'") > -1 && word.indexOf("'") < word.length()-1)) {
-    				b = true;
-    				//Grande-Bretagne -> Grande - Bretagne
-    				if (word.indexOf("'") < 0 || (word.indexOf("-") > -1 && word.indexOf("-") < word.indexOf("'"))) {
-    					hashterm.get(words[i]+wids[i]).add(word.substring(0, word.indexOf("-")));
-    					guessArray.add(word.substring(0, word.indexOf("-")));
-    					hashterm.get(words[i]+wids[i]).add("-");
-    					guessArray.add("-");
-    					//word = Grande-Bretagne => word = Bretagne
-    					word = word.substring(word.indexOf("-")+1, word.length());
-    				}
-    				//lorqu'elle -> lorqu' elle
-    				else {
-    					hashterm.get(words[i]+wids[i]).add(word.substring(0, word.indexOf("'")+1));
-    					guessArray.add(word.substring(0, word.indexOf("'")+1));
-    					//word = lorqu'elle => word = elle
-    					word = word.substring(word.indexOf("'")+1, word.length());
-    				}
-    			}
-    		    //add last word's last component
-				if (b && word.compareTo("") != 0) {
-					hashterm.get(words[i]+wids[i]).add(word);
-					guessArray.add(word);
-				}
-    	}
-    }
-    
-    private static void getKafTags() {
-    	String[] guess = new String[guessArray.size()];
-    	guessArray.toArray(guess);
-    
-    	PoS_Tagger tagger = new PoS_Tagger(pos_model);     
-    	String[] tags = tagger.tag(words);
-    	String[] tags_compound = tagger.tag(guess);
-    	kafTags = new String[tags.length];
-    	kafTags_compound = new String[tags_compound.length];
-    	for (int i=0;i<kafTags_compound.length;i++) {
-    		if (i < kafTags.length)
-    			kafTags[i]=TagsetMappings.convertFromFtbToKaf(tags[i]);
-    		kafTags_compound[i]=TagsetMappings.convertFromFtbToKaf(tags_compound[i]);
-    	}
-    }
-    
-    private static void getMultiwordTags() {
-    	PoS_Tagger multiword_tagger = new PoS_Tagger(multiword_model);
-    	multiword_tags = multiword_tagger.tag(words);
-    }
-    
-    //itr format <PoS#word_id>
-    private static void setHeadPoS(KafTerm kt, Iterator<String> itr){
-    	boolean found = false;
-		String itr_string;
-		String itr_id;
-		String itr_PoS;
-		while (itr.hasNext() && !found) {
-			itr_string = (String)itr.next();
-			itr_PoS = itr_string.substring(0, 1);
-			itr_id = itr_string.substring(2, itr_string.length());
-			if (itr_PoS.compareTo("N") == 0){
-				found = true;
-				kt.setHead(itr_id);
-				kt.setPos("N");
-			}
-			else if (itr_PoS.compareTo("V") == 0) {
-				if (kt.getPos().compareTo("V") != 0) {
-					kt.setHead(itr_id);
-					kt.setPos("V");
-				}
-			}
-			else if (itr_PoS.compareTo("G") == 0 && kt.getPos().compareTo("V") != 0) {
-				if (kt.getPos().compareTo("G") != 0) {
-					kt.setHead(itr_id);
-					kt.setPos("G");
-				}
-			}
-			else if (itr_PoS.compareTo("A") == 0 && kt.getPos().compareTo("V") != 0 && 
-					kt.getPos().compareTo("G") != 0) {
-				if (kt.getPos().compareTo("A") != 0) {
-					kt.setHead(itr_id);
-					kt.setPos("A");
-				}
-			}
-			else if (itr_PoS.compareTo("D") == 0 && kt.getPos().compareTo("V") != 0 && 
-					kt.getPos().compareTo("G") != 0 && kt.getPos().compareTo("A") != 0) {
-				if (kt.getPos().compareTo("D") != 0) {
-					kt.setHead(itr_id);
-					kt.setPos("D");
-				}
-			}
-		}
-    }
-    
-    private static String getType(String pos) {
-		if (pos.equalsIgnoreCase("N") ||
-				pos.equalsIgnoreCase("V") ||
-				pos.equalsIgnoreCase("A") ||
-				pos.equalsIgnoreCase("G")) {
-			return "open";
-		}
-		else {
-			return "close";
-		}
-	}
 	
-	private static void readSerializedObject() {
-		try {
-			InputStream file;
-			//if (System.getProperty("java.version").substring(0, 3).compareTo("1.7") == 0)
-				file = new FileInputStream(models_dir + "FrenchLemmatizationMap.ser");
-			//else
-				//file = Class.class.getResourceAsStream(models_dir + "FrenchLemmatizationMap.ser");
-			
-			InputStream buffer = new BufferedInputStream( file );
-		    ObjectInput input = new ObjectInputStream ( buffer );
-	
-		    lemmatizationMap = (Map<String,String>)input.readObject();
-		    input.close();
-		    
-		    // System.out.println("Lemmatization map loaded, size: "+lemmatizationMap.size());
-		} catch (ClassNotFoundException ex){
-			ex.printStackTrace();
-		} catch (IOException e) {
-		// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
 }
