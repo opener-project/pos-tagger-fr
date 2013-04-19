@@ -1,0 +1,4189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <fileDesc filename="french" filetype="TXT"/>
+    <linguisticProcessors layer="text">
+      <lp name="openlp-fr-tok" timestamp="2013-02-22T12:59:16Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2013-02-11T11:07:17Z" version="1.0"/>
+      <lp name="opennlp-multiword-fr" timestamp="2013-02-11T11:07:17Z" version="1.0"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf para="1" sent="1" wid="w1">Ancien</wf>
+    <wf para="1" sent="1" wid="w2">chef</wf>
+    <wf para="1" sent="1" wid="w3">charismatique</wf>
+    <wf para="1" sent="1" wid="w4">d'</wf>
+    <wf para="1" sent="1" wid="w5">Al-Qaida</wf>
+    <wf para="1" sent="1" wid="w6">au</wf>
+    <wf para="1" sent="1" wid="w7">Maghreb</wf>
+    <wf para="1" sent="1" wid="w8">islamique</wf>
+    <wf para="1" sent="1" wid="w9">–</wf>
+    <wf para="1" sent="1" wid="w10">AQMI</wf>
+    <wf para="1" sent="1" wid="w11">,</wf>
+    <wf para="1" sent="1" wid="w12">l'</wf>
+    <wf para="1" sent="1" wid="w13">Algérien</wf>
+    <wf para="1" sent="1" wid="w14">Mokhtar</wf>
+    <wf para="1" sent="1" wid="w15">Bel-Mokhtar</wf>
+    <wf para="1" sent="1" wid="w16">a</wf>
+    <wf para="1" sent="1" wid="w17">une</wf>
+    <wf para="1" sent="1" wid="w18">trajectoire</wf>
+    <wf para="1" sent="1" wid="w19">remarquable</wf>
+    <wf para="1" sent="1" wid="w20">dans</wf>
+    <wf para="1" sent="1" wid="w21">la</wf>
+    <wf para="1" sent="1" wid="w22">nébuleuse</wf>
+    <wf para="1" sent="1" wid="w23">islamiste</wf>
+    <wf para="1" sent="1" wid="w24">.</wf>
+    <wf para="1" sent="2" wid="w25">Né</wf>
+    <wf para="1" sent="2" wid="w26">le</wf>
+    <wf para="1" sent="2" wid="w27">1er</wf>
+    <wf para="1" sent="2" wid="w28">juin</wf>
+    <wf para="1" sent="2" wid="w29">1972</wf>
+    <wf para="1" sent="2" wid="w30">à</wf>
+    <wf para="1" sent="2" wid="w31">Ghardaïa</wf>
+    <wf para="1" sent="2" wid="w32">,</wf>
+    <wf para="1" sent="2" wid="w33">il</wf>
+    <wf para="1" sent="2" wid="w34">s'</wf>
+    <wf para="1" sent="2" wid="w35">est</wf>
+    <wf para="1" sent="2" wid="w36">engagé</wf>
+    <wf para="1" sent="2" wid="w37">dans</wf>
+    <wf para="1" sent="2" wid="w38">la</wf>
+    <wf para="1" sent="2" wid="w39">guerre</wf>
+    <wf para="1" sent="2" wid="w40">en</wf>
+    <wf para="1" sent="2" wid="w41">Afghanistan</wf>
+    <wf para="1" sent="2" wid="w42">aux</wf>
+    <wf para="1" sent="2" wid="w43">côtés</wf>
+    <wf para="1" sent="2" wid="w44">des</wf>
+    <wf para="1" sent="2" wid="w45">moudjahidin</wf>
+    <wf para="1" sent="2" wid="w46">entre</wf>
+    <wf para="1" sent="2" wid="w47">1991</wf>
+    <wf para="1" sent="2" wid="w48">et</wf>
+    <wf para="1" sent="2" wid="w49">1993</wf>
+    <wf para="1" sent="2" wid="w50">avant</wf>
+    <wf para="1" sent="2" wid="w51">de</wf>
+    <wf para="1" sent="2" wid="w52">rejoindre</wf>
+    <wf para="1" sent="2" wid="w53">le</wf>
+    <wf para="1" sent="2" wid="w54">Groupe</wf>
+    <wf para="1" sent="2" wid="w55">salafiste</wf>
+    <wf para="1" sent="2" wid="w56">pour</wf>
+    <wf para="1" sent="2" wid="w57">la</wf>
+    <wf para="1" sent="2" wid="w58">prédication</wf>
+    <wf para="1" sent="2" wid="w59">et</wf>
+    <wf para="1" sent="2" wid="w60">le</wf>
+    <wf para="1" sent="2" wid="w61">combat</wf>
+    <wf para="1" sent="2" wid="w62">(</wf>
+    <wf para="1" sent="2" wid="w63">GSPC</wf>
+    <wf para="1" sent="2" wid="w64">)</wf>
+    <wf para="1" sent="2" wid="w65">algérien</wf>
+    <wf para="1" sent="2" wid="w66">,</wf>
+    <wf para="1" sent="2" wid="w67">dont</wf>
+    <wf para="1" sent="2" wid="w68">émane</wf>
+    <wf para="1" sent="2" wid="w69">AQMI</wf>
+    <wf para="1" sent="2" wid="w70">.</wf>
+    <wf para="1" sent="3" wid="w71">Lorsqu'</wf>
+    <wf para="1" sent="3" wid="w72">il</wf>
+    <wf para="1" sent="3" wid="w73">était</wf>
+    <wf para="1" sent="3" wid="w74">affilié</wf>
+    <wf para="1" sent="3" wid="w75">à</wf>
+    <wf para="1" sent="3" wid="w76">AQMI</wf>
+    <wf para="1" sent="3" wid="w77">,</wf>
+    <wf para="1" sent="3" wid="w78">Mokhtar</wf>
+    <wf para="1" sent="3" wid="w79">Bel-Mokhtar</wf>
+    <wf para="1" sent="3" wid="w80">a</wf>
+    <wf para="1" sent="3" wid="w81">mené</wf>
+    <wf para="1" sent="3" wid="w82">avec</wf>
+    <wf para="1" sent="3" wid="w83">sa</wf>
+    <wf para="1" sent="3" wid="w84">katiba</wf>
+    <wf para="1" sent="3" wid="w85">de</wf>
+    <wf para="1" sent="3" wid="w86">nombreuses</wf>
+    <wf para="1" sent="3" wid="w87">prises</wf>
+    <wf para="1" sent="3" wid="w88">d'</wf>
+    <wf para="1" sent="3" wid="w89">otages</wf>
+    <wf para="1" sent="3" wid="w90">,</wf>
+    <wf para="1" sent="3" wid="w91">dont</wf>
+    <wf para="1" sent="3" wid="w92">celles</wf>
+    <wf para="1" sent="3" wid="w93">de</wf>
+    <wf para="1" sent="3" wid="w94">deux</wf>
+    <wf para="1" sent="3" wid="w95">Français</wf>
+    <wf para="1" sent="3" wid="w96">à</wf>
+    <wf para="1" sent="3" wid="w97">Niamey</wf>
+    <wf para="1" sent="3" wid="w98">,</wf>
+    <wf para="1" sent="3" wid="w99">au</wf>
+    <wf para="1" sent="3" wid="w100">Niger</wf>
+    <wf para="1" sent="3" wid="w101">,</wf>
+    <wf para="1" sent="3" wid="w102">en</wf>
+    <wf para="1" sent="3" wid="w103">janvier</wf>
+    <wf para="1" sent="3" wid="w104">2011</wf>
+    <wf para="1" sent="3" wid="w105">.</wf>
+    <wf para="2" sent="4" wid="w106">Les</wf>
+    <wf para="2" sent="4" wid="w107">deux</wf>
+    <wf para="2" sent="4" wid="w108">avions</wf>
+    <wf para="2" sent="4" wid="w109">de</wf>
+    <wf para="2" sent="4" wid="w110">transport</wf>
+    <wf para="2" sent="4" wid="w111">Transall</wf>
+    <wf para="2" sent="4" wid="w112">,</wf>
+    <wf para="2" sent="4" wid="w113">que</wf>
+    <wf para="2" sent="4" wid="w114">Berlin</wf>
+    <wf para="2" sent="4" wid="w115">s'</wf>
+    <wf para="2" sent="4" wid="w116">était</wf>
+    <wf para="2" sent="4" wid="w117">engagé</wf>
+    <wf para="2" sent="4" wid="w118">à</wf>
+    <wf para="2" sent="4" wid="w119">mettre</wf>
+    <wf para="2" sent="4" wid="w120">à</wf>
+    <wf para="2" sent="4" wid="w121">la</wf>
+    <wf para="2" sent="4" wid="w122">disposition</wf>
+    <wf para="2" sent="4" wid="w123">de</wf>
+    <wf para="2" sent="4" wid="w124">la</wf>
+    <wf para="2" sent="4" wid="w125">Cédéao</wf>
+    <wf para="2" sent="4" wid="w126">pour</wf>
+    <wf para="2" sent="4" wid="w127">contribuer</wf>
+    <wf para="2" sent="4" wid="w128">à</wf>
+    <wf para="2" sent="4" wid="w129">l'</wf>
+    <wf para="2" sent="4" wid="w130">opération</wf>
+    <wf para="2" sent="4" wid="w131">militaire</wf>
+    <wf para="2" sent="4" wid="w132">lancée</wf>
+    <wf para="2" sent="4" wid="w133">le</wf>
+    <wf para="2" sent="4" wid="w134">11</wf>
+    <wf para="2" sent="4" wid="w135">janvier</wf>
+    <wf para="2" sent="4" wid="w136">par</wf>
+    <wf para="2" sent="4" wid="w137">Paris</wf>
+    <wf para="2" sent="4" wid="w138">au</wf>
+    <wf para="2" sent="4" wid="w139">Mali</wf>
+    <wf para="2" sent="4" wid="w140">contre</wf>
+    <wf para="2" sent="4" wid="w141">des</wf>
+    <wf para="2" sent="4" wid="w142">islamistes</wf>
+    <wf para="2" sent="4" wid="w143">,</wf>
+    <wf para="2" sent="4" wid="w144">ont</wf>
+    <wf para="2" sent="4" wid="w145">quitté</wf>
+    <wf para="2" sent="4" wid="w146">leur</wf>
+    <wf para="2" sent="4" wid="w147">base</wf>
+    <wf para="2" sent="4" wid="w148">jeudi</wf>
+    <wf para="2" sent="4" wid="w149">soir</wf>
+    <wf para="2" sent="4" wid="w150">,</wf>
+    <wf para="2" sent="4" wid="w151">a</wf>
+    <wf para="2" sent="4" wid="w152">annoncé</wf>
+    <wf para="2" sent="4" wid="w153">l'</wf>
+    <wf para="2" sent="4" wid="w154">armée</wf>
+    <wf para="2" sent="4" wid="w155">allemande</wf>
+    <wf para="2" sent="4" wid="w156">.</wf>
+    <wf para="2" sent="5" wid="w157">Les</wf>
+    <wf para="2" sent="5" wid="w158">deux</wf>
+    <wf para="2" sent="5" wid="w159">appareils</wf>
+    <wf para="2" sent="5" wid="w160">ont</wf>
+    <wf para="2" sent="5" wid="w161">décollé</wf>
+    <wf para="2" sent="5" wid="w162">de</wf>
+    <wf para="2" sent="5" wid="w163">la</wf>
+    <wf para="2" sent="5" wid="w164">base</wf>
+    <wf para="2" sent="5" wid="w165">aérienne</wf>
+    <wf para="2" sent="5" wid="w166">de</wf>
+    <wf para="2" sent="5" wid="w167">Hohn</wf>
+    <wf para="2" sent="5" wid="w168">,</wf>
+    <wf para="2" sent="5" wid="w169">dans</wf>
+    <wf para="2" sent="5" wid="w170">le</wf>
+    <wf para="2" sent="5" wid="w171">nord</wf>
+    <wf para="2" sent="5" wid="w172">du</wf>
+    <wf para="2" sent="5" wid="w173">pays</wf>
+    <wf para="2" sent="5" wid="w174">,</wf>
+    <wf para="2" sent="5" wid="w175">en</wf>
+    <wf para="2" sent="5" wid="w176">direction</wf>
+    <wf para="2" sent="5" wid="w177">d'</wf>
+    <wf para="2" sent="5" wid="w178">Evreux-Fauville</wf>
+    <wf para="2" sent="5" wid="w179">,</wf>
+    <wf para="2" sent="5" wid="w180">en</wf>
+    <wf para="2" sent="5" wid="w181">France</wf>
+    <wf para="2" sent="5" wid="w182">,</wf>
+    <wf para="2" sent="5" wid="w183">a</wf>
+    <wf para="2" sent="5" wid="w184">indiqué</wf>
+    <wf para="2" sent="5" wid="w185">un</wf>
+    <wf para="2" sent="5" wid="w186">porte-parole</wf>
+    <wf para="2" sent="5" wid="w187">de</wf>
+    <wf para="2" sent="5" wid="w188">la</wf>
+    <wf para="2" sent="5" wid="w189">Bundeswehr</wf>
+    <wf para="2" sent="5" wid="w190">.</wf>
+    <wf para="2" sent="6" wid="w191">Du</wf>
+    <wf para="2" sent="6" wid="w192">matériel</wf>
+    <wf para="2" sent="6" wid="w193">médical</wf>
+    <wf para="2" sent="6" wid="w194">de</wf>
+    <wf para="2" sent="6" wid="w195">l'</wf>
+    <wf para="2" sent="6" wid="w196">armée</wf>
+    <wf para="2" sent="6" wid="w197">française</wf>
+    <wf para="2" sent="6" wid="w198">doit</wf>
+    <wf para="2" sent="6" wid="w199">être</wf>
+    <wf para="2" sent="6" wid="w200">chargé</wf>
+    <wf para="2" sent="6" wid="w201">dans</wf>
+    <wf para="2" sent="6" wid="w202">les</wf>
+    <wf para="2" sent="6" wid="w203">avions</wf>
+    <wf para="2" sent="6" wid="w204">,</wf>
+    <wf para="2" sent="6" wid="w205">qui</wf>
+    <wf para="2" sent="6" wid="w206">redécolleront</wf>
+    <wf para="2" sent="6" wid="w207">vendredi</wf>
+    <wf para="2" sent="6" wid="w208">en</wf>
+    <wf para="2" sent="6" wid="w209">direction</wf>
+    <wf para="2" sent="6" wid="w210">de</wf>
+    <wf para="2" sent="6" wid="w211">l'</wf>
+    <wf para="2" sent="6" wid="w212">Afrique</wf>
+    <wf para="2" sent="6" wid="w213">.</wf>
+    <wf para="3" sent="7" wid="w214">Du</wf>
+    <wf para="3" sent="7" wid="w215">matériel</wf>
+    <wf para="3" sent="7" wid="w216">et</wf>
+    <wf para="3" sent="7" wid="w217">des</wf>
+    <wf para="3" sent="7" wid="w218">vivres</wf>
+    <wf para="3" sent="7" wid="w219">continuent</wf>
+    <wf para="3" sent="7" wid="w220">enfin</wf>
+    <wf para="3" sent="7" wid="w221">d'</wf>
+    <wf para="3" sent="7" wid="w222">être</wf>
+    <wf para="3" sent="7" wid="w223">acheminés</wf>
+    <wf para="3" sent="7" wid="w224">au</wf>
+    <wf para="3" sent="7" wid="w225">Mali</wf>
+    <wf para="3" sent="7" wid="w226">avec</wf>
+    <wf para="3" sent="7" wid="w227">le</wf>
+    <wf para="3" sent="7" wid="w228">soutien</wf>
+    <wf para="3" sent="7" wid="w229">d'</wf>
+    <wf para="3" sent="7" wid="w230">avions</wf>
+    <wf para="3" sent="7" wid="w231">de</wf>
+    <wf para="3" sent="7" wid="w232">transport</wf>
+    <wf para="3" sent="7" wid="w233">C17</wf>
+    <wf para="3" sent="7" wid="w234">et</wf>
+    <wf para="3" sent="7" wid="w235">C130</wf>
+    <wf para="3" sent="7" wid="w236">mis</wf>
+    <wf para="3" sent="7" wid="w237">à</wf>
+    <wf para="3" sent="7" wid="w238">disposition</wf>
+    <wf para="3" sent="7" wid="w239">de</wf>
+    <wf para="3" sent="7" wid="w240">l'</wf>
+    <wf para="3" sent="7" wid="w241">armée</wf>
+    <wf para="3" sent="7" wid="w242">de</wf>
+    <wf para="3" sent="7" wid="w243">l'</wf>
+    <wf para="3" sent="7" wid="w244">air</wf>
+    <wf para="3" sent="7" wid="w245">par</wf>
+    <wf para="3" sent="7" wid="w246">la</wf>
+    <wf para="3" sent="7" wid="w247">Grande-Bretagne</wf>
+    <wf para="3" sent="7" wid="w248">,</wf>
+    <wf para="3" sent="7" wid="w249">le</wf>
+    <wf para="3" sent="7" wid="w250">Danemark</wf>
+    <wf para="3" sent="7" wid="w251">et</wf>
+    <wf para="3" sent="7" wid="w252">la</wf>
+    <wf para="3" sent="7" wid="w253">Belgique</wf>
+    <wf para="3" sent="7" wid="w254">,</wf>
+    <wf para="3" sent="7" wid="w255">qui</wf>
+    <wf para="3" sent="7" wid="w256">effectuent</wf>
+    <wf para="3" sent="7" wid="w257">des</wf>
+    <wf para="3" sent="7" wid="w258">rotations</wf>
+    <wf para="3" sent="7" wid="w259">avec</wf>
+    <wf para="3" sent="7" wid="w260">la</wf>
+    <wf para="3" sent="7" wid="w261">France</wf>
+    <wf para="3" sent="7" wid="w262">.</wf>
+    <wf para="4" sent="8" wid="w263">Les</wf>
+    <wf para="4" sent="8" wid="w264">deux</wf>
+    <wf para="4" sent="8" wid="w265">avions</wf>
+    <wf para="4" sent="8" wid="w266">de</wf>
+    <wf para="4" sent="8" wid="w267">transport</wf>
+    <wf para="4" sent="8" wid="w268">Transall</wf>
+    <wf para="4" sent="8" wid="w269">,</wf>
+    <wf para="4" sent="8" wid="w270">que</wf>
+    <wf para="4" sent="8" wid="w271">Berlin</wf>
+    <wf para="4" sent="8" wid="w272">s'</wf>
+    <wf para="4" sent="8" wid="w273">était</wf>
+    <wf para="4" sent="8" wid="w274">engagé</wf>
+    <wf para="4" sent="8" wid="w275">à</wf>
+    <wf para="4" sent="8" wid="w276">mettre</wf>
+    <wf para="4" sent="8" wid="w277">à</wf>
+    <wf para="4" sent="8" wid="w278">la</wf>
+    <wf para="4" sent="8" wid="w279">disposition</wf>
+    <wf para="4" sent="8" wid="w280">de</wf>
+    <wf para="4" sent="8" wid="w281">la</wf>
+    <wf para="4" sent="8" wid="w282">Cédéao</wf>
+    <wf para="4" sent="8" wid="w283">pour</wf>
+    <wf para="4" sent="8" wid="w284">contribuer</wf>
+    <wf para="4" sent="8" wid="w285">à</wf>
+    <wf para="4" sent="8" wid="w286">l'</wf>
+    <wf para="4" sent="8" wid="w287">opération</wf>
+    <wf para="4" sent="8" wid="w288">militaire</wf>
+    <wf para="4" sent="8" wid="w289">lancée</wf>
+    <wf para="4" sent="8" wid="w290">le</wf>
+    <wf para="4" sent="8" wid="w291">11</wf>
+    <wf para="4" sent="8" wid="w292">janvier</wf>
+    <wf para="4" sent="8" wid="w293">par</wf>
+    <wf para="4" sent="8" wid="w294">Paris</wf>
+    <wf para="4" sent="8" wid="w295">au</wf>
+    <wf para="4" sent="8" wid="w296">Mali</wf>
+    <wf para="4" sent="8" wid="w297">contre</wf>
+    <wf para="4" sent="8" wid="w298">des</wf>
+    <wf para="4" sent="8" wid="w299">islamistes</wf>
+    <wf para="4" sent="8" wid="w300">,</wf>
+    <wf para="4" sent="8" wid="w301">ont</wf>
+    <wf para="4" sent="8" wid="w302">quitté</wf>
+    <wf para="4" sent="8" wid="w303">leur</wf>
+    <wf para="4" sent="8" wid="w304">base</wf>
+    <wf para="4" sent="8" wid="w305">jeudi</wf>
+    <wf para="4" sent="8" wid="w306">soir</wf>
+    <wf para="4" sent="8" wid="w307">,</wf>
+    <wf para="4" sent="8" wid="w308">a</wf>
+    <wf para="4" sent="8" wid="w309">annoncé</wf>
+    <wf para="4" sent="8" wid="w310">l'</wf>
+    <wf para="4" sent="8" wid="w311">armée</wf>
+    <wf para="4" sent="8" wid="w312">allemande</wf>
+    <wf para="4" sent="8" wid="w313">.</wf>
+    <wf para="4" sent="9" wid="w314">Les</wf>
+    <wf para="4" sent="9" wid="w315">deux</wf>
+    <wf para="4" sent="9" wid="w316">appareils</wf>
+    <wf para="4" sent="9" wid="w317">ont</wf>
+    <wf para="4" sent="9" wid="w318">décollé</wf>
+    <wf para="4" sent="9" wid="w319">de</wf>
+    <wf para="4" sent="9" wid="w320">la</wf>
+    <wf para="4" sent="9" wid="w321">base</wf>
+    <wf para="4" sent="9" wid="w322">aérienne</wf>
+    <wf para="4" sent="9" wid="w323">de</wf>
+    <wf para="4" sent="9" wid="w324">Hohn</wf>
+    <wf para="4" sent="9" wid="w325">,</wf>
+    <wf para="4" sent="9" wid="w326">dans</wf>
+    <wf para="4" sent="9" wid="w327">le</wf>
+    <wf para="4" sent="9" wid="w328">nord</wf>
+    <wf para="4" sent="9" wid="w329">du</wf>
+    <wf para="4" sent="9" wid="w330">pays</wf>
+    <wf para="4" sent="9" wid="w331">,</wf>
+    <wf para="4" sent="9" wid="w332">en</wf>
+    <wf para="4" sent="9" wid="w333">direction</wf>
+    <wf para="4" sent="9" wid="w334">d'</wf>
+    <wf para="4" sent="9" wid="w335">Evreux-Fauville</wf>
+    <wf para="4" sent="9" wid="w336">,</wf>
+    <wf para="4" sent="9" wid="w337">en</wf>
+    <wf para="4" sent="9" wid="w338">France</wf>
+    <wf para="4" sent="9" wid="w339">,</wf>
+    <wf para="4" sent="9" wid="w340">a</wf>
+    <wf para="4" sent="9" wid="w341">indiqué</wf>
+    <wf para="4" sent="9" wid="w342">un</wf>
+    <wf para="4" sent="9" wid="w343">porte-parole</wf>
+    <wf para="4" sent="9" wid="w344">de</wf>
+    <wf para="4" sent="9" wid="w345">la</wf>
+    <wf para="4" sent="9" wid="w346">Bundeswehr</wf>
+    <wf para="4" sent="9" wid="w347">.</wf>
+    <wf para="4" sent="10" wid="w348">Du</wf>
+    <wf para="4" sent="10" wid="w349">matériel</wf>
+    <wf para="4" sent="10" wid="w350">médical</wf>
+    <wf para="4" sent="10" wid="w351">de</wf>
+    <wf para="4" sent="10" wid="w352">l'</wf>
+    <wf para="4" sent="10" wid="w353">armée</wf>
+    <wf para="4" sent="10" wid="w354">française</wf>
+    <wf para="4" sent="10" wid="w355">doit</wf>
+    <wf para="4" sent="10" wid="w356">être</wf>
+    <wf para="4" sent="10" wid="w357">chargé</wf>
+    <wf para="4" sent="10" wid="w358">dans</wf>
+    <wf para="4" sent="10" wid="w359">les</wf>
+    <wf para="4" sent="10" wid="w360">avions</wf>
+    <wf para="4" sent="10" wid="w361">,</wf>
+    <wf para="4" sent="10" wid="w362">qui</wf>
+    <wf para="4" sent="10" wid="w363">redécolleront</wf>
+    <wf para="4" sent="10" wid="w364">vendredi</wf>
+    <wf para="4" sent="10" wid="w365">en</wf>
+    <wf para="4" sent="10" wid="w366">direction</wf>
+    <wf para="4" sent="10" wid="w367">de</wf>
+    <wf para="4" sent="10" wid="w368">l'</wf>
+    <wf para="4" sent="10" wid="w369">Afrique</wf>
+    <wf para="4" sent="10" wid="w370">.</wf>
+    <wf para="5" sent="11" wid="w371">Du</wf>
+    <wf para="5" sent="11" wid="w372">matériel</wf>
+    <wf para="5" sent="11" wid="w373">et</wf>
+    <wf para="5" sent="11" wid="w374">des</wf>
+    <wf para="5" sent="11" wid="w375">vivres</wf>
+    <wf para="5" sent="11" wid="w376">continuent</wf>
+    <wf para="5" sent="11" wid="w377">enfin</wf>
+    <wf para="5" sent="11" wid="w378">d'</wf>
+    <wf para="5" sent="11" wid="w379">être</wf>
+    <wf para="5" sent="11" wid="w380">acheminés</wf>
+    <wf para="5" sent="11" wid="w381">au</wf>
+    <wf para="5" sent="11" wid="w382">Mali</wf>
+    <wf para="5" sent="11" wid="w383">avec</wf>
+    <wf para="5" sent="11" wid="w384">le</wf>
+    <wf para="5" sent="11" wid="w385">soutien</wf>
+    <wf para="5" sent="11" wid="w386">d'</wf>
+    <wf para="5" sent="11" wid="w387">avions</wf>
+    <wf para="5" sent="11" wid="w388">de</wf>
+    <wf para="5" sent="11" wid="w389">transport</wf>
+    <wf para="5" sent="11" wid="w390">C17</wf>
+    <wf para="5" sent="11" wid="w391">et</wf>
+    <wf para="5" sent="11" wid="w392">C130</wf>
+    <wf para="5" sent="11" wid="w393">mis</wf>
+    <wf para="5" sent="11" wid="w394">à</wf>
+    <wf para="5" sent="11" wid="w395">disposition</wf>
+    <wf para="5" sent="11" wid="w396">de</wf>
+    <wf para="5" sent="11" wid="w397">l'</wf>
+    <wf para="5" sent="11" wid="w398">armée</wf>
+    <wf para="5" sent="11" wid="w399">de</wf>
+    <wf para="5" sent="11" wid="w400">l'</wf>
+    <wf para="5" sent="11" wid="w401">air</wf>
+    <wf para="5" sent="11" wid="w402">par</wf>
+    <wf para="5" sent="11" wid="w403">la</wf>
+    <wf para="5" sent="11" wid="w404">Grande-Bretagne</wf>
+    <wf para="5" sent="11" wid="w405">,</wf>
+    <wf para="5" sent="11" wid="w406">le</wf>
+    <wf para="5" sent="11" wid="w407">Danemark</wf>
+    <wf para="5" sent="11" wid="w408">et</wf>
+    <wf para="5" sent="11" wid="w409">la</wf>
+    <wf para="5" sent="11" wid="w410">Belgique</wf>
+    <wf para="5" sent="11" wid="w411">,</wf>
+    <wf para="5" sent="11" wid="w412">qui</wf>
+    <wf para="5" sent="11" wid="w413">effectuent</wf>
+    <wf para="5" sent="11" wid="w414">des</wf>
+    <wf para="5" sent="11" wid="w415">rotations</wf>
+    <wf para="5" sent="11" wid="w416">avec</wf>
+    <wf para="5" sent="11" wid="w417">la</wf>
+    <wf para="5" sent="11" wid="w418">France</wf>
+    <wf para="5" sent="11" wid="w419">.</wf>
+    <wf para="6" sent="12" wid="w420">SOUTIEN</wf>
+    <wf para="6" sent="12" wid="w421">À</wf>
+    <wf para="6" sent="12" wid="w422">DISTANCE</wf>
+    <wf para="6" sent="12" wid="w423">DE</wf>
+    <wf para="6" sent="12" wid="w424">WASHINGTON</wf>
+    <wf para="7" sent="12" wid="w425">Les</wf>
+    <wf para="7" sent="12" wid="w426">Etats-Unis</wf>
+    <wf para="7" sent="12" wid="w427">ont</wf>
+    <wf para="7" sent="12" wid="w428">également</wf>
+    <wf para="7" sent="12" wid="w429">accédé</wf>
+    <wf para="7" sent="12" wid="w430">à</wf>
+    <wf para="7" sent="12" wid="w431">la</wf>
+    <wf para="7" sent="12" wid="w432">demande</wf>
+    <wf para="7" sent="12" wid="w433">de</wf>
+    <wf para="7" sent="12" wid="w434">la</wf>
+    <wf para="7" sent="12" wid="w435">France</wf>
+    <wf para="7" sent="12" wid="w436">et</wf>
+    <wf para="7" sent="12" wid="w437">décidé</wf>
+    <wf para="7" sent="12" wid="w438">de</wf>
+    <wf para="7" sent="12" wid="w439">fournir</wf>
+    <wf para="7" sent="12" wid="w440">des</wf>
+    <wf para="7" sent="12" wid="w441">moyens</wf>
+    <wf para="7" sent="12" wid="w442">aériens</wf>
+    <wf para="7" sent="12" wid="w443">pour</wf>
+    <wf para="7" sent="12" wid="w444">le</wf>
+    <wf para="7" sent="12" wid="w445">transport</wf>
+    <wf para="7" sent="12" wid="w446">de</wf>
+    <wf para="7" sent="12" wid="w447">troupes</wf>
+    <wf para="7" sent="12" wid="w448">et</wf>
+    <wf para="7" sent="12" wid="w449">de</wf>
+    <wf para="7" sent="12" wid="w450">matériel</wf>
+    <wf para="7" sent="12" wid="w451">pour</wf>
+    <wf para="7" sent="12" wid="w452">l'</wf>
+    <wf para="7" sent="12" wid="w453">opération</wf>
+    <wf para="7" sent="12" wid="w454">"</wf>
+    <wf para="7" sent="12" wid="w455">Serval</wf>
+    <wf para="7" sent="12" wid="w456">"</wf>
+    <wf para="7" sent="12" wid="w457">.</wf>
+    <wf para="7" sent="13" wid="w458">"</wf>
+    <wf para="7" sent="13" wid="w459">Nous</wf>
+    <wf para="7" sent="13" wid="w460">avons</wf>
+    <wf para="7" sent="13" wid="w461">accepté</wf>
+    <wf para="7" sent="13" wid="w462">d'</wf>
+    <wf para="7" sent="13" wid="w463">acheminer</wf>
+    <wf para="7" sent="13" wid="w464">des</wf>
+    <wf para="7" sent="13" wid="w465">troupes</wf>
+    <wf para="7" sent="13" wid="w466">et</wf>
+    <wf para="7" sent="13" wid="w467">du</wf>
+    <wf para="7" sent="13" wid="w468">matériel</wf>
+    <wf para="7" sent="13" wid="w469">"</wf>
+    <wf para="7" sent="13" wid="w470">,</wf>
+    <wf para="7" sent="13" wid="w471">a</wf>
+    <wf para="7" sent="13" wid="w472">commenté</wf>
+    <wf para="7" sent="13" wid="w473">Tommy</wf>
+    <wf para="7" sent="13" wid="w474">Vietor</wf>
+    <wf para="7" sent="13" wid="w475">,</wf>
+    <wf para="7" sent="13" wid="w476">porte-parole</wf>
+    <wf para="7" sent="13" wid="w477">du</wf>
+    <wf para="7" sent="13" wid="w478">Conseil</wf>
+    <wf para="7" sent="13" wid="w479">de</wf>
+    <wf para="7" sent="13" wid="w480">sécurité</wf>
+    <wf para="7" sent="13" wid="w481">nationale</wf>
+    <wf para="7" sent="13" wid="w482">de</wf>
+    <wf para="7" sent="13" wid="w483">la</wf>
+    <wf para="7" sent="13" wid="w484">Maison</wf>
+    <wf para="7" sent="13" wid="w485">Blanche</wf>
+    <wf para="7" sent="13" wid="w486">.</wf>
+    <wf para="7" sent="14" wid="w487">Le</wf>
+    <wf para="7" sent="14" wid="w488">gouvernement</wf>
+    <wf para="7" sent="14" wid="w489">français</wf>
+    <wf para="7" sent="14" wid="w490">remboursera</wf>
+    <wf para="7" sent="14" wid="w491">aux</wf>
+    <wf para="7" sent="14" wid="w492">Etats-Unis</wf>
+    <wf para="7" sent="14" wid="w493">les</wf>
+    <wf para="7" sent="14" wid="w494">frais</wf>
+    <wf para="7" sent="14" wid="w495">entraînés</wf>
+    <wf para="7" sent="14" wid="w496">par</wf>
+    <wf para="7" sent="14" wid="w497">ce</wf>
+    <wf para="7" sent="14" wid="w498">soutien</wf>
+    <wf para="7" sent="14" wid="w499">aérien</wf>
+    <wf para="7" sent="14" wid="w500">,</wf>
+    <wf para="7" sent="14" wid="w501">a-t-il</wf>
+    <wf para="7" sent="14" wid="w502">précisé</wf>
+    <wf para="7" sent="14" wid="w503">.</wf>
+    <wf para="8" sent="15" wid="w504">Cette</wf>
+    <wf para="8" sent="15" wid="w505">décision</wf>
+    <wf para="8" sent="15" wid="w506">intervient</wf>
+    <wf para="8" sent="15" wid="w507">après</wf>
+    <wf para="8" sent="15" wid="w508">que</wf>
+    <wf para="8" sent="15" wid="w509">l'</wf>
+    <wf para="8" sent="15" wid="w510">administration</wf>
+    <wf para="8" sent="15" wid="w511">Obama</wf>
+    <wf para="8" sent="15" wid="w512">a</wf>
+    <wf para="8" sent="15" wid="w513">examiné</wf>
+    <wf para="8" sent="15" wid="w514">les</wf>
+    <wf para="8" sent="15" wid="w515">implications</wf>
+    <wf para="8" sent="15" wid="w516">légales</wf>
+    <wf para="8" sent="15" wid="w517">d'</wf>
+    <wf para="8" sent="15" wid="w518">une</wf>
+    <wf para="8" sent="15" wid="w519">telle</wf>
+    <wf para="8" sent="15" wid="w520">assistance</wf>
+    <wf para="8" sent="15" wid="w521">à</wf>
+    <wf para="8" sent="15" wid="w522">la</wf>
+    <wf para="8" sent="15" wid="w523">France</wf>
+    <wf para="8" sent="15" wid="w524">.</wf>
+    <wf para="8" sent="16" wid="w525">L'</wf>
+    <wf para="8" sent="16" wid="w526">armée</wf>
+    <wf para="8" sent="16" wid="w527">de</wf>
+    <wf para="8" sent="16" wid="w528">l'</wf>
+    <wf para="8" sent="16" wid="w529">air</wf>
+    <wf para="8" sent="16" wid="w530">américaine</wf>
+    <wf para="8" sent="16" wid="w531">pourrait</wf>
+    <wf para="8" sent="16" wid="w532">affréter</wf>
+    <wf para="8" sent="16" wid="w533">des</wf>
+    <wf para="8" sent="16" wid="w534">avions</wf>
+    <wf para="8" sent="16" wid="w535">cargos</wf>
+    <wf para="8" sent="16" wid="w536">tels</wf>
+    <wf para="8" sent="16" wid="w537">que</wf>
+    <wf para="8" sent="16" wid="w538">le</wf>
+    <wf para="8" sent="16" wid="w539">C-17</wf>
+    <wf para="8" sent="16" wid="w540">mais</wf>
+    <wf para="8" sent="16" wid="w541">également</wf>
+    <wf para="8" sent="16" wid="w542">le</wf>
+    <wf para="8" sent="16" wid="w543">C-5</wf>
+    <wf para="8" sent="16" wid="w544">,</wf>
+    <wf para="8" sent="16" wid="w545">d'</wf>
+    <wf para="8" sent="16" wid="w546">une</wf>
+    <wf para="8" sent="16" wid="w547">plus</wf>
+    <wf para="8" sent="16" wid="w548">grande</wf>
+    <wf para="8" sent="16" wid="w549">capacité</wf>
+    <wf para="8" sent="16" wid="w550">de</wf>
+    <wf para="8" sent="16" wid="w551">transport</wf>
+    <wf para="8" sent="16" wid="w552">,</wf>
+    <wf para="8" sent="16" wid="w553">dans</wf>
+    <wf para="8" sent="16" wid="w554">un</wf>
+    <wf para="8" sent="16" wid="w555">délai</wf>
+    <wf para="8" sent="16" wid="w556">d'</wf>
+    <wf para="8" sent="16" wid="w557">une</wf>
+    <wf para="8" sent="16" wid="w558">journée</wf>
+    <wf para="8" sent="16" wid="w559">.</wf>
+    <wf para="8" sent="17" wid="w560">Cette</wf>
+    <wf para="8" sent="17" wid="w561">contribution</wf>
+    <wf para="8" sent="17" wid="w562">des</wf>
+    <wf para="8" sent="17" wid="w563">Etats-Unis</wf>
+    <wf para="8" sent="17" wid="w564">s'</wf>
+    <wf para="8" sent="17" wid="w565">ajoute</wf>
+    <wf para="8" sent="17" wid="w566">aux</wf>
+    <wf para="8" sent="17" wid="w567">renseignements</wf>
+    <wf para="8" sent="17" wid="w568">fournis</wf>
+    <wf para="8" sent="17" wid="w569">par</wf>
+    <wf para="8" sent="17" wid="w570">les</wf>
+    <wf para="8" sent="17" wid="w571">militaires</wf>
+    <wf para="8" sent="17" wid="w572">américains</wf>
+    <wf para="8" sent="17" wid="w573">à</wf>
+    <wf para="8" sent="17" wid="w574">leurs</wf>
+    <wf para="8" sent="17" wid="w575">homologues</wf>
+    <wf para="8" sent="17" wid="w576">français</wf>
+    <wf para="8" sent="17" wid="w577">mais</wf>
+    <wf para="8" sent="17" wid="w578">marque</wf>
+    <wf para="8" sent="17" wid="w579">clairement</wf>
+    <wf para="8" sent="17" wid="w580">la</wf>
+    <wf para="8" sent="17" wid="w581">distance</wf>
+    <wf para="8" sent="17" wid="w582">que</wf>
+    <wf para="8" sent="17" wid="w583">Washington</wf>
+    <wf para="8" sent="17" wid="w584">entend</wf>
+    <wf para="8" sent="17" wid="w585">conserver</wf>
+    <wf para="8" sent="17" wid="w586">à</wf>
+    <wf para="8" sent="17" wid="w587">l'</wf>
+    <wf para="8" sent="17" wid="w588">égard</wf>
+    <wf para="8" sent="17" wid="w589">de</wf>
+    <wf para="8" sent="17" wid="w590">ce</wf>
+    <wf para="8" sent="17" wid="w591">conflit</wf>
+    <wf para="8" sent="17" wid="w592">.</wf>
+  </text>
+  <terms>
+    <term lemma="ancien" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!--Ancien-->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="chef" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!--chef-->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="charismatique" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!--charismatique-->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t4" type="close">
+      <span>
+        <!--d'-->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term head="t5.3" lemma="Al-Qaida" morphofeat="NCms" pos="N" tid="t5" type="open">
+      <span>
+        <!--Al-Qaida-->
+        <target id="w5"/>
+      </span>
+      <component id="t5.1" lemma="Al" pos="N"/>
+      <component id="t5.2" lemma="-" pos="O"/>
+      <component id="t5.3" lemma="Qaida" pos="N"/>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!--au-->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="Maghreb" morphofeat="NPms" pos="N" tid="t7" type="open">
+      <span>
+        <!--Maghreb-->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="islamique" morphofeat="Ams" pos="G" tid="t8" type="open">
+      <span>
+        <!--islamique-->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="–" morphofeat="P" pos="P" tid="t9" type="close">
+      <span>
+        <!--–-->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="AQMI" morphofeat="NPms" pos="N" tid="t10" type="open">
+      <span>
+        <!--AQMI-->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t11" type="close">
+      <span>
+        <!--,-->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t12" type="close">
+      <span>
+        <!--l'-->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="algérien" morphofeat="NPms" pos="N" tid="t13" type="open">
+      <span>
+        <!--Algérien-->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="Mokhtar" morphofeat="NPms" pos="N" tid="t14" type="open">
+      <span>
+        <!--Mokhtar-->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term head="t15.3" lemma="Bel-Mokhtar" morphofeat="NPms" pos="N" tid="t15" type="open">
+      <span>
+        <!--Bel-Mokhtar-->
+        <target id="w15"/>
+      </span>
+      <component id="t15.1" lemma="Bel" pos="N"/>
+      <component id="t15.2" lemma="-" pos="O"/>
+      <component id="t15.3" lemma="Mokhtar" pos="N"/>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t16" type="open">
+      <span>
+        <!--a-->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t17" type="close">
+      <span>
+        <!--une-->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="trajectoire" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!--trajectoire-->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="remarquable" morphofeat="Afs" pos="G" tid="t19" type="open">
+      <span>
+        <!--remarquable-->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t20" type="close">
+      <span>
+        <!--dans-->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t21" type="close">
+      <span>
+        <!--la-->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="nébuleux" morphofeat="Afs" pos="G" tid="t22" type="open">
+      <span>
+        <!--nébuleuse-->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="islamiste" morphofeat="NCfs" pos="N" tid="t23" type="open">
+      <span>
+        <!--islamiste-->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t24" type="close">
+      <span>
+        <!--.-->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="naître" morphofeat="VKms" pos="V" tid="t25" type="open">
+      <span>
+        <!--Né-->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t26" type="close">
+      <span>
+        <!--le-->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="1er" morphofeat="Ams" pos="G" tid="t27" type="open">
+      <span>
+        <!--1er-->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="juin" morphofeat="NCms" pos="N" tid="t28" type="open">
+      <span>
+        <!--juin-->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="1972" morphofeat="NCfs" pos="N" tid="t29" type="open">
+      <span>
+        <!--1972-->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t30" type="close">
+      <span>
+        <!--à-->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="Ghardaïa" morphofeat="NPms" pos="N" tid="t31" type="open">
+      <span>
+        <!--Ghardaïa-->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t32" type="close">
+      <span>
+        <!--,-->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t33" type="close">
+      <span>
+        <!--il-->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="s'" morphofeat="CLR3ms" pos="Q" tid="t34" type="close">
+      <span>
+        <!--s'-->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t35" type="open">
+      <span>
+        <!--est-->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="engager" morphofeat="VKms" pos="V" tid="t36" type="open">
+      <span>
+        <!--engagé-->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t37" type="close">
+      <span>
+        <!--dans-->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t38" type="close">
+      <span>
+        <!--la-->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="guerre" morphofeat="NCfs" pos="N" tid="t39" type="open">
+      <span>
+        <!--guerre-->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t40" type="close">
+      <span>
+        <!--en-->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="Afghanistan" morphofeat="NPms" pos="N" tid="t41" type="open">
+      <span>
+        <!--Afghanistan-->
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="aux" morphofeat="P" pos="P" tid="t42" type="close">
+      <span>
+        <!--aux-->
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="côté" morphofeat="N" pos="N" tid="t43" type="open">
+      <span>
+        <!--côtés-->
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t44" type="close">
+      <span>
+        <!--des-->
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="moudjahidin" morphofeat="Ams" pos="G" tid="t45" type="open">
+      <span>
+        <!--moudjahidin-->
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="entre" morphofeat="P" pos="P" tid="t46" type="close">
+      <span>
+        <!--entre-->
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="1991" morphofeat="NCfs" pos="N" tid="t47" type="open">
+      <span>
+        <!--1991-->
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t48" type="close">
+      <span>
+        <!--et-->
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="1993" morphofeat="NCfs" pos="N" tid="t49" type="open">
+      <span>
+        <!--1993-->
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="avant" morphofeat="P" pos="P" tid="t50" type="close">
+      <span>
+        <!--avant-->
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t51" type="close">
+      <span>
+        <!--de-->
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="rejoindre" morphofeat="VW" pos="V" tid="t52" type="open">
+      <span>
+        <!--rejoindre-->
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t53" type="close">
+      <span>
+        <!--le-->
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="groupe" morphofeat="NCms" pos="N" tid="t54" type="open">
+      <span>
+        <!--Groupe-->
+        <target id="w54"/>
+      </span>
+    </term>
+    <term lemma="salafiste" morphofeat="Ams" pos="G" tid="t55" type="open">
+      <span>
+        <!--salafiste-->
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t56" type="close">
+      <span>
+        <!--pour-->
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t57" type="close">
+      <span>
+        <!--la-->
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="prédication" morphofeat="NCfs" pos="N" tid="t58" type="open">
+      <span>
+        <!--prédication-->
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t59" type="close">
+      <span>
+        <!--et-->
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t60" type="close">
+      <span>
+        <!--le-->
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="combat" morphofeat="NCms" pos="N" tid="t61" type="open">
+      <span>
+        <!--combat-->
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="(" pos="O" tid="t62" type="close">
+      <span>
+        <!--(-->
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="GSPC" morphofeat="NCms" pos="N" tid="t63" type="open">
+      <span>
+        <!--GSPC-->
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat=")" pos="O" tid="t64" type="close">
+      <span>
+        <!--)-->
+        <target id="w64"/>
+      </span>
+    </term>
+    <term lemma="algérien" morphofeat="Ams" pos="G" tid="t65" type="open">
+      <span>
+        <!--algérien-->
+        <target id="w65"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t66" type="close">
+      <span>
+        <!--,-->
+        <target id="w66"/>
+      </span>
+    </term>
+    <term lemma="dont" morphofeat="PROR3ms" pos="P" tid="t67" type="close">
+      <span>
+        <!--dont-->
+        <target id="w67"/>
+      </span>
+    </term>
+    <term lemma="émaner" morphofeat="VP3s" pos="V" tid="t68" type="open">
+      <span>
+        <!--émane-->
+        <target id="w68"/>
+      </span>
+    </term>
+    <term lemma="AQMI" morphofeat="NPms" pos="N" tid="t69" type="open">
+      <span>
+        <!--AQMI-->
+        <target id="w69"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t70" type="close">
+      <span>
+        <!--.-->
+        <target id="w70"/>
+      </span>
+    </term>
+    <term lemma="lorsque" morphofeat="CS" pos="C" tid="t71" type="close">
+      <span>
+        <!--Lorsqu'-->
+        <target id="w71"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t72" type="close">
+      <span>
+        <!--il-->
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VI3s" pos="V" tid="t73" type="open">
+      <span>
+        <!--était-->
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="affilier" morphofeat="VKms" pos="V" tid="t74" type="open">
+      <span>
+        <!--affilié-->
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t75" type="close">
+      <span>
+        <!--à-->
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="AQMI" morphofeat="NPms" pos="N" tid="t76" type="open">
+      <span>
+        <!--AQMI-->
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t77" type="close">
+      <span>
+        <!--,-->
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="Mokhtar" morphofeat="NPms" pos="N" tid="t78" type="open">
+      <span>
+        <!--Mokhtar-->
+        <target id="w78"/>
+      </span>
+    </term>
+    <term head="t79.3" lemma="Bel-Mokhtar" morphofeat="NPms" pos="N" tid="t79" type="open">
+      <span>
+        <!--Bel-Mokhtar-->
+        <target id="w79"/>
+      </span>
+      <component id="t79.1" lemma="Bel" pos="N"/>
+      <component id="t79.2" lemma="-" pos="O"/>
+      <component id="t79.3" lemma="Mokhtar" pos="N"/>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t80" type="open">
+      <span>
+        <!--a-->
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="mener" morphofeat="VKms" pos="V" tid="t81" type="open">
+      <span>
+        <!--mené-->
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t82" type="close">
+      <span>
+        <!--avec-->
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dfs" pos="D" tid="t83" type="close">
+      <span>
+        <!--sa-->
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="katiba" morphofeat="Dfp" pos="D" tid="t84" type="close">
+      <span>
+        <!--katiba-->
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t85" type="close">
+      <span>
+        <!--de-->
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="nombreux" morphofeat="Afp" pos="G" tid="t86" type="open">
+      <span>
+        <!--nombreuses-->
+        <target id="w86"/>
+      </span>
+    </term>
+    <term head="t87.1" lemma="prise_d'_otage" morphofeat="NCfp" pos="N" tid="t87" type="open">
+      <span>
+        <!--prises d' otages-->
+        <target id="w87"/>
+        <target id="w88"/>
+        <target id="w89"/>
+      </span>
+      <component id="t87.1" lemma="prise" pos="N"/>
+      <component id="t87.2" lemma="d'" pos="P"/>
+      <component id="t87.3" lemma="otage" pos="N"/>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t88" type="close">
+      <span>
+        <!--,-->
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="dont" morphofeat="PROR3mp" pos="P" tid="t89" type="close">
+      <span>
+        <!--dont-->
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="celles" morphofeat="PROfp" pos="P" tid="t90" type="close">
+      <span>
+        <!--celles-->
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t91" type="close">
+      <span>
+        <!--de-->
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Dmp" pos="D" tid="t92" type="close">
+      <span>
+        <!--deux-->
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="français" morphofeat="NCmp" pos="N" tid="t93" type="open">
+      <span>
+        <!--Français-->
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t94" type="close">
+      <span>
+        <!--à-->
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="Niamey" morphofeat="NPms" pos="N" tid="t95" type="open">
+      <span>
+        <!--Niamey-->
+        <target id="w97"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t96" type="close">
+      <span>
+        <!--,-->
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t97" type="close">
+      <span>
+        <!--au-->
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="Niger" morphofeat="NPms" pos="N" tid="t98" type="open">
+      <span>
+        <!--Niger-->
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t99" type="close">
+      <span>
+        <!--,-->
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t100" type="close">
+      <span>
+        <!--en-->
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="janvier" morphofeat="NCms" pos="N" tid="t101" type="open">
+      <span>
+        <!--janvier-->
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="2011" morphofeat="Ams" pos="G" tid="t102" type="open">
+      <span>
+        <!--2011-->
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t103" type="close">
+      <span>
+        <!--.-->
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t104" type="close">
+      <span>
+        <!--Les-->
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Amp" pos="G" tid="t105" type="open">
+      <span>
+        <!--deux-->
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t106" type="open">
+      <span>
+        <!--avions-->
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t107" type="close">
+      <span>
+        <!--de-->
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="transport" morphofeat="NCms" pos="N" tid="t108" type="open">
+      <span>
+        <!--transport-->
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="Transall" morphofeat="NPs" pos="N" tid="t109" type="open">
+      <span>
+        <!--Transall-->
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t110" type="close">
+      <span>
+        <!--,-->
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t111" type="close">
+      <span>
+        <!--que-->
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NPms" pos="N" tid="t112" type="open">
+      <span>
+        <!--Berlin-->
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="s'" morphofeat="CLR3ms" pos="Q" tid="t113" type="close">
+      <span>
+        <!--s'-->
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VI3s" pos="V" tid="t114" type="open">
+      <span>
+        <!--était-->
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="engager" morphofeat="VKms" pos="V" tid="t115" type="open">
+      <span>
+        <!--engagé-->
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t116" type="close">
+      <span>
+        <!--à-->
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="mettre" morphofeat="VW" pos="V" tid="t117" type="open">
+      <span>
+        <!--mettre-->
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t118" type="close">
+      <span>
+        <!--à-->
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t119" type="close">
+      <span>
+        <!--la-->
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="disposition" morphofeat="NCfs" pos="N" tid="t120" type="open">
+      <span>
+        <!--disposition-->
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t121" type="close">
+      <span>
+        <!--de-->
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t122" type="close">
+      <span>
+        <!--la-->
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="Cédéao" morphofeat="NCfs" pos="N" tid="t123" type="open">
+      <span>
+        <!--Cédéao-->
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t124" type="close">
+      <span>
+        <!--pour-->
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="contribuer" morphofeat="VW" pos="V" tid="t125" type="open">
+      <span>
+        <!--contribuer-->
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t126" type="close">
+      <span>
+        <!--à-->
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t127" type="close">
+      <span>
+        <!--l'-->
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="opération" morphofeat="NCfs" pos="N" tid="t128" type="open">
+      <span>
+        <!--opération-->
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="militaire" morphofeat="Afs" pos="G" tid="t129" type="open">
+      <span>
+        <!--militaire-->
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="lancer" morphofeat="VKfs" pos="V" tid="t130" type="open">
+      <span>
+        <!--lancée-->
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t131" type="close">
+      <span>
+        <!--le-->
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="11" morphofeat="Ams" pos="G" tid="t132" type="open">
+      <span>
+        <!--11-->
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="janvier" morphofeat="NCms" pos="N" tid="t133" type="open">
+      <span>
+        <!--janvier-->
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t134" type="close">
+      <span>
+        <!--par-->
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="pari" morphofeat="NPs" pos="N" tid="t135" type="open">
+      <span>
+        <!--Paris-->
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t136" type="close">
+      <span>
+        <!--au-->
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="mali" morphofeat="NPms" pos="N" tid="t137" type="open">
+      <span>
+        <!--Mali-->
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="contre" morphofeat="P" pos="P" tid="t138" type="close">
+      <span>
+        <!--contre-->
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t139" type="close">
+      <span>
+        <!--des-->
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="islamiste" morphofeat="NCmp" pos="N" tid="t140" type="open">
+      <span>
+        <!--islamistes-->
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t141" type="close">
+      <span>
+        <!--,-->
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3p" pos="V" tid="t142" type="open">
+      <span>
+        <!--ont-->
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="quitter" morphofeat="VKms" pos="V" tid="t143" type="open">
+      <span>
+        <!--quitté-->
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dfs" pos="D" tid="t144" type="close">
+      <span>
+        <!--leur-->
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="base" morphofeat="NCfs" pos="N" tid="t145" type="open">
+      <span>
+        <!--base-->
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="jeudi" morphofeat="NCms" pos="N" tid="t146" type="open">
+      <span>
+        <!--jeudi-->
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="soir" morphofeat="NCms" pos="N" tid="t147" type="open">
+      <span>
+        <!--soir-->
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t148" type="close">
+      <span>
+        <!--,-->
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t149" type="open">
+      <span>
+        <!--a-->
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="annoncer" morphofeat="VKms" pos="V" tid="t150" type="open">
+      <span>
+        <!--annoncé-->
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t151" type="close">
+      <span>
+        <!--l'-->
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t152" type="open">
+      <span>
+        <!--armée-->
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="allemand" morphofeat="Afs" pos="G" tid="t153" type="open">
+      <span>
+        <!--allemande-->
+        <target id="w155"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t154" type="close">
+      <span>
+        <!--.-->
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t155" type="close">
+      <span>
+        <!--Les-->
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Amp" pos="G" tid="t156" type="open">
+      <span>
+        <!--deux-->
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="appareil" morphofeat="NCmp" pos="N" tid="t157" type="open">
+      <span>
+        <!--appareils-->
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3p" pos="V" tid="t158" type="open">
+      <span>
+        <!--ont-->
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="décoller" morphofeat="VKms" pos="V" tid="t159" type="open">
+      <span>
+        <!--décollé-->
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t160" type="close">
+      <span>
+        <!--de-->
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t161" type="close">
+      <span>
+        <!--la-->
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="base" morphofeat="NCfs" pos="N" tid="t162" type="open">
+      <span>
+        <!--base-->
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="aérien" morphofeat="Afs" pos="G" tid="t163" type="open">
+      <span>
+        <!--aérienne-->
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t164" type="close">
+      <span>
+        <!--de-->
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="Hohn" morphofeat="NPms" pos="N" tid="t165" type="open">
+      <span>
+        <!--Hohn-->
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t166" type="close">
+      <span>
+        <!--,-->
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t167" type="close">
+      <span>
+        <!--dans-->
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t168" type="close">
+      <span>
+        <!--le-->
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="nord" morphofeat="NCms" pos="N" tid="t169" type="open">
+      <span>
+        <!--nord-->
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t170" type="close">
+      <span>
+        <!--du-->
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="pays" morphofeat="NCms" pos="N" tid="t171" type="open">
+      <span>
+        <!--pays-->
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t172" type="close">
+      <span>
+        <!--,-->
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t173" type="close">
+      <span>
+        <!--en-->
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="direction" morphofeat="N" pos="N" tid="t174" type="open">
+      <span>
+        <!--direction-->
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t175" type="close">
+      <span>
+        <!--d'-->
+        <target id="w177"/>
+      </span>
+    </term>
+    <term head="t176.3" lemma="Evreux-Fauville" morphofeat="NPms" pos="N" tid="t176" type="open">
+      <span>
+        <!--Evreux-Fauville-->
+        <target id="w178"/>
+      </span>
+      <component id="t176.1" lemma="Evreux" pos="N"/>
+      <component id="t176.2" lemma="-" pos="O"/>
+      <component id="t176.3" lemma="Fauville" pos="N"/>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t177" type="close">
+      <span>
+        <!--,-->
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t178" type="close">
+      <span>
+        <!--en-->
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t179" type="open">
+      <span>
+        <!--France-->
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t180" type="close">
+      <span>
+        <!--,-->
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t181" type="open">
+      <span>
+        <!--a-->
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="indiquer" morphofeat="VKms" pos="V" tid="t182" type="open">
+      <span>
+        <!--indiqué-->
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t183" type="close">
+      <span>
+        <!--un-->
+        <target id="w185"/>
+      </span>
+    </term>
+    <term head="t184.3" lemma="porter-parole" morphofeat="NCms" pos="N" tid="t184" type="open">
+      <span>
+        <!--porte-parole-->
+        <target id="w186"/>
+      </span>
+      <component id="t184.1" lemma="porter" pos="V"/>
+      <component id="t184.2" lemma="-" pos="P"/>
+      <component id="t184.3" lemma="parole" pos="N"/>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t185" type="close">
+      <span>
+        <!--de-->
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t186" type="close">
+      <span>
+        <!--la-->
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="Bundeswehr" morphofeat="NPfs" pos="N" tid="t187" type="open">
+      <span>
+        <!--Bundeswehr-->
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t188" type="close">
+      <span>
+        <!--.-->
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t189" type="close">
+      <span>
+        <!--Du-->
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="matériel" morphofeat="NCms" pos="N" tid="t190" type="open">
+      <span>
+        <!--matériel-->
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma="médical" morphofeat="Ams" pos="G" tid="t191" type="open">
+      <span>
+        <!--médical-->
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t192" type="close">
+      <span>
+        <!--de-->
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t193" type="close">
+      <span>
+        <!--l'-->
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t194" type="open">
+      <span>
+        <!--armée-->
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="français" morphofeat="Afs" pos="G" tid="t195" type="open">
+      <span>
+        <!--française-->
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="devoir" morphofeat="VP3s" pos="V" tid="t196" type="open">
+      <span>
+        <!--doit-->
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VW" pos="V" tid="t197" type="open">
+      <span>
+        <!--être-->
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="charger" morphofeat="VKms" pos="V" tid="t198" type="open">
+      <span>
+        <!--chargé-->
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t199" type="close">
+      <span>
+        <!--dans-->
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t200" type="close">
+      <span>
+        <!--les-->
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t201" type="open">
+      <span>
+        <!--avions-->
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t202" type="close">
+      <span>
+        <!--,-->
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3mp" pos="P" tid="t203" type="close">
+      <span>
+        <!--qui-->
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="redécoller" morphofeat="VP3p" pos="V" tid="t204" type="open">
+      <span>
+        <!--redécolleront-->
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="vendredi" morphofeat="NCms" pos="N" tid="t205" type="open">
+      <span>
+        <!--vendredi-->
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t206" type="close">
+      <span>
+        <!--en-->
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="direction" morphofeat="NCfs" pos="N" tid="t207" type="open">
+      <span>
+        <!--direction-->
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t208" type="close">
+      <span>
+        <!--de-->
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t209" type="close">
+      <span>
+        <!--l'-->
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="Afrique" morphofeat="NPfs" pos="N" tid="t210" type="open">
+      <span>
+        <!--Afrique-->
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t211" type="close">
+      <span>
+        <!--.-->
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t212" type="close">
+      <span>
+        <!--Du-->
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="matériel" morphofeat="NCms" pos="N" tid="t213" type="open">
+      <span>
+        <!--matériel-->
+        <target id="w215"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t214" type="close">
+      <span>
+        <!--et-->
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t215" type="close">
+      <span>
+        <!--des-->
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="vivres" morphofeat="NCmp" pos="N" tid="t216" type="open">
+      <span>
+        <!--vivres-->
+        <target id="w218"/>
+      </span>
+    </term>
+    <term lemma="continuer" morphofeat="VP3p" pos="V" tid="t217" type="open">
+      <span>
+        <!--continuent-->
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="enfin" morphofeat="ADV" pos="G" tid="t218" type="open">
+      <span>
+        <!--enfin-->
+        <target id="w220"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t219" type="close">
+      <span>
+        <!--d'-->
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VW" pos="V" tid="t220" type="open">
+      <span>
+        <!--être-->
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="acheminer" morphofeat="VKmp" pos="V" tid="t221" type="open">
+      <span>
+        <!--acheminés-->
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t222" type="close">
+      <span>
+        <!--au-->
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="mali" morphofeat="NPms" pos="N" tid="t223" type="open">
+      <span>
+        <!--Mali-->
+        <target id="w225"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t224" type="close">
+      <span>
+        <!--avec-->
+        <target id="w226"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t225" type="close">
+      <span>
+        <!--le-->
+        <target id="w227"/>
+      </span>
+    </term>
+    <term lemma="soutien" morphofeat="NCms" pos="N" tid="t226" type="open">
+      <span>
+        <!--soutien-->
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t227" type="close">
+      <span>
+        <!--d'-->
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t228" type="open">
+      <span>
+        <!--avions-->
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t229" type="close">
+      <span>
+        <!--de-->
+        <target id="w231"/>
+      </span>
+    </term>
+    <term lemma="transport" morphofeat="NCms" pos="N" tid="t230" type="open">
+      <span>
+        <!--transport-->
+        <target id="w232"/>
+      </span>
+    </term>
+    <term lemma="C17" morphofeat="Ams" pos="G" tid="t231" type="open">
+      <span>
+        <!--C17-->
+        <target id="w233"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t232" type="close">
+      <span>
+        <!--et-->
+        <target id="w234"/>
+      </span>
+    </term>
+    <term lemma="C130" morphofeat="Dmp" pos="D" tid="t233" type="close">
+      <span>
+        <!--C130-->
+        <target id="w235"/>
+      </span>
+    </term>
+    <term lemma="mettre" morphofeat="VKms" pos="V" tid="t234" type="open">
+      <span>
+        <!--mis-->
+        <target id="w236"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t235" type="close">
+      <span>
+        <!--à-->
+        <target id="w237"/>
+      </span>
+    </term>
+    <term lemma="disposition" morphofeat="NCfs" pos="N" tid="t236" type="open">
+      <span>
+        <!--disposition-->
+        <target id="w238"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t237" type="close">
+      <span>
+        <!--de-->
+        <target id="w239"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t238" type="close">
+      <span>
+        <!--l'-->
+        <target id="w240"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t239" type="open">
+      <span>
+        <!--armée-->
+        <target id="w241"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t240" type="close">
+      <span>
+        <!--de-->
+        <target id="w242"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t241" type="close">
+      <span>
+        <!--l'-->
+        <target id="w243"/>
+      </span>
+    </term>
+    <term lemma="air" morphofeat="NCms" pos="N" tid="t242" type="open">
+      <span>
+        <!--air-->
+        <target id="w244"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t243" type="close">
+      <span>
+        <!--par-->
+        <target id="w245"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t244" type="close">
+      <span>
+        <!--la-->
+        <target id="w246"/>
+      </span>
+    </term>
+    <term head="t245.3" lemma="Grande-Bretagne" morphofeat="NPfs" pos="N" tid="t245" type="open">
+      <span>
+        <!--Grande-Bretagne-->
+        <target id="w247"/>
+      </span>
+      <component id="t245.1" lemma="Grande" pos="N"/>
+      <component id="t245.2" lemma="-" pos="O"/>
+      <component id="t245.3" lemma="Bretagne" pos="N"/>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t246" type="close">
+      <span>
+        <!--,-->
+        <target id="w248"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t247" type="close">
+      <span>
+        <!--le-->
+        <target id="w249"/>
+      </span>
+    </term>
+    <term lemma="Danemark" morphofeat="NPms" pos="N" tid="t248" type="open">
+      <span>
+        <!--Danemark-->
+        <target id="w250"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t249" type="close">
+      <span>
+        <!--et-->
+        <target id="w251"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t250" type="close">
+      <span>
+        <!--la-->
+        <target id="w252"/>
+      </span>
+    </term>
+    <term lemma="Belgique" morphofeat="NPfs" pos="N" tid="t251" type="open">
+      <span>
+        <!--Belgique-->
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t252" type="close">
+      <span>
+        <!--,-->
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3fs" pos="P" tid="t253" type="close">
+      <span>
+        <!--qui-->
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="effectuer" morphofeat="VP3p" pos="V" tid="t254" type="open">
+      <span>
+        <!--effectuent-->
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t255" type="close">
+      <span>
+        <!--des-->
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="rotation" morphofeat="NCfp" pos="N" tid="t256" type="open">
+      <span>
+        <!--rotations-->
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t257" type="close">
+      <span>
+        <!--avec-->
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t258" type="close">
+      <span>
+        <!--la-->
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t259" type="open">
+      <span>
+        <!--France-->
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t260" type="close">
+      <span>
+        <!--.-->
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t261" type="close">
+      <span>
+        <!--Les-->
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Amp" pos="G" tid="t262" type="open">
+      <span>
+        <!--deux-->
+        <target id="w264"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t263" type="open">
+      <span>
+        <!--avions-->
+        <target id="w265"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t264" type="close">
+      <span>
+        <!--de-->
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="transport" morphofeat="NCms" pos="N" tid="t265" type="open">
+      <span>
+        <!--transport-->
+        <target id="w267"/>
+      </span>
+    </term>
+    <term lemma="Transall" morphofeat="NPs" pos="N" tid="t266" type="open">
+      <span>
+        <!--Transall-->
+        <target id="w268"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t267" type="close">
+      <span>
+        <!--,-->
+        <target id="w269"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t268" type="close">
+      <span>
+        <!--que-->
+        <target id="w270"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NPms" pos="N" tid="t269" type="open">
+      <span>
+        <!--Berlin-->
+        <target id="w271"/>
+      </span>
+    </term>
+    <term lemma="s'" morphofeat="CLR3ms" pos="Q" tid="t270" type="close">
+      <span>
+        <!--s'-->
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VI3s" pos="V" tid="t271" type="open">
+      <span>
+        <!--était-->
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="engager" morphofeat="VKms" pos="V" tid="t272" type="open">
+      <span>
+        <!--engagé-->
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t273" type="close">
+      <span>
+        <!--à-->
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="mettre" morphofeat="VW" pos="V" tid="t274" type="open">
+      <span>
+        <!--mettre-->
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t275" type="close">
+      <span>
+        <!--à-->
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t276" type="close">
+      <span>
+        <!--la-->
+        <target id="w278"/>
+      </span>
+    </term>
+    <term lemma="disposition" morphofeat="NCfs" pos="N" tid="t277" type="open">
+      <span>
+        <!--disposition-->
+        <target id="w279"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t278" type="close">
+      <span>
+        <!--de-->
+        <target id="w280"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t279" type="close">
+      <span>
+        <!--la-->
+        <target id="w281"/>
+      </span>
+    </term>
+    <term lemma="Cédéao" morphofeat="NCfs" pos="N" tid="t280" type="open">
+      <span>
+        <!--Cédéao-->
+        <target id="w282"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t281" type="close">
+      <span>
+        <!--pour-->
+        <target id="w283"/>
+      </span>
+    </term>
+    <term lemma="contribuer" morphofeat="VW" pos="V" tid="t282" type="open">
+      <span>
+        <!--contribuer-->
+        <target id="w284"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t283" type="close">
+      <span>
+        <!--à-->
+        <target id="w285"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t284" type="close">
+      <span>
+        <!--l'-->
+        <target id="w286"/>
+      </span>
+    </term>
+    <term lemma="opération" morphofeat="NCfs" pos="N" tid="t285" type="open">
+      <span>
+        <!--opération-->
+        <target id="w287"/>
+      </span>
+    </term>
+    <term lemma="militaire" morphofeat="Afs" pos="G" tid="t286" type="open">
+      <span>
+        <!--militaire-->
+        <target id="w288"/>
+      </span>
+    </term>
+    <term lemma="lancer" morphofeat="VKfs" pos="V" tid="t287" type="open">
+      <span>
+        <!--lancée-->
+        <target id="w289"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t288" type="close">
+      <span>
+        <!--le-->
+        <target id="w290"/>
+      </span>
+    </term>
+    <term lemma="11" morphofeat="Ams" pos="G" tid="t289" type="open">
+      <span>
+        <!--11-->
+        <target id="w291"/>
+      </span>
+    </term>
+    <term lemma="janvier" morphofeat="NCms" pos="N" tid="t290" type="open">
+      <span>
+        <!--janvier-->
+        <target id="w292"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t291" type="close">
+      <span>
+        <!--par-->
+        <target id="w293"/>
+      </span>
+    </term>
+    <term lemma="pari" morphofeat="NPs" pos="N" tid="t292" type="open">
+      <span>
+        <!--Paris-->
+        <target id="w294"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t293" type="close">
+      <span>
+        <!--au-->
+        <target id="w295"/>
+      </span>
+    </term>
+    <term lemma="mali" morphofeat="NPms" pos="N" tid="t294" type="open">
+      <span>
+        <!--Mali-->
+        <target id="w296"/>
+      </span>
+    </term>
+    <term lemma="contre" morphofeat="P" pos="P" tid="t295" type="close">
+      <span>
+        <!--contre-->
+        <target id="w297"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t296" type="close">
+      <span>
+        <!--des-->
+        <target id="w298"/>
+      </span>
+    </term>
+    <term lemma="islamiste" morphofeat="NCmp" pos="N" tid="t297" type="open">
+      <span>
+        <!--islamistes-->
+        <target id="w299"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t298" type="close">
+      <span>
+        <!--,-->
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3p" pos="V" tid="t299" type="open">
+      <span>
+        <!--ont-->
+        <target id="w301"/>
+      </span>
+    </term>
+    <term lemma="quitter" morphofeat="VKms" pos="V" tid="t300" type="open">
+      <span>
+        <!--quitté-->
+        <target id="w302"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dfs" pos="D" tid="t301" type="close">
+      <span>
+        <!--leur-->
+        <target id="w303"/>
+      </span>
+    </term>
+    <term lemma="base" morphofeat="NCfs" pos="N" tid="t302" type="open">
+      <span>
+        <!--base-->
+        <target id="w304"/>
+      </span>
+    </term>
+    <term lemma="jeudi" morphofeat="NCms" pos="N" tid="t303" type="open">
+      <span>
+        <!--jeudi-->
+        <target id="w305"/>
+      </span>
+    </term>
+    <term lemma="soir" morphofeat="NCms" pos="N" tid="t304" type="open">
+      <span>
+        <!--soir-->
+        <target id="w306"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t305" type="close">
+      <span>
+        <!--,-->
+        <target id="w307"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t306" type="open">
+      <span>
+        <!--a-->
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="annoncer" morphofeat="VKms" pos="V" tid="t307" type="open">
+      <span>
+        <!--annoncé-->
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t308" type="close">
+      <span>
+        <!--l'-->
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t309" type="open">
+      <span>
+        <!--armée-->
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="allemand" morphofeat="Afs" pos="G" tid="t310" type="open">
+      <span>
+        <!--allemande-->
+        <target id="w312"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t311" type="close">
+      <span>
+        <!--.-->
+        <target id="w313"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t312" type="close">
+      <span>
+        <!--Les-->
+        <target id="w314"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Amp" pos="G" tid="t313" type="open">
+      <span>
+        <!--deux-->
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="appareil" morphofeat="NCmp" pos="N" tid="t314" type="open">
+      <span>
+        <!--appareils-->
+        <target id="w316"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3p" pos="V" tid="t315" type="open">
+      <span>
+        <!--ont-->
+        <target id="w317"/>
+      </span>
+    </term>
+    <term lemma="décoller" morphofeat="VKms" pos="V" tid="t316" type="open">
+      <span>
+        <!--décollé-->
+        <target id="w318"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t317" type="close">
+      <span>
+        <!--de-->
+        <target id="w319"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t318" type="close">
+      <span>
+        <!--la-->
+        <target id="w320"/>
+      </span>
+    </term>
+    <term lemma="base" morphofeat="NCfs" pos="N" tid="t319" type="open">
+      <span>
+        <!--base-->
+        <target id="w321"/>
+      </span>
+    </term>
+    <term lemma="aérien" morphofeat="Afs" pos="G" tid="t320" type="open">
+      <span>
+        <!--aérienne-->
+        <target id="w322"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t321" type="close">
+      <span>
+        <!--de-->
+        <target id="w323"/>
+      </span>
+    </term>
+    <term lemma="Hohn" morphofeat="NPms" pos="N" tid="t322" type="open">
+      <span>
+        <!--Hohn-->
+        <target id="w324"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t323" type="close">
+      <span>
+        <!--,-->
+        <target id="w325"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t324" type="close">
+      <span>
+        <!--dans-->
+        <target id="w326"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t325" type="close">
+      <span>
+        <!--le-->
+        <target id="w327"/>
+      </span>
+    </term>
+    <term lemma="nord" morphofeat="NCms" pos="N" tid="t326" type="open">
+      <span>
+        <!--nord-->
+        <target id="w328"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t327" type="close">
+      <span>
+        <!--du-->
+        <target id="w329"/>
+      </span>
+    </term>
+    <term lemma="pays" morphofeat="NCms" pos="N" tid="t328" type="open">
+      <span>
+        <!--pays-->
+        <target id="w330"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t329" type="close">
+      <span>
+        <!--,-->
+        <target id="w331"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t330" type="close">
+      <span>
+        <!--en-->
+        <target id="w332"/>
+      </span>
+    </term>
+    <term lemma="direction" morphofeat="N" pos="N" tid="t331" type="open">
+      <span>
+        <!--direction-->
+        <target id="w333"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t332" type="close">
+      <span>
+        <!--d'-->
+        <target id="w334"/>
+      </span>
+    </term>
+    <term head="t333.3" lemma="Evreux-Fauville" morphofeat="NPms" pos="N" tid="t333" type="open">
+      <span>
+        <!--Evreux-Fauville-->
+        <target id="w335"/>
+      </span>
+      <component id="t333.1" lemma="Evreux" pos="N"/>
+      <component id="t333.2" lemma="-" pos="O"/>
+      <component id="t333.3" lemma="Fauville" pos="N"/>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t334" type="close">
+      <span>
+        <!--,-->
+        <target id="w336"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t335" type="close">
+      <span>
+        <!--en-->
+        <target id="w337"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t336" type="open">
+      <span>
+        <!--France-->
+        <target id="w338"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t337" type="close">
+      <span>
+        <!--,-->
+        <target id="w339"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t338" type="open">
+      <span>
+        <!--a-->
+        <target id="w340"/>
+      </span>
+    </term>
+    <term lemma="indiquer" morphofeat="VKms" pos="V" tid="t339" type="open">
+      <span>
+        <!--indiqué-->
+        <target id="w341"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t340" type="close">
+      <span>
+        <!--un-->
+        <target id="w342"/>
+      </span>
+    </term>
+    <term head="t341.3" lemma="porter-parole" morphofeat="NCms" pos="N" tid="t341" type="open">
+      <span>
+        <!--porte-parole-->
+        <target id="w343"/>
+      </span>
+      <component id="t341.1" lemma="porter" pos="V"/>
+      <component id="t341.2" lemma="-" pos="P"/>
+      <component id="t341.3" lemma="parole" pos="N"/>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t342" type="close">
+      <span>
+        <!--de-->
+        <target id="w344"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t343" type="close">
+      <span>
+        <!--la-->
+        <target id="w345"/>
+      </span>
+    </term>
+    <term lemma="Bundeswehr" morphofeat="NPfs" pos="N" tid="t344" type="open">
+      <span>
+        <!--Bundeswehr-->
+        <target id="w346"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t345" type="close">
+      <span>
+        <!--.-->
+        <target id="w347"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t346" type="close">
+      <span>
+        <!--Du-->
+        <target id="w348"/>
+      </span>
+    </term>
+    <term lemma="matériel" morphofeat="NCms" pos="N" tid="t347" type="open">
+      <span>
+        <!--matériel-->
+        <target id="w349"/>
+      </span>
+    </term>
+    <term lemma="médical" morphofeat="Ams" pos="G" tid="t348" type="open">
+      <span>
+        <!--médical-->
+        <target id="w350"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t349" type="close">
+      <span>
+        <!--de-->
+        <target id="w351"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t350" type="close">
+      <span>
+        <!--l'-->
+        <target id="w352"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t351" type="open">
+      <span>
+        <!--armée-->
+        <target id="w353"/>
+      </span>
+    </term>
+    <term lemma="français" morphofeat="Afs" pos="G" tid="t352" type="open">
+      <span>
+        <!--française-->
+        <target id="w354"/>
+      </span>
+    </term>
+    <term lemma="devoir" morphofeat="VP3s" pos="V" tid="t353" type="open">
+      <span>
+        <!--doit-->
+        <target id="w355"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VW" pos="V" tid="t354" type="open">
+      <span>
+        <!--être-->
+        <target id="w356"/>
+      </span>
+    </term>
+    <term lemma="charger" morphofeat="VKms" pos="V" tid="t355" type="open">
+      <span>
+        <!--chargé-->
+        <target id="w357"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t356" type="close">
+      <span>
+        <!--dans-->
+        <target id="w358"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t357" type="close">
+      <span>
+        <!--les-->
+        <target id="w359"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t358" type="open">
+      <span>
+        <!--avions-->
+        <target id="w360"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t359" type="close">
+      <span>
+        <!--,-->
+        <target id="w361"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3mp" pos="P" tid="t360" type="close">
+      <span>
+        <!--qui-->
+        <target id="w362"/>
+      </span>
+    </term>
+    <term lemma="redécoller" morphofeat="VP3p" pos="V" tid="t361" type="open">
+      <span>
+        <!--redécolleront-->
+        <target id="w363"/>
+      </span>
+    </term>
+    <term lemma="vendredi" morphofeat="NCms" pos="N" tid="t362" type="open">
+      <span>
+        <!--vendredi-->
+        <target id="w364"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t363" type="close">
+      <span>
+        <!--en-->
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="direction" morphofeat="NCfs" pos="N" tid="t364" type="open">
+      <span>
+        <!--direction-->
+        <target id="w366"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t365" type="close">
+      <span>
+        <!--de-->
+        <target id="w367"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t366" type="close">
+      <span>
+        <!--l'-->
+        <target id="w368"/>
+      </span>
+    </term>
+    <term lemma="Afrique" morphofeat="NPfs" pos="N" tid="t367" type="open">
+      <span>
+        <!--Afrique-->
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t368" type="close">
+      <span>
+        <!--.-->
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t369" type="close">
+      <span>
+        <!--Du-->
+        <target id="w371"/>
+      </span>
+    </term>
+    <term lemma="matériel" morphofeat="NCms" pos="N" tid="t370" type="open">
+      <span>
+        <!--matériel-->
+        <target id="w372"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t371" type="close">
+      <span>
+        <!--et-->
+        <target id="w373"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t372" type="close">
+      <span>
+        <!--des-->
+        <target id="w374"/>
+      </span>
+    </term>
+    <term lemma="vivres" morphofeat="NCmp" pos="N" tid="t373" type="open">
+      <span>
+        <!--vivres-->
+        <target id="w375"/>
+      </span>
+    </term>
+    <term lemma="continuer" morphofeat="VP3p" pos="V" tid="t374" type="open">
+      <span>
+        <!--continuent-->
+        <target id="w376"/>
+      </span>
+    </term>
+    <term lemma="enfin" morphofeat="ADV" pos="G" tid="t375" type="open">
+      <span>
+        <!--enfin-->
+        <target id="w377"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t376" type="close">
+      <span>
+        <!--d'-->
+        <target id="w378"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VW" pos="V" tid="t377" type="open">
+      <span>
+        <!--être-->
+        <target id="w379"/>
+      </span>
+    </term>
+    <term lemma="acheminer" morphofeat="VKmp" pos="V" tid="t378" type="open">
+      <span>
+        <!--acheminés-->
+        <target id="w380"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t379" type="close">
+      <span>
+        <!--au-->
+        <target id="w381"/>
+      </span>
+    </term>
+    <term lemma="mali" morphofeat="NPms" pos="N" tid="t380" type="open">
+      <span>
+        <!--Mali-->
+        <target id="w382"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t381" type="close">
+      <span>
+        <!--avec-->
+        <target id="w383"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t382" type="close">
+      <span>
+        <!--le-->
+        <target id="w384"/>
+      </span>
+    </term>
+    <term lemma="soutien" morphofeat="NCms" pos="N" tid="t383" type="open">
+      <span>
+        <!--soutien-->
+        <target id="w385"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t384" type="close">
+      <span>
+        <!--d'-->
+        <target id="w386"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t385" type="open">
+      <span>
+        <!--avions-->
+        <target id="w387"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t386" type="close">
+      <span>
+        <!--de-->
+        <target id="w388"/>
+      </span>
+    </term>
+    <term lemma="transport" morphofeat="NCms" pos="N" tid="t387" type="open">
+      <span>
+        <!--transport-->
+        <target id="w389"/>
+      </span>
+    </term>
+    <term lemma="C17" morphofeat="Ams" pos="G" tid="t388" type="open">
+      <span>
+        <!--C17-->
+        <target id="w390"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t389" type="close">
+      <span>
+        <!--et-->
+        <target id="w391"/>
+      </span>
+    </term>
+    <term lemma="C130" morphofeat="Dmp" pos="D" tid="t390" type="close">
+      <span>
+        <!--C130-->
+        <target id="w392"/>
+      </span>
+    </term>
+    <term lemma="mettre" morphofeat="VKms" pos="V" tid="t391" type="open">
+      <span>
+        <!--mis-->
+        <target id="w393"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t392" type="close">
+      <span>
+        <!--à-->
+        <target id="w394"/>
+      </span>
+    </term>
+    <term lemma="disposition" morphofeat="NCfs" pos="N" tid="t393" type="open">
+      <span>
+        <!--disposition-->
+        <target id="w395"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t394" type="close">
+      <span>
+        <!--de-->
+        <target id="w396"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t395" type="close">
+      <span>
+        <!--l'-->
+        <target id="w397"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t396" type="open">
+      <span>
+        <!--armée-->
+        <target id="w398"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t397" type="close">
+      <span>
+        <!--de-->
+        <target id="w399"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t398" type="close">
+      <span>
+        <!--l'-->
+        <target id="w400"/>
+      </span>
+    </term>
+    <term lemma="air" morphofeat="NCms" pos="N" tid="t399" type="open">
+      <span>
+        <!--air-->
+        <target id="w401"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t400" type="close">
+      <span>
+        <!--par-->
+        <target id="w402"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t401" type="close">
+      <span>
+        <!--la-->
+        <target id="w403"/>
+      </span>
+    </term>
+    <term head="t402.3" lemma="Grande-Bretagne" morphofeat="NPfs" pos="N" tid="t402" type="open">
+      <span>
+        <!--Grande-Bretagne-->
+        <target id="w404"/>
+      </span>
+      <component id="t402.1" lemma="Grande" pos="N"/>
+      <component id="t402.2" lemma="-" pos="O"/>
+      <component id="t402.3" lemma="Bretagne" pos="N"/>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t403" type="close">
+      <span>
+        <!--,-->
+        <target id="w405"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t404" type="close">
+      <span>
+        <!--le-->
+        <target id="w406"/>
+      </span>
+    </term>
+    <term lemma="Danemark" morphofeat="NPms" pos="N" tid="t405" type="open">
+      <span>
+        <!--Danemark-->
+        <target id="w407"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t406" type="close">
+      <span>
+        <!--et-->
+        <target id="w408"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t407" type="close">
+      <span>
+        <!--la-->
+        <target id="w409"/>
+      </span>
+    </term>
+    <term lemma="Belgique" morphofeat="NPfs" pos="N" tid="t408" type="open">
+      <span>
+        <!--Belgique-->
+        <target id="w410"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t409" type="close">
+      <span>
+        <!--,-->
+        <target id="w411"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3fs" pos="P" tid="t410" type="close">
+      <span>
+        <!--qui-->
+        <target id="w412"/>
+      </span>
+    </term>
+    <term lemma="effectuer" morphofeat="VP3p" pos="V" tid="t411" type="open">
+      <span>
+        <!--effectuent-->
+        <target id="w413"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t412" type="close">
+      <span>
+        <!--des-->
+        <target id="w414"/>
+      </span>
+    </term>
+    <term lemma="rotation" morphofeat="NCfp" pos="N" tid="t413" type="open">
+      <span>
+        <!--rotations-->
+        <target id="w415"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t414" type="close">
+      <span>
+        <!--avec-->
+        <target id="w416"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t415" type="close">
+      <span>
+        <!--la-->
+        <target id="w417"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t416" type="open">
+      <span>
+        <!--France-->
+        <target id="w418"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t417" type="close">
+      <span>
+        <!--.-->
+        <target id="w419"/>
+      </span>
+    </term>
+    <term lemma="soutien" morphofeat="NPms" pos="N" tid="t418" type="open">
+      <span>
+        <!--SOUTIEN-->
+        <target id="w420"/>
+      </span>
+    </term>
+    <term lemma="À" morphofeat="P" pos="P" tid="t419" type="close">
+      <span>
+        <!--À-->
+        <target id="w421"/>
+      </span>
+    </term>
+    <term lemma="distance" morphofeat="NCfs" pos="N" tid="t420" type="open">
+      <span>
+        <!--DISTANCE-->
+        <target id="w422"/>
+      </span>
+    </term>
+    <term lemma="DE" morphofeat="P" pos="P" tid="t421" type="close">
+      <span>
+        <!--DE-->
+        <target id="w423"/>
+      </span>
+    </term>
+    <term lemma="WASHINGTON" morphofeat="NPms" pos="N" tid="t422" type="open">
+      <span>
+        <!--WASHINGTON-->
+        <target id="w424"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t423" type="close">
+      <span>
+        <!--Les-->
+        <target id="w425"/>
+      </span>
+    </term>
+    <term head="t424.1" lemma="Etats-Unis" morphofeat="NPmp" pos="N" tid="t424" type="open">
+      <span>
+        <!--Etats-Unis-->
+        <target id="w426"/>
+      </span>
+      <component id="t424.1" lemma="Etats" pos="N"/>
+      <component id="t424.2" lemma="-" pos="O"/>
+      <component id="t424.3" lemma="Unis" pos="V"/>
+    </term>
+    <term lemma="avoir" morphofeat="VP3p" pos="V" tid="t425" type="open">
+      <span>
+        <!--ont-->
+        <target id="w427"/>
+      </span>
+    </term>
+    <term lemma="également" morphofeat="ADV" pos="G" tid="t426" type="open">
+      <span>
+        <!--également-->
+        <target id="w428"/>
+      </span>
+    </term>
+    <term lemma="accéder" morphofeat="VKms" pos="V" tid="t427" type="open">
+      <span>
+        <!--accédé-->
+        <target id="w429"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t428" type="close">
+      <span>
+        <!--à-->
+        <target id="w430"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t429" type="close">
+      <span>
+        <!--la-->
+        <target id="w431"/>
+      </span>
+    </term>
+    <term lemma="demande" morphofeat="NCfs" pos="N" tid="t430" type="open">
+      <span>
+        <!--demande-->
+        <target id="w432"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t431" type="close">
+      <span>
+        <!--de-->
+        <target id="w433"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t432" type="close">
+      <span>
+        <!--la-->
+        <target id="w434"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t433" type="open">
+      <span>
+        <!--France-->
+        <target id="w435"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t434" type="close">
+      <span>
+        <!--et-->
+        <target id="w436"/>
+      </span>
+    </term>
+    <term lemma="décider" morphofeat="VKms" pos="V" tid="t435" type="open">
+      <span>
+        <!--décidé-->
+        <target id="w437"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t436" type="close">
+      <span>
+        <!--de-->
+        <target id="w438"/>
+      </span>
+    </term>
+    <term lemma="fournir" morphofeat="VW" pos="V" tid="t437" type="open">
+      <span>
+        <!--fournir-->
+        <target id="w439"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t438" type="close">
+      <span>
+        <!--des-->
+        <target id="w440"/>
+      </span>
+    </term>
+    <term lemma="moyen" morphofeat="NCmp" pos="N" tid="t439" type="open">
+      <span>
+        <!--moyens-->
+        <target id="w441"/>
+      </span>
+    </term>
+    <term lemma="aérien" morphofeat="Amp" pos="G" tid="t440" type="open">
+      <span>
+        <!--aériens-->
+        <target id="w442"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t441" type="close">
+      <span>
+        <!--pour-->
+        <target id="w443"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t442" type="close">
+      <span>
+        <!--le-->
+        <target id="w444"/>
+      </span>
+    </term>
+    <term lemma="transport" morphofeat="NCms" pos="N" tid="t443" type="open">
+      <span>
+        <!--transport-->
+        <target id="w445"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t444" type="close">
+      <span>
+        <!--de-->
+        <target id="w446"/>
+      </span>
+    </term>
+    <term lemma="troupe" morphofeat="NCfp" pos="N" tid="t445" type="open">
+      <span>
+        <!--troupes-->
+        <target id="w447"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t446" type="close">
+      <span>
+        <!--et-->
+        <target id="w448"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t447" type="close">
+      <span>
+        <!--de-->
+        <target id="w449"/>
+      </span>
+    </term>
+    <term lemma="matériel" morphofeat="NCms" pos="N" tid="t448" type="open">
+      <span>
+        <!--matériel-->
+        <target id="w450"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t449" type="close">
+      <span>
+        <!--pour-->
+        <target id="w451"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t450" type="close">
+      <span>
+        <!--l'-->
+        <target id="w452"/>
+      </span>
+    </term>
+    <term lemma="opération" morphofeat="NCfs" pos="N" tid="t451" type="open">
+      <span>
+        <!--opération-->
+        <target id="w453"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t452" type="close">
+      <span>
+        <!--"-->
+        <target id="w454"/>
+      </span>
+    </term>
+    <term lemma="serval" morphofeat="NCms" pos="N" tid="t453" type="open">
+      <span>
+        <!--Serval-->
+        <target id="w455"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t454" type="close">
+      <span>
+        <!--"-->
+        <target id="w456"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t455" type="close">
+      <span>
+        <!--.-->
+        <target id="w457"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t456" type="close">
+      <span>
+        <!--"-->
+        <target id="w458"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t457" type="close">
+      <span>
+        <!--Nous-->
+        <target id="w459"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP1p" pos="V" tid="t458" type="open">
+      <span>
+        <!--avons-->
+        <target id="w460"/>
+      </span>
+    </term>
+    <term lemma="accepter" morphofeat="VKms" pos="V" tid="t459" type="open">
+      <span>
+        <!--accepté-->
+        <target id="w461"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t460" type="close">
+      <span>
+        <!--d'-->
+        <target id="w462"/>
+      </span>
+    </term>
+    <term lemma="acheminer" morphofeat="VW" pos="V" tid="t461" type="open">
+      <span>
+        <!--acheminer-->
+        <target id="w463"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t462" type="close">
+      <span>
+        <!--des-->
+        <target id="w464"/>
+      </span>
+    </term>
+    <term lemma="troupe" morphofeat="NCfp" pos="N" tid="t463" type="open">
+      <span>
+        <!--troupes-->
+        <target id="w465"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t464" type="close">
+      <span>
+        <!--et-->
+        <target id="w466"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t465" type="close">
+      <span>
+        <!--du-->
+        <target id="w467"/>
+      </span>
+    </term>
+    <term lemma="matériel" morphofeat="NCms" pos="N" tid="t466" type="open">
+      <span>
+        <!--matériel-->
+        <target id="w468"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t467" type="close">
+      <span>
+        <!--"-->
+        <target id="w469"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t468" type="close">
+      <span>
+        <!--,-->
+        <target id="w470"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t469" type="open">
+      <span>
+        <!--a-->
+        <target id="w471"/>
+      </span>
+    </term>
+    <term lemma="commenter" morphofeat="VKms" pos="V" tid="t470" type="open">
+      <span>
+        <!--commenté-->
+        <target id="w472"/>
+      </span>
+    </term>
+    <term lemma="tommy" morphofeat="NPs" pos="N" tid="t471" type="open">
+      <span>
+        <!--Tommy-->
+        <target id="w473"/>
+      </span>
+    </term>
+    <term lemma="Vietor" morphofeat="NPms" pos="N" tid="t472" type="open">
+      <span>
+        <!--Vietor-->
+        <target id="w474"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t473" type="close">
+      <span>
+        <!--,-->
+        <target id="w475"/>
+      </span>
+    </term>
+    <term head="t474.3" lemma="porter-parole" morphofeat="NCms" pos="N" tid="t474" type="open">
+      <span>
+        <!--porte-parole-->
+        <target id="w476"/>
+      </span>
+      <component id="t474.1" lemma="porter" pos="V"/>
+      <component id="t474.2" lemma="-" pos="O"/>
+      <component id="t474.3" lemma="parole" pos="N"/>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t475" type="close">
+      <span>
+        <!--du-->
+        <target id="w477"/>
+      </span>
+    </term>
+    <term lemma="conseil" morphofeat="NCms" pos="N" tid="t476" type="open">
+      <span>
+        <!--Conseil-->
+        <target id="w478"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t477" type="close">
+      <span>
+        <!--de-->
+        <target id="w479"/>
+      </span>
+    </term>
+    <term head="t478.1" lemma="sécurité_national" morphofeat="NCfs" pos="N" tid="t478" type="open">
+      <span>
+        <!--sécurité nationale-->
+        <target id="w480"/>
+        <target id="w481"/>
+      </span>
+      <component id="t478.1" lemma="sécurité" pos="N"/>
+      <component id="t478.2" lemma="national" pos="G"/>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t479" type="close">
+      <span>
+        <!--de-->
+        <target id="w482"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t480" type="close">
+      <span>
+        <!--la-->
+        <target id="w483"/>
+      </span>
+    </term>
+    <term head="t481.1" lemma="Maison_Blanche" morphofeat="NPfs" pos="N" tid="t481" type="open">
+      <span>
+        <!--Maison Blanche-->
+        <target id="w484"/>
+        <target id="w485"/>
+      </span>
+      <component id="t481.1" lemma="Maison" pos="N"/>
+      <component id="t481.2" lemma="Blanche" pos="N"/>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t482" type="close">
+      <span>
+        <!--.-->
+        <target id="w486"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t483" type="close">
+      <span>
+        <!--Le-->
+        <target id="w487"/>
+      </span>
+    </term>
+    <term lemma="gouvernement" morphofeat="NCms" pos="N" tid="t484" type="open">
+      <span>
+        <!--gouvernement-->
+        <target id="w488"/>
+      </span>
+    </term>
+    <term lemma="français" morphofeat="Ams" pos="G" tid="t485" type="open">
+      <span>
+        <!--français-->
+        <target id="w489"/>
+      </span>
+    </term>
+    <term lemma="rembourser" morphofeat="VF3s" pos="V" tid="t486" type="open">
+      <span>
+        <!--remboursera-->
+        <target id="w490"/>
+      </span>
+    </term>
+    <term lemma="aux" morphofeat="P" pos="P" tid="t487" type="close">
+      <span>
+        <!--aux-->
+        <target id="w491"/>
+      </span>
+    </term>
+    <term head="t488.1" lemma="Etats-Unis" morphofeat="NPmp" pos="N" tid="t488" type="open">
+      <span>
+        <!--Etats-Unis-->
+        <target id="w492"/>
+      </span>
+      <component id="t488.1" lemma="Etats" pos="N"/>
+      <component id="t488.2" lemma="-" pos="O"/>
+      <component id="t488.3" lemma="Unis" pos="P"/>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t489" type="close">
+      <span>
+        <!--les-->
+        <target id="w493"/>
+      </span>
+    </term>
+    <term lemma="frai" morphofeat="NCmp" pos="N" tid="t490" type="open">
+      <span>
+        <!--frais-->
+        <target id="w494"/>
+      </span>
+    </term>
+    <term lemma="entraîner" morphofeat="VKmp" pos="V" tid="t491" type="open">
+      <span>
+        <!--entraînés-->
+        <target id="w495"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t492" type="close">
+      <span>
+        <!--par-->
+        <target id="w496"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t493" type="close">
+      <span>
+        <!--ce-->
+        <target id="w497"/>
+      </span>
+    </term>
+    <term lemma="soutien" morphofeat="NCms" pos="N" tid="t494" type="open">
+      <span>
+        <!--soutien-->
+        <target id="w498"/>
+      </span>
+    </term>
+    <term lemma="aérien" morphofeat="Ams" pos="G" tid="t495" type="open">
+      <span>
+        <!--aérien-->
+        <target id="w499"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t496" type="close">
+      <span>
+        <!--,-->
+        <target id="w500"/>
+      </span>
+    </term>
+    <term head="t497.5" lemma="avoir-t-il" morphofeat="CL3ms" pos="Q" tid="t497" type="close">
+      <span>
+        <!--a-t-il-->
+        <target id="w501"/>
+      </span>
+      <component id="t497.1" lemma="avoir" pos="V"/>
+      <component id="t497.2" lemma="-" pos="P"/>
+      <component id="t497.3" lemma="t" pos="O"/>
+      <component id="t497.4" lemma="-" pos="O"/>
+      <component id="t497.5" lemma="il" pos="Q"/>
+    </term>
+    <term lemma="préciser" morphofeat="VKms" pos="V" tid="t498" type="open">
+      <span>
+        <!--précisé-->
+        <target id="w502"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t499" type="close">
+      <span>
+        <!--.-->
+        <target id="w503"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfs" pos="D" tid="t500" type="close">
+      <span>
+        <!--Cette-->
+        <target id="w504"/>
+      </span>
+    </term>
+    <term lemma="décision" morphofeat="NCfs" pos="N" tid="t501" type="open">
+      <span>
+        <!--décision-->
+        <target id="w505"/>
+      </span>
+    </term>
+    <term lemma="intervenir" morphofeat="VP3s" pos="V" tid="t502" type="open">
+      <span>
+        <!--intervient-->
+        <target id="w506"/>
+      </span>
+    </term>
+    <term lemma="après" morphofeat="P" pos="P" tid="t503" type="close">
+      <span>
+        <!--après-->
+        <target id="w507"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="C" pos="C" tid="t504" type="close">
+      <span>
+        <!--que-->
+        <target id="w508"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t505" type="close">
+      <span>
+        <!--l'-->
+        <target id="w509"/>
+      </span>
+    </term>
+    <term lemma="administration" morphofeat="NCfs" pos="N" tid="t506" type="open">
+      <span>
+        <!--administration-->
+        <target id="w510"/>
+      </span>
+    </term>
+    <term lemma="Obama" morphofeat="NPms" pos="N" tid="t507" type="open">
+      <span>
+        <!--Obama-->
+        <target id="w511"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t508" type="open">
+      <span>
+        <!--a-->
+        <target id="w512"/>
+      </span>
+    </term>
+    <term lemma="examiner" morphofeat="VKms" pos="V" tid="t509" type="open">
+      <span>
+        <!--examiné-->
+        <target id="w513"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t510" type="close">
+      <span>
+        <!--les-->
+        <target id="w514"/>
+      </span>
+    </term>
+    <term lemma="implication" morphofeat="NCfp" pos="N" tid="t511" type="open">
+      <span>
+        <!--implications-->
+        <target id="w515"/>
+      </span>
+    </term>
+    <term lemma="légal" morphofeat="Afp" pos="G" tid="t512" type="open">
+      <span>
+        <!--légales-->
+        <target id="w516"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t513" type="close">
+      <span>
+        <!--d'-->
+        <target id="w517"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t514" type="close">
+      <span>
+        <!--une-->
+        <target id="w518"/>
+      </span>
+    </term>
+    <term lemma="tel" morphofeat="Afs" pos="G" tid="t515" type="open">
+      <span>
+        <!--telle-->
+        <target id="w519"/>
+      </span>
+    </term>
+    <term lemma="assistance" morphofeat="NCfs" pos="N" tid="t516" type="open">
+      <span>
+        <!--assistance-->
+        <target id="w520"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t517" type="close">
+      <span>
+        <!--à-->
+        <target id="w521"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t518" type="close">
+      <span>
+        <!--la-->
+        <target id="w522"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t519" type="open">
+      <span>
+        <!--France-->
+        <target id="w523"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t520" type="close">
+      <span>
+        <!--.-->
+        <target id="w524"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t521" type="close">
+      <span>
+        <!--L'-->
+        <target id="w525"/>
+      </span>
+    </term>
+    <term lemma="armée" morphofeat="NCfs" pos="N" tid="t522" type="open">
+      <span>
+        <!--armée-->
+        <target id="w526"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t523" type="close">
+      <span>
+        <!--de-->
+        <target id="w527"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t524" type="close">
+      <span>
+        <!--l'-->
+        <target id="w528"/>
+      </span>
+    </term>
+    <term lemma="air" morphofeat="NCms" pos="N" tid="t525" type="open">
+      <span>
+        <!--air-->
+        <target id="w529"/>
+      </span>
+    </term>
+    <term lemma="américain" morphofeat="Ams" pos="G" tid="t526" type="open">
+      <span>
+        <!--américaine-->
+        <target id="w530"/>
+      </span>
+    </term>
+    <term lemma="pouvoir" morphofeat="VC3s" pos="V" tid="t527" type="open">
+      <span>
+        <!--pourrait-->
+        <target id="w531"/>
+      </span>
+    </term>
+    <term lemma="affréter" morphofeat="VW" pos="V" tid="t528" type="open">
+      <span>
+        <!--affréter-->
+        <target id="w532"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t529" type="close">
+      <span>
+        <!--des-->
+        <target id="w533"/>
+      </span>
+    </term>
+    <term lemma="avion" morphofeat="NCmp" pos="N" tid="t530" type="open">
+      <span>
+        <!--avions-->
+        <target id="w534"/>
+      </span>
+    </term>
+    <term lemma="cargos" morphofeat="Amp" pos="G" tid="t531" type="open">
+      <span>
+        <!--cargos-->
+        <target id="w535"/>
+      </span>
+    </term>
+    <term lemma="tel" morphofeat="Amp" pos="G" tid="t532" type="open">
+      <span>
+        <!--tels-->
+        <target id="w536"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t533" type="close">
+      <span>
+        <!--que-->
+        <target id="w537"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t534" type="close">
+      <span>
+        <!--le-->
+        <target id="w538"/>
+      </span>
+    </term>
+    <term head="t535.1" lemma="C-17" morphofeat="NCms" pos="N" tid="t535" type="open">
+      <span>
+        <!--C-17-->
+        <target id="w539"/>
+      </span>
+      <component id="t535.1" lemma="C" pos="N"/>
+      <component id="t535.2" lemma="-" pos="O"/>
+      <component id="t535.3" lemma="17" pos="D"/>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t536" type="close">
+      <span>
+        <!--mais-->
+        <target id="w540"/>
+      </span>
+    </term>
+    <term lemma="également" morphofeat="ADV" pos="G" tid="t537" type="open">
+      <span>
+        <!--également-->
+        <target id="w541"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t538" type="close">
+      <span>
+        <!--le-->
+        <target id="w542"/>
+      </span>
+    </term>
+    <term head="t539.1" lemma="C-5" morphofeat="NPms" pos="N" tid="t539" type="open">
+      <span>
+        <!--C-5-->
+        <target id="w543"/>
+      </span>
+      <component id="t539.1" lemma="C" pos="N"/>
+      <component id="t539.2" lemma="-" pos="O"/>
+      <component id="t539.3" lemma="5" pos="D"/>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t540" type="close">
+      <span>
+        <!--,-->
+        <target id="w544"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t541" type="close">
+      <span>
+        <!--d'-->
+        <target id="w545"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t542" type="close">
+      <span>
+        <!--une-->
+        <target id="w546"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t543" type="open">
+      <span>
+        <!--plus-->
+        <target id="w547"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Afs" pos="G" tid="t544" type="open">
+      <span>
+        <!--grande-->
+        <target id="w548"/>
+      </span>
+    </term>
+    <term lemma="capacité" morphofeat="NCfs" pos="N" tid="t545" type="open">
+      <span>
+        <!--capacité-->
+        <target id="w549"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t546" type="close">
+      <span>
+        <!--de-->
+        <target id="w550"/>
+      </span>
+    </term>
+    <term lemma="transport" morphofeat="NCms" pos="N" tid="t547" type="open">
+      <span>
+        <!--transport-->
+        <target id="w551"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t548" type="close">
+      <span>
+        <!--,-->
+        <target id="w552"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t549" type="close">
+      <span>
+        <!--dans-->
+        <target id="w553"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t550" type="close">
+      <span>
+        <!--un-->
+        <target id="w554"/>
+      </span>
+    </term>
+    <term lemma="délai" morphofeat="NCms" pos="N" tid="t551" type="open">
+      <span>
+        <!--délai-->
+        <target id="w555"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t552" type="close">
+      <span>
+        <!--d'-->
+        <target id="w556"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t553" type="close">
+      <span>
+        <!--une-->
+        <target id="w557"/>
+      </span>
+    </term>
+    <term lemma="journée" morphofeat="NCfs" pos="N" tid="t554" type="open">
+      <span>
+        <!--journée-->
+        <target id="w558"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t555" type="close">
+      <span>
+        <!--.-->
+        <target id="w559"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfs" pos="D" tid="t556" type="close">
+      <span>
+        <!--Cette-->
+        <target id="w560"/>
+      </span>
+    </term>
+    <term lemma="contribution" morphofeat="NCfs" pos="N" tid="t557" type="open">
+      <span>
+        <!--contribution-->
+        <target id="w561"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t558" type="close">
+      <span>
+        <!--des-->
+        <target id="w562"/>
+      </span>
+    </term>
+    <term head="t559.1" lemma="Etats-Unis" morphofeat="NPmp" pos="N" tid="t559" type="open">
+      <span>
+        <!--Etats-Unis-->
+        <target id="w563"/>
+      </span>
+      <component id="t559.1" lemma="Etats" pos="N"/>
+      <component id="t559.2" lemma="-" pos="O"/>
+      <component id="t559.3" lemma="Unis" pos="N"/>
+    </term>
+    <term lemma="s'" morphofeat="CLR3ms" pos="Q" tid="t560" type="close">
+      <span>
+        <!--s'-->
+        <target id="w564"/>
+      </span>
+    </term>
+    <term lemma="ajouter" morphofeat="VP3s" pos="V" tid="t561" type="open">
+      <span>
+        <!--ajoute-->
+        <target id="w565"/>
+      </span>
+    </term>
+    <term lemma="aux" morphofeat="P" pos="P" tid="t562" type="close">
+      <span>
+        <!--aux-->
+        <target id="w566"/>
+      </span>
+    </term>
+    <term lemma="renseignement" morphofeat="NCmp" pos="N" tid="t563" type="open">
+      <span>
+        <!--renseignements-->
+        <target id="w567"/>
+      </span>
+    </term>
+    <term lemma="fournir" morphofeat="VKmp" pos="V" tid="t564" type="open">
+      <span>
+        <!--fournis-->
+        <target id="w568"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t565" type="close">
+      <span>
+        <!--par-->
+        <target id="w569"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t566" type="close">
+      <span>
+        <!--les-->
+        <target id="w570"/>
+      </span>
+    </term>
+    <term lemma="militaire" morphofeat="NCmp" pos="N" tid="t567" type="open">
+      <span>
+        <!--militaires-->
+        <target id="w571"/>
+      </span>
+    </term>
+    <term lemma="américain" morphofeat="Amp" pos="G" tid="t568" type="open">
+      <span>
+        <!--américains-->
+        <target id="w572"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t569" type="close">
+      <span>
+        <!--à-->
+        <target id="w573"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dmp" pos="D" tid="t570" type="close">
+      <span>
+        <!--leurs-->
+        <target id="w574"/>
+      </span>
+    </term>
+    <term lemma="homologue" morphofeat="NCmp" pos="N" tid="t571" type="open">
+      <span>
+        <!--homologues-->
+        <target id="w575"/>
+      </span>
+    </term>
+    <term lemma="français" morphofeat="Amp" pos="G" tid="t572" type="open">
+      <span>
+        <!--français-->
+        <target id="w576"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t573" type="close">
+      <span>
+        <!--mais-->
+        <target id="w577"/>
+      </span>
+    </term>
+    <term lemma="marquer" morphofeat="VP3s" pos="V" tid="t574" type="open">
+      <span>
+        <!--marque-->
+        <target id="w578"/>
+      </span>
+    </term>
+    <term lemma="clairement" morphofeat="ADV" pos="G" tid="t575" type="open">
+      <span>
+        <!--clairement-->
+        <target id="w579"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t576" type="close">
+      <span>
+        <!--la-->
+        <target id="w580"/>
+      </span>
+    </term>
+    <term lemma="distance" morphofeat="NCfs" pos="N" tid="t577" type="open">
+      <span>
+        <!--distance-->
+        <target id="w581"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t578" type="close">
+      <span>
+        <!--que-->
+        <target id="w582"/>
+      </span>
+    </term>
+    <term lemma="Washington" morphofeat="NPs" pos="N" tid="t579" type="open">
+      <span>
+        <!--Washington-->
+        <target id="w583"/>
+      </span>
+    </term>
+    <term lemma="entendre" morphofeat="VP3s" pos="V" tid="t580" type="open">
+      <span>
+        <!--entend-->
+        <target id="w584"/>
+      </span>
+    </term>
+    <term lemma="conserver" morphofeat="VW" pos="V" tid="t581" type="open">
+      <span>
+        <!--conserver-->
+        <target id="w585"/>
+      </span>
+    </term>
+    <term head="t582.3" lemma="à_le_égard_de" morphofeat="P" pos="N" tid="t582" type="open">
+      <span>
+        <!--à l' égard de-->
+        <target id="w586"/>
+        <target id="w587"/>
+        <target id="w588"/>
+        <target id="w589"/>
+      </span>
+      <component id="t582.1" lemma="à" pos="P"/>
+      <component id="t582.2" lemma="le" pos="D"/>
+      <component id="t582.3" lemma="égard" pos="N"/>
+      <component id="t582.4" lemma="de" pos="P"/>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t583" type="close">
+      <span>
+        <!--ce-->
+        <target id="w590"/>
+      </span>
+    </term>
+    <term lemma="conflit" morphofeat="NCms" pos="N" tid="t584" type="open">
+      <span>
+        <!--conflit-->
+        <target id="w591"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t585" type="close">
+      <span>
+        <!--.-->
+        <target id="w592"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+</KAF>

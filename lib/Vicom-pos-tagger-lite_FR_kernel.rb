@@ -13,15 +13,15 @@ module Opener
             def initialize
               core_dir    = File.expand_path("../core", File.dirname(__FILE__))
 
-              @kernel      = core_dir+'/postagger_french.jar'
+              @kernel      = core_dir+'/target/Vicom-postagger_FR-0.9.jar'
               @lib         = core_dir+'/lib/'
             end
 
             def command(opts={})
               arguments = opts[:arguments] || []
-              arguments << "-n" if opts[:test]
+              arguments << "-t" if opts[:test]
 
-              "cat #{opts[:input]} | java -jar #{kernel} #{lib} #{opts[:input]} #{arguments.join(' ')}"
+              "cat #{opts[:input]} | java -jar #{kernel} #{arguments.join(' ')}"
 
             end
 
