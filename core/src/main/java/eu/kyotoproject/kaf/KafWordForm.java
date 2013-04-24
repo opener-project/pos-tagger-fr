@@ -66,7 +66,7 @@ public class KafWordForm {
     public String toString() {
         String str = "<wf wid=\""+wid+"\" sent=\""+sent+"\" para=\""+para+"\"";
         if (charOffset.length()>0) {
-            str += " charOffset=\""+charOffset+"\"";
+            str += " offset=\""+charOffset+"\"";
         }
         if (charLength.length()>0) {
             str += " charLength=\""+charLength+"\"";
@@ -81,7 +81,7 @@ public class KafWordForm {
     public String toSimpleString() {
         String str = "<wf wid=\""+wid+"\" sent=\""+sent+"\" para=\""+para+"\"";
         if (charOffset.length()>0) {
-            str += " charOffset=\""+charOffset+"\"";
+            str += " offset=\""+charOffset+"\"";
         }
         if (charLength.length()>0) {
             str += " charLength=\""+charLength+"\"";
@@ -113,7 +113,7 @@ public class KafWordForm {
   	  if (page.length() > 0)
   		  root.setAttribute("page", page);
   	  if (charOffset.length() > 0)
-  		  root.setAttribute("charOffset", charOffset);
+  		  root.setAttribute("offset", charOffset);
 
   	  if (charLength.length() > 0)
   		  root.setAttribute("charLength", charLength);

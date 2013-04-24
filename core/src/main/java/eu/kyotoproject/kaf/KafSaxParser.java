@@ -390,7 +390,7 @@ public class KafSaxParser extends DefaultHandler {
             	   kafMetaData.setVersion(attributes.getValue(i).trim());
                }
                else
-            	   System.out.println("216 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("216 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
        }
        else if (qName.equalsIgnoreCase("fileDesc")) {
@@ -426,7 +426,7 @@ public class KafSaxParser extends DefaultHandler {
                     }
                 }
                 else
-             	   System.out.println("251 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+             	  System.err.println("251 ********* FOUND UNKNOWN Attribute " + name + " *****************");
             }
         }
         else if (qName.equalsIgnoreCase("captureDesc")) {
@@ -439,7 +439,7 @@ public class KafSaxParser extends DefaultHandler {
                     kafMetaData.setDateString(attributes.getValue(i).trim());
                 }
                 else
-             	   System.out.println("262 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+             	  System.err.println("262 ********* FOUND UNKNOWN Attribute " + name + " *****************");
             }
         }
         else   if (qName.equalsIgnoreCase("public")) {
@@ -461,7 +461,7 @@ public class KafSaxParser extends DefaultHandler {
                     kafMetaData.setUrl(attributes.getValue(i).trim());
                 }
                 else
-             	   System.out.println("282 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+             	  System.err.println("282 ********* FOUND UNKNOWN Attribute " + name + " *****************");
             }
         }
         else if (qName.equalsIgnoreCase("linguisticProcessors"))
@@ -494,7 +494,7 @@ public class KafSaxParser extends DefaultHandler {
                    kafChunk.setPhrase(attributes.getValue(i).trim());
                }
                else
-            	   System.out.println("314 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("314 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
        }
        else if (qName.equalsIgnoreCase("dep")) {
@@ -511,7 +511,7 @@ public class KafSaxParser extends DefaultHandler {
                    kafDep.setRfunc(attributes.getValue(i).trim());
                }
                else
-            	   System.out.println("329 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("329 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
            /// dep only has attributes so we can store it now....
            kafDepList.add(kafDep);
@@ -536,7 +536,7 @@ public class KafSaxParser extends DefaultHandler {
                    kaftextUnit.setUnitid(Integer.parseInt(attributes.getValue(i).trim()));
                }
                else
-            	   System.out.println("352 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("352 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
        }
        else if (qName.equalsIgnoreCase("opinion")) {
@@ -571,7 +571,7 @@ public class KafSaxParser extends DefaultHandler {
                    kafOpinion.setOverlap_props(attributes.getValue(i).trim());
                }
                else
-                   System.out.println("352 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+                  System.err.println("352 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
        }
        else if (qName.equalsIgnoreCase("opinion_holder")) {
@@ -588,7 +588,7 @@ public class KafSaxParser extends DefaultHandler {
            spans = new ArrayList<String>();
            for (int i = 0; i < attributes.getLength(); i++) {
                String name = attributes.getQName(i);
-              // System.out.println("name = " + name);
+              //System.err.println("name = " + name);
                if (name.equalsIgnoreCase("polarity")) {
                    kafOpinion.getOpinionSentiment().setPolarity(attributes.getValue(i).trim());
                }
@@ -661,7 +661,7 @@ public class KafSaxParser extends DefaultHandler {
             */
                for (int i = 0; i < attributes.getLength(); i++) {
                    String name = attributes.getQName(i);
-                  // System.out.println("attributes.getValue(i).trim() = " + attributes.getValue(i).trim());
+                  //System.err.println("attributes.getValue(i).trim() = " + attributes.getValue(i).trim());
                    if (name.equalsIgnoreCase("resource")) {
                        kafTermSentiment.setResource(attributes.getValue(i).trim());
                    }
@@ -690,7 +690,7 @@ public class KafSaxParser extends DefaultHandler {
                        kafTermSentiment.setSentiment_product_feature(attributes.getValue(i).trim());
                    }
                }
-              // System.out.println("kafTermSentiment.toString() = " + kafTermSentiment.toString());
+              //System.err.println("kafTermSentiment.toString() = " + kafTermSentiment.toString());
                /// NASTY BIT. I NEED TO ADD THE SENTIMENT TO: A TERM, A COMPONENT OR A SENSE
 
                if (COMPONENT) {
@@ -792,7 +792,7 @@ public class KafSaxParser extends DefaultHandler {
                    kafTerm.setPolarity(attributes.getValue(i).trim());
                }
                else
-            	   System.out.println("395 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("395 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
        }
        else if (qName.equalsIgnoreCase("wf")) {
@@ -816,14 +816,14 @@ public class KafSaxParser extends DefaultHandler {
                    sentenceId = attributes.getValue(i).trim();
                    kafWordForm.setSent(sentenceId);
                }
-               else if (name.equalsIgnoreCase("charoffset")) {
+               else if (name.equalsIgnoreCase("offset")) {
                    kafWordForm.setCharOffset(attributes.getValue(i).trim());
                }
                else if (name.equalsIgnoreCase("charlength")) {
                    kafWordForm.setCharLength(attributes.getValue(i).trim());
                }
                else
-            	   System.out.println("414 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("414 ********* FOUND UNKNOWN Attribute " + name + " *****************");
                if ((wid.length()>0) && (sentenceId.length()>0)) {
                    if (SentenceToWord.containsKey(sentenceId)) {
                        ArrayList<String> tokenIds = SentenceToWord.get(sentenceId);
@@ -902,7 +902,7 @@ public class KafSaxParser extends DefaultHandler {
                String name = attributes.getQName(i);
                if (name.equalsIgnoreCase("reference")) {
                    sense.setSensecode(attributes.getValue(i).trim());
-                  // System.out.println("sense.getSenseCode() = " + sense.getSenseCode());
+                  //System.err.println("sense.getSenseCode() = " + sense.getSenseCode());
                }
                else if (name.equalsIgnoreCase("confidence")) {
                    double conf = 0;
@@ -924,7 +924,7 @@ public class KafSaxParser extends DefaultHandler {
                     sense.setStatus(attributes.getValue(i).trim());
                }
                else {
-            	   System.out.println("449 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("449 ********* FOUND UNKNOWN Attribute " + name + " *****************");
                }
            }
            if (COMPONENT) {
@@ -945,17 +945,17 @@ public class KafSaxParser extends DefaultHandler {
                if (senseTags.size()>0) {
                    if (externalRefLevel>0) {
                        KafSense k = senseTags.get(senseTags.size()-1);
-                     //  System.out.println("k.toString() = " + k.toString());
+                     // System.err.println("k.toString() = " + k.toString());
                         k.getChildren().add(sense);
                    }
                    else {
                        senseTags.add(sense);
-                    //   System.out.println("next sense.toString() = " + sense.toString());
+                    //  System.err.println("next sense.toString() = " + sense.toString());
                    }
                }
                else {
                    senseTags.add(sense);
-                //   System.out.println("first sense.toString() = " + sense.toString());
+                //  System.err.println("first sense.toString() = " + sense.toString());
                }
            }
            externalRefLevel++;
@@ -993,7 +993,7 @@ public class KafSaxParser extends DefaultHandler {
             	   termComponent.setPos(attributes.getValue(i).trim());
                }
                else
-            	   System.out.println("521 ********* FOUND UNKNOWN Attribute " + name + " *****************");
+            	  System.err.println("521 ********* FOUND UNKNOWN Attribute " + name + " *****************");
            }
        }
        ///// handle kaf references for dates, locations and countries (NEs)
@@ -2016,9 +2016,9 @@ version 1:
         String str = null;
         try {
 /*
-            System.out.println("ktu.spans.size() = " + ktu.spans.size());
-            System.out.println("ktu.spans.get(0) = " + ktu.spans.get(0));
-            System.out.println("ktu.spans.get(ktu.spans.size()-1) = " + ktu.spans.get(ktu.spans.size()-1));
+           System.err.println("ktu.spans.size() = " + ktu.spans.size());
+           System.err.println("ktu.spans.get(0) = " + ktu.spans.get(0));
+           System.err.println("ktu.spans.get(ktu.spans.size()-1) = " + ktu.spans.get(ktu.spans.size()-1));
 */
             ArrayList<String> termIdScope = new ArrayList<String>();
             boolean scope = true;
@@ -2134,9 +2134,9 @@ version 1:
         String str = null;
         try {
 /*
-            System.out.println("ktu.spans.size() = " + ktu.spans.size());
-            System.out.println("ktu.spans.get(0) = " + ktu.spans.get(0));
-            System.out.println("ktu.spans.get(ktu.spans.size()-1) = " + ktu.spans.get(ktu.spans.size()-1));
+           System.err.println("ktu.spans.size() = " + ktu.spans.size());
+           System.err.println("ktu.spans.get(0) = " + ktu.spans.get(0));
+           System.err.println("ktu.spans.get(ktu.spans.size()-1) = " + ktu.spans.get(ktu.spans.size()-1));
 */
             ArrayList<String> termIdScope = new ArrayList<String>();
             boolean scope = true;
