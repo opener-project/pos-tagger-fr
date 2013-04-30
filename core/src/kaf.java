@@ -1,16 +1,32 @@
 import java.io.*;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 
-import eu.kyotoproject.kaf.*;
+import eu.openerproject.kaf.layers.KafTarget;
+import eu.openerproject.kaf.layers.KafTerm;
+import eu.openerproject.kaf.layers.KafTermComponent;
+import eu.openerproject.kaf.reader.KafSaxParser;
 
 public class kaf {
 	
 	private static String models_dir;
 	private static KafTextLayer ktl;
-		
+	private static String timestamp() {
+		Calendar cal = Calendar.getInstance();
+    	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    	sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+    	String date = sdf.format(cal.getTime());
+    	sdf = new SimpleDateFormat("HH:mm:ss");
+    	sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+    	String time = sdf.format(cal.getTime());
+    	return date + "T" + time + "Z";
+	}
     static public void main (String[] args) {
 	
     	if (args.length < 1) {
@@ -34,12 +50,12 @@ public class kaf {
     		//parser.parseFile("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french.kaf");
     		
     		if (timestamp) {
-    			parser.addLP("terms", "opennlp-pos-treetagger-fr", "1.0");
-    			parser.addLP("terms", "opennlp-multiword-fr", "1.0");
+    			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0", timestamp());
+    			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0", timestamp());
     		}
     		else {
-    			parser.addLP_notimestamp("terms", "opennlp-pos-treetagger-fr", "1.0");
-    			parser.addLP_notimestamp("terms", "opennlp-multiword-fr", "1.0");
+    			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0", "2013-02-11T11:07:17Z");
+    			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0", "2013-02-11T11:07:17Z");
     		}
     		
     		String pos_model = models_dir + "french-pos-treetagger.bin";
@@ -61,7 +77,7 @@ public class kaf {
 		
     		//Kaf construction
     		KafTerm kt;
-    		TermComponent tc;
+    		KafTermComponent tc;
     		ArrayList<String> termPoSTags = new ArrayList<String>(); //<PoS#word_id>
 	        int c = 0;
 	        String head_word;
@@ -90,8 +106,7 @@ public class kaf {
 	        		while (i < ktl.getKafMWLength() && ktl.isMW(i)){
 	        			termPoSTags.add(ktl.getKafPoS(i)+"#"+"t"+(tid)+"."+mw);
 	        			lemma = lm.getLemma(ktl.getKafWord(i), ktl.getKafPoS(i));
-	        			
-	        			kt.addSpans(ktl.getKafWid(i));
+	        			kt.getSpan().add(new KafTarget(ktl.getKafWid(i)));
 	        			//if multiword component is a compound
 	        			if (ktl.isCompound(i)) {
 	        				compound_lemma = "";
@@ -131,7 +146,7 @@ public class kaf {
 	        		}
 	        		//word was not multiword fix
 	        		if (mw == 2) {
-	        			kt.setComponents(new ArrayList<TermComponent>());
+	        			kt.setComponents(new ArrayList<KafTermComponent>());
 	        			kt.setHead("");
 	        		}
 	        		//set term's head and PoS. The candidates are at the termPoSTags array
@@ -148,7 +163,8 @@ public class kaf {
 	        		kt.setPos(ktl.getKafPoS(i));
 	        		kt.setType(ktl.getKafType(kt.getPos()));
 	            	kt.setLemma(lm.getLemma(ktl.getKafWord(i), ktl.getKafPoS(i)));
-	            	kt.addSpans(ktl.getKafWid(i));
+	            	
+	            	kt.getSpan().add(new KafTarget(ktl.getKafWid(i)));
 	            	//word is a compound
 	            	if (ktl.isCompound(i)) {
 	            		compound_lemma = "";
@@ -177,11 +193,11 @@ public class kaf {
 	            	}
 	        	}
 	        	tid++;
-	        	parser.kafTermList.add(kt);
+	        	parser.getTermList().add(kt);
 	        }
 	        
 	        //try {
-	        parser.writeKafToStream(System.out);
+	        parser.writeKafToStream(System.out, false);
 	        	//FileOutputStream fos = new FileOutputStream("/home/VICOMTECH/aazpeitia/workspace/kaf/src/french.total2.kaf");
 	        	//parser.writeKafToFile(fos);
 	        	//fos.close();

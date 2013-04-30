@@ -3,601 +3,601 @@
   <kafHeader>
     <fileDesc filename="french" filetype="TXT" />
     <linguisticProcessors layer="text">
-      <lp name="openlp-fr-tok" version="1.0" timestamp="2013-02-22T12:59:16Z"/>
+      <lp name="openlp-fr-tok" version="1.0" timestamp="2013-02-05T13:35:22Z"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf wid="w1" sent="1" para="1">Ancien</wf>
-    <wf wid="w2" sent="1" para="1">chef</wf>
-    <wf wid="w3" sent="1" para="1">charismatique</wf>
-    <wf wid="w4" sent="1" para="1">d'</wf>
-    <wf wid="w5" sent="1" para="1">Al-Qaida</wf>
-    <wf wid="w6" sent="1" para="1">au</wf>
-    <wf wid="w7" sent="1" para="1">Maghreb</wf>
-    <wf wid="w8" sent="1" para="1">islamique</wf>
-    <wf wid="w9" sent="1" para="1">–</wf>
-    <wf wid="w10" sent="1" para="1">AQMI</wf>
-    <wf wid="w11" sent="1" para="1">,</wf>
-    <wf wid="w12" sent="1" para="1">l'</wf>
-    <wf wid="w13" sent="1" para="1">Algérien</wf>
-    <wf wid="w14" sent="1" para="1">Mokhtar</wf>
-    <wf wid="w15" sent="1" para="1">Bel-Mokhtar</wf>
-    <wf wid="w16" sent="1" para="1">a</wf>
-    <wf wid="w17" sent="1" para="1">une</wf>
-    <wf wid="w18" sent="1" para="1">trajectoire</wf>
-    <wf wid="w19" sent="1" para="1">remarquable</wf>
-    <wf wid="w20" sent="1" para="1">dans</wf>
-    <wf wid="w21" sent="1" para="1">la</wf>
-    <wf wid="w22" sent="1" para="1">nébuleuse</wf>
-    <wf wid="w23" sent="1" para="1">islamiste</wf>
-    <wf wid="w24" sent="1" para="1">.</wf>
-    <wf wid="w25" sent="2" para="1">Né</wf>
-    <wf wid="w26" sent="2" para="1">le</wf>
-    <wf wid="w27" sent="2" para="1">1er</wf>
-    <wf wid="w28" sent="2" para="1">juin</wf>
-    <wf wid="w29" sent="2" para="1">1972</wf>
-    <wf wid="w30" sent="2" para="1">à</wf>
-    <wf wid="w31" sent="2" para="1">Ghardaïa</wf>
-    <wf wid="w32" sent="2" para="1">,</wf>
-    <wf wid="w33" sent="2" para="1">il</wf>
-    <wf wid="w34" sent="2" para="1">s'</wf>
-    <wf wid="w35" sent="2" para="1">est</wf>
-    <wf wid="w36" sent="2" para="1">engagé</wf>
-    <wf wid="w37" sent="2" para="1">dans</wf>
-    <wf wid="w38" sent="2" para="1">la</wf>
-    <wf wid="w39" sent="2" para="1">guerre</wf>
-    <wf wid="w40" sent="2" para="1">en</wf>
-    <wf wid="w41" sent="2" para="1">Afghanistan</wf>
-    <wf wid="w42" sent="2" para="1">aux</wf>
-    <wf wid="w43" sent="2" para="1">côtés</wf>
-    <wf wid="w44" sent="2" para="1">des</wf>
-    <wf wid="w45" sent="2" para="1">moudjahidin</wf>
-    <wf wid="w46" sent="2" para="1">entre</wf>
-    <wf wid="w47" sent="2" para="1">1991</wf>
-    <wf wid="w48" sent="2" para="1">et</wf>
-    <wf wid="w49" sent="2" para="1">1993</wf>
-    <wf wid="w50" sent="2" para="1">avant</wf>
-    <wf wid="w51" sent="2" para="1">de</wf>
-    <wf wid="w52" sent="2" para="1">rejoindre</wf>
-    <wf wid="w53" sent="2" para="1">le</wf>
-    <wf wid="w54" sent="2" para="1">Groupe</wf>
-    <wf wid="w55" sent="2" para="1">salafiste</wf>
-    <wf wid="w56" sent="2" para="1">pour</wf>
-    <wf wid="w57" sent="2" para="1">la</wf>
-    <wf wid="w58" sent="2" para="1">prédication</wf>
-    <wf wid="w59" sent="2" para="1">et</wf>
-    <wf wid="w60" sent="2" para="1">le</wf>
-    <wf wid="w61" sent="2" para="1">combat</wf>
-    <wf wid="w62" sent="2" para="1">(</wf>
-    <wf wid="w63" sent="2" para="1">GSPC</wf>
-    <wf wid="w64" sent="2" para="1">)</wf>
-    <wf wid="w65" sent="2" para="1">algérien</wf>
-    <wf wid="w66" sent="2" para="1">,</wf>
-    <wf wid="w67" sent="2" para="1">dont</wf>
-    <wf wid="w68" sent="2" para="1">émane</wf>
-    <wf wid="w69" sent="2" para="1">AQMI</wf>
-    <wf wid="w70" sent="2" para="1">.</wf>
-    <wf wid="w71" sent="3" para="1">Lorsqu'</wf>
-    <wf wid="w72" sent="3" para="1">il</wf>
-    <wf wid="w73" sent="3" para="1">était</wf>
-    <wf wid="w74" sent="3" para="1">affilié</wf>
-    <wf wid="w75" sent="3" para="1">à</wf>
-    <wf wid="w76" sent="3" para="1">AQMI</wf>
-    <wf wid="w77" sent="3" para="1">,</wf>
-    <wf wid="w78" sent="3" para="1">Mokhtar</wf>
-    <wf wid="w79" sent="3" para="1">Bel-Mokhtar</wf>
-    <wf wid="w80" sent="3" para="1">a</wf>
-    <wf wid="w81" sent="3" para="1">mené</wf>
-    <wf wid="w82" sent="3" para="1">avec</wf>
-    <wf wid="w83" sent="3" para="1">sa</wf>
-    <wf wid="w84" sent="3" para="1">katiba</wf>
-    <wf wid="w85" sent="3" para="1">de</wf>
-    <wf wid="w86" sent="3" para="1">nombreuses</wf>
-    <wf wid="w87" sent="3" para="1">prises</wf>
-    <wf wid="w88" sent="3" para="1">d'</wf>
-    <wf wid="w89" sent="3" para="1">otages</wf>
-    <wf wid="w90" sent="3" para="1">,</wf>
-    <wf wid="w91" sent="3" para="1">dont</wf>
-    <wf wid="w92" sent="3" para="1">celles</wf>
-    <wf wid="w93" sent="3" para="1">de</wf>
-    <wf wid="w94" sent="3" para="1">deux</wf>
-    <wf wid="w95" sent="3" para="1">Français</wf>
-    <wf wid="w96" sent="3" para="1">à</wf>
-    <wf wid="w97" sent="3" para="1">Niamey</wf>
-    <wf wid="w98" sent="3" para="1">,</wf>
-    <wf wid="w99" sent="3" para="1">au</wf>
-    <wf wid="w100" sent="3" para="1">Niger</wf>
-    <wf wid="w101" sent="3" para="1">,</wf>
-    <wf wid="w102" sent="3" para="1">en</wf>
-    <wf wid="w103" sent="3" para="1">janvier</wf>
-    <wf wid="w104" sent="3" para="1">2011</wf>
-    <wf wid="w105" sent="3" para="1">.</wf>
-    <wf wid="w106" sent="4" para="2">Les</wf>
-    <wf wid="w107" sent="4" para="2">deux</wf>
-    <wf wid="w108" sent="4" para="2">avions</wf>
-    <wf wid="w109" sent="4" para="2">de</wf>
-    <wf wid="w110" sent="4" para="2">transport</wf>
-    <wf wid="w111" sent="4" para="2">Transall</wf>
-    <wf wid="w112" sent="4" para="2">,</wf>
-    <wf wid="w113" sent="4" para="2">que</wf>
-    <wf wid="w114" sent="4" para="2">Berlin</wf>
-    <wf wid="w115" sent="4" para="2">s'</wf>
-    <wf wid="w116" sent="4" para="2">était</wf>
-    <wf wid="w117" sent="4" para="2">engagé</wf>
-    <wf wid="w118" sent="4" para="2">à</wf>
-    <wf wid="w119" sent="4" para="2">mettre</wf>
-    <wf wid="w120" sent="4" para="2">à</wf>
-    <wf wid="w121" sent="4" para="2">la</wf>
-    <wf wid="w122" sent="4" para="2">disposition</wf>
-    <wf wid="w123" sent="4" para="2">de</wf>
-    <wf wid="w124" sent="4" para="2">la</wf>
-    <wf wid="w125" sent="4" para="2">Cédéao</wf>
-    <wf wid="w126" sent="4" para="2">pour</wf>
-    <wf wid="w127" sent="4" para="2">contribuer</wf>
-    <wf wid="w128" sent="4" para="2">à</wf>
-    <wf wid="w129" sent="4" para="2">l'</wf>
-    <wf wid="w130" sent="4" para="2">opération</wf>
-    <wf wid="w131" sent="4" para="2">militaire</wf>
-    <wf wid="w132" sent="4" para="2">lancée</wf>
-    <wf wid="w133" sent="4" para="2">le</wf>
-    <wf wid="w134" sent="4" para="2">11</wf>
-    <wf wid="w135" sent="4" para="2">janvier</wf>
-    <wf wid="w136" sent="4" para="2">par</wf>
-    <wf wid="w137" sent="4" para="2">Paris</wf>
-    <wf wid="w138" sent="4" para="2">au</wf>
-    <wf wid="w139" sent="4" para="2">Mali</wf>
-    <wf wid="w140" sent="4" para="2">contre</wf>
-    <wf wid="w141" sent="4" para="2">des</wf>
-    <wf wid="w142" sent="4" para="2">islamistes</wf>
-    <wf wid="w143" sent="4" para="2">,</wf>
-    <wf wid="w144" sent="4" para="2">ont</wf>
-    <wf wid="w145" sent="4" para="2">quitté</wf>
-    <wf wid="w146" sent="4" para="2">leur</wf>
-    <wf wid="w147" sent="4" para="2">base</wf>
-    <wf wid="w148" sent="4" para="2">jeudi</wf>
-    <wf wid="w149" sent="4" para="2">soir</wf>
-    <wf wid="w150" sent="4" para="2">,</wf>
-    <wf wid="w151" sent="4" para="2">a</wf>
-    <wf wid="w152" sent="4" para="2">annoncé</wf>
-    <wf wid="w153" sent="4" para="2">l'</wf>
-    <wf wid="w154" sent="4" para="2">armée</wf>
-    <wf wid="w155" sent="4" para="2">allemande</wf>
-    <wf wid="w156" sent="4" para="2">.</wf>
-    <wf wid="w157" sent="5" para="2">Les</wf>
-    <wf wid="w158" sent="5" para="2">deux</wf>
-    <wf wid="w159" sent="5" para="2">appareils</wf>
-    <wf wid="w160" sent="5" para="2">ont</wf>
-    <wf wid="w161" sent="5" para="2">décollé</wf>
-    <wf wid="w162" sent="5" para="2">de</wf>
-    <wf wid="w163" sent="5" para="2">la</wf>
-    <wf wid="w164" sent="5" para="2">base</wf>
-    <wf wid="w165" sent="5" para="2">aérienne</wf>
-    <wf wid="w166" sent="5" para="2">de</wf>
-    <wf wid="w167" sent="5" para="2">Hohn</wf>
-    <wf wid="w168" sent="5" para="2">,</wf>
-    <wf wid="w169" sent="5" para="2">dans</wf>
-    <wf wid="w170" sent="5" para="2">le</wf>
-    <wf wid="w171" sent="5" para="2">nord</wf>
-    <wf wid="w172" sent="5" para="2">du</wf>
-    <wf wid="w173" sent="5" para="2">pays</wf>
-    <wf wid="w174" sent="5" para="2">,</wf>
-    <wf wid="w175" sent="5" para="2">en</wf>
-    <wf wid="w176" sent="5" para="2">direction</wf>
-    <wf wid="w177" sent="5" para="2">d'</wf>
-    <wf wid="w178" sent="5" para="2">Evreux-Fauville</wf>
-    <wf wid="w179" sent="5" para="2">,</wf>
-    <wf wid="w180" sent="5" para="2">en</wf>
-    <wf wid="w181" sent="5" para="2">France</wf>
-    <wf wid="w182" sent="5" para="2">,</wf>
-    <wf wid="w183" sent="5" para="2">a</wf>
-    <wf wid="w184" sent="5" para="2">indiqué</wf>
-    <wf wid="w185" sent="5" para="2">un</wf>
-    <wf wid="w186" sent="5" para="2">porte-parole</wf>
-    <wf wid="w187" sent="5" para="2">de</wf>
-    <wf wid="w188" sent="5" para="2">la</wf>
-    <wf wid="w189" sent="5" para="2">Bundeswehr</wf>
-    <wf wid="w190" sent="5" para="2">.</wf>
-    <wf wid="w191" sent="6" para="2">Du</wf>
-    <wf wid="w192" sent="6" para="2">matériel</wf>
-    <wf wid="w193" sent="6" para="2">médical</wf>
-    <wf wid="w194" sent="6" para="2">de</wf>
-    <wf wid="w195" sent="6" para="2">l'</wf>
-    <wf wid="w196" sent="6" para="2">armée</wf>
-    <wf wid="w197" sent="6" para="2">française</wf>
-    <wf wid="w198" sent="6" para="2">doit</wf>
-    <wf wid="w199" sent="6" para="2">être</wf>
-    <wf wid="w200" sent="6" para="2">chargé</wf>
-    <wf wid="w201" sent="6" para="2">dans</wf>
-    <wf wid="w202" sent="6" para="2">les</wf>
-    <wf wid="w203" sent="6" para="2">avions</wf>
-    <wf wid="w204" sent="6" para="2">,</wf>
-    <wf wid="w205" sent="6" para="2">qui</wf>
-    <wf wid="w206" sent="6" para="2">redécolleront</wf>
-    <wf wid="w207" sent="6" para="2">vendredi</wf>
-    <wf wid="w208" sent="6" para="2">en</wf>
-    <wf wid="w209" sent="6" para="2">direction</wf>
-    <wf wid="w210" sent="6" para="2">de</wf>
-    <wf wid="w211" sent="6" para="2">l'</wf>
-    <wf wid="w212" sent="6" para="2">Afrique</wf>
-    <wf wid="w213" sent="6" para="2">.</wf>
-    <wf wid="w214" sent="7" para="3">Du</wf>
-    <wf wid="w215" sent="7" para="3">matériel</wf>
-    <wf wid="w216" sent="7" para="3">et</wf>
-    <wf wid="w217" sent="7" para="3">des</wf>
-    <wf wid="w218" sent="7" para="3">vivres</wf>
-    <wf wid="w219" sent="7" para="3">continuent</wf>
-    <wf wid="w220" sent="7" para="3">enfin</wf>
-    <wf wid="w221" sent="7" para="3">d'</wf>
-    <wf wid="w222" sent="7" para="3">être</wf>
-    <wf wid="w223" sent="7" para="3">acheminés</wf>
-    <wf wid="w224" sent="7" para="3">au</wf>
-    <wf wid="w225" sent="7" para="3">Mali</wf>
-    <wf wid="w226" sent="7" para="3">avec</wf>
-    <wf wid="w227" sent="7" para="3">le</wf>
-    <wf wid="w228" sent="7" para="3">soutien</wf>
-    <wf wid="w229" sent="7" para="3">d'</wf>
-    <wf wid="w230" sent="7" para="3">avions</wf>
-    <wf wid="w231" sent="7" para="3">de</wf>
-    <wf wid="w232" sent="7" para="3">transport</wf>
-    <wf wid="w233" sent="7" para="3">C17</wf>
-    <wf wid="w234" sent="7" para="3">et</wf>
-    <wf wid="w235" sent="7" para="3">C130</wf>
-    <wf wid="w236" sent="7" para="3">mis</wf>
-    <wf wid="w237" sent="7" para="3">à</wf>
-    <wf wid="w238" sent="7" para="3">disposition</wf>
-    <wf wid="w239" sent="7" para="3">de</wf>
-    <wf wid="w240" sent="7" para="3">l'</wf>
-    <wf wid="w241" sent="7" para="3">armée</wf>
-    <wf wid="w242" sent="7" para="3">de</wf>
-    <wf wid="w243" sent="7" para="3">l'</wf>
-    <wf wid="w244" sent="7" para="3">air</wf>
-    <wf wid="w245" sent="7" para="3">par</wf>
-    <wf wid="w246" sent="7" para="3">la</wf>
-    <wf wid="w247" sent="7" para="3">Grande-Bretagne</wf>
-    <wf wid="w248" sent="7" para="3">,</wf>
-    <wf wid="w249" sent="7" para="3">le</wf>
-    <wf wid="w250" sent="7" para="3">Danemark</wf>
-    <wf wid="w251" sent="7" para="3">et</wf>
-    <wf wid="w252" sent="7" para="3">la</wf>
-    <wf wid="w253" sent="7" para="3">Belgique</wf>
-    <wf wid="w254" sent="7" para="3">,</wf>
-    <wf wid="w255" sent="7" para="3">qui</wf>
-    <wf wid="w256" sent="7" para="3">effectuent</wf>
-    <wf wid="w257" sent="7" para="3">des</wf>
-    <wf wid="w258" sent="7" para="3">rotations</wf>
-    <wf wid="w259" sent="7" para="3">avec</wf>
-    <wf wid="w260" sent="7" para="3">la</wf>
-    <wf wid="w261" sent="7" para="3">France</wf>
-    <wf wid="w262" sent="7" para="3">.</wf>
-    <wf wid="w263" sent="8" para="4">Les</wf>
-    <wf wid="w264" sent="8" para="4">deux</wf>
-    <wf wid="w265" sent="8" para="4">avions</wf>
-    <wf wid="w266" sent="8" para="4">de</wf>
-    <wf wid="w267" sent="8" para="4">transport</wf>
-    <wf wid="w268" sent="8" para="4">Transall</wf>
-    <wf wid="w269" sent="8" para="4">,</wf>
-    <wf wid="w270" sent="8" para="4">que</wf>
-    <wf wid="w271" sent="8" para="4">Berlin</wf>
-    <wf wid="w272" sent="8" para="4">s'</wf>
-    <wf wid="w273" sent="8" para="4">était</wf>
-    <wf wid="w274" sent="8" para="4">engagé</wf>
-    <wf wid="w275" sent="8" para="4">à</wf>
-    <wf wid="w276" sent="8" para="4">mettre</wf>
-    <wf wid="w277" sent="8" para="4">à</wf>
-    <wf wid="w278" sent="8" para="4">la</wf>
-    <wf wid="w279" sent="8" para="4">disposition</wf>
-    <wf wid="w280" sent="8" para="4">de</wf>
-    <wf wid="w281" sent="8" para="4">la</wf>
-    <wf wid="w282" sent="8" para="4">Cédéao</wf>
-    <wf wid="w283" sent="8" para="4">pour</wf>
-    <wf wid="w284" sent="8" para="4">contribuer</wf>
-    <wf wid="w285" sent="8" para="4">à</wf>
-    <wf wid="w286" sent="8" para="4">l'</wf>
-    <wf wid="w287" sent="8" para="4">opération</wf>
-    <wf wid="w288" sent="8" para="4">militaire</wf>
-    <wf wid="w289" sent="8" para="4">lancée</wf>
-    <wf wid="w290" sent="8" para="4">le</wf>
-    <wf wid="w291" sent="8" para="4">11</wf>
-    <wf wid="w292" sent="8" para="4">janvier</wf>
-    <wf wid="w293" sent="8" para="4">par</wf>
-    <wf wid="w294" sent="8" para="4">Paris</wf>
-    <wf wid="w295" sent="8" para="4">au</wf>
-    <wf wid="w296" sent="8" para="4">Mali</wf>
-    <wf wid="w297" sent="8" para="4">contre</wf>
-    <wf wid="w298" sent="8" para="4">des</wf>
-    <wf wid="w299" sent="8" para="4">islamistes</wf>
-    <wf wid="w300" sent="8" para="4">,</wf>
-    <wf wid="w301" sent="8" para="4">ont</wf>
-    <wf wid="w302" sent="8" para="4">quitté</wf>
-    <wf wid="w303" sent="8" para="4">leur</wf>
-    <wf wid="w304" sent="8" para="4">base</wf>
-    <wf wid="w305" sent="8" para="4">jeudi</wf>
-    <wf wid="w306" sent="8" para="4">soir</wf>
-    <wf wid="w307" sent="8" para="4">,</wf>
-    <wf wid="w308" sent="8" para="4">a</wf>
-    <wf wid="w309" sent="8" para="4">annoncé</wf>
-    <wf wid="w310" sent="8" para="4">l'</wf>
-    <wf wid="w311" sent="8" para="4">armée</wf>
-    <wf wid="w312" sent="8" para="4">allemande</wf>
-    <wf wid="w313" sent="8" para="4">.</wf>
-    <wf wid="w314" sent="9" para="4">Les</wf>
-    <wf wid="w315" sent="9" para="4">deux</wf>
-    <wf wid="w316" sent="9" para="4">appareils</wf>
-    <wf wid="w317" sent="9" para="4">ont</wf>
-    <wf wid="w318" sent="9" para="4">décollé</wf>
-    <wf wid="w319" sent="9" para="4">de</wf>
-    <wf wid="w320" sent="9" para="4">la</wf>
-    <wf wid="w321" sent="9" para="4">base</wf>
-    <wf wid="w322" sent="9" para="4">aérienne</wf>
-    <wf wid="w323" sent="9" para="4">de</wf>
-    <wf wid="w324" sent="9" para="4">Hohn</wf>
-    <wf wid="w325" sent="9" para="4">,</wf>
-    <wf wid="w326" sent="9" para="4">dans</wf>
-    <wf wid="w327" sent="9" para="4">le</wf>
-    <wf wid="w328" sent="9" para="4">nord</wf>
-    <wf wid="w329" sent="9" para="4">du</wf>
-    <wf wid="w330" sent="9" para="4">pays</wf>
-    <wf wid="w331" sent="9" para="4">,</wf>
-    <wf wid="w332" sent="9" para="4">en</wf>
-    <wf wid="w333" sent="9" para="4">direction</wf>
-    <wf wid="w334" sent="9" para="4">d'</wf>
-    <wf wid="w335" sent="9" para="4">Evreux-Fauville</wf>
-    <wf wid="w336" sent="9" para="4">,</wf>
-    <wf wid="w337" sent="9" para="4">en</wf>
-    <wf wid="w338" sent="9" para="4">France</wf>
-    <wf wid="w339" sent="9" para="4">,</wf>
-    <wf wid="w340" sent="9" para="4">a</wf>
-    <wf wid="w341" sent="9" para="4">indiqué</wf>
-    <wf wid="w342" sent="9" para="4">un</wf>
-    <wf wid="w343" sent="9" para="4">porte-parole</wf>
-    <wf wid="w344" sent="9" para="4">de</wf>
-    <wf wid="w345" sent="9" para="4">la</wf>
-    <wf wid="w346" sent="9" para="4">Bundeswehr</wf>
-    <wf wid="w347" sent="9" para="4">.</wf>
-    <wf wid="w348" sent="10" para="4">Du</wf>
-    <wf wid="w349" sent="10" para="4">matériel</wf>
-    <wf wid="w350" sent="10" para="4">médical</wf>
-    <wf wid="w351" sent="10" para="4">de</wf>
-    <wf wid="w352" sent="10" para="4">l'</wf>
-    <wf wid="w353" sent="10" para="4">armée</wf>
-    <wf wid="w354" sent="10" para="4">française</wf>
-    <wf wid="w355" sent="10" para="4">doit</wf>
-    <wf wid="w356" sent="10" para="4">être</wf>
-    <wf wid="w357" sent="10" para="4">chargé</wf>
-    <wf wid="w358" sent="10" para="4">dans</wf>
-    <wf wid="w359" sent="10" para="4">les</wf>
-    <wf wid="w360" sent="10" para="4">avions</wf>
-    <wf wid="w361" sent="10" para="4">,</wf>
-    <wf wid="w362" sent="10" para="4">qui</wf>
-    <wf wid="w363" sent="10" para="4">redécolleront</wf>
-    <wf wid="w364" sent="10" para="4">vendredi</wf>
-    <wf wid="w365" sent="10" para="4">en</wf>
-    <wf wid="w366" sent="10" para="4">direction</wf>
-    <wf wid="w367" sent="10" para="4">de</wf>
-    <wf wid="w368" sent="10" para="4">l'</wf>
-    <wf wid="w369" sent="10" para="4">Afrique</wf>
-    <wf wid="w370" sent="10" para="4">.</wf>
-    <wf wid="w371" sent="11" para="5">Du</wf>
-    <wf wid="w372" sent="11" para="5">matériel</wf>
-    <wf wid="w373" sent="11" para="5">et</wf>
-    <wf wid="w374" sent="11" para="5">des</wf>
-    <wf wid="w375" sent="11" para="5">vivres</wf>
-    <wf wid="w376" sent="11" para="5">continuent</wf>
-    <wf wid="w377" sent="11" para="5">enfin</wf>
-    <wf wid="w378" sent="11" para="5">d'</wf>
-    <wf wid="w379" sent="11" para="5">être</wf>
-    <wf wid="w380" sent="11" para="5">acheminés</wf>
-    <wf wid="w381" sent="11" para="5">au</wf>
-    <wf wid="w382" sent="11" para="5">Mali</wf>
-    <wf wid="w383" sent="11" para="5">avec</wf>
-    <wf wid="w384" sent="11" para="5">le</wf>
-    <wf wid="w385" sent="11" para="5">soutien</wf>
-    <wf wid="w386" sent="11" para="5">d'</wf>
-    <wf wid="w387" sent="11" para="5">avions</wf>
-    <wf wid="w388" sent="11" para="5">de</wf>
-    <wf wid="w389" sent="11" para="5">transport</wf>
-    <wf wid="w390" sent="11" para="5">C17</wf>
-    <wf wid="w391" sent="11" para="5">et</wf>
-    <wf wid="w392" sent="11" para="5">C130</wf>
-    <wf wid="w393" sent="11" para="5">mis</wf>
-    <wf wid="w394" sent="11" para="5">à</wf>
-    <wf wid="w395" sent="11" para="5">disposition</wf>
-    <wf wid="w396" sent="11" para="5">de</wf>
-    <wf wid="w397" sent="11" para="5">l'</wf>
-    <wf wid="w398" sent="11" para="5">armée</wf>
-    <wf wid="w399" sent="11" para="5">de</wf>
-    <wf wid="w400" sent="11" para="5">l'</wf>
-    <wf wid="w401" sent="11" para="5">air</wf>
-    <wf wid="w402" sent="11" para="5">par</wf>
-    <wf wid="w403" sent="11" para="5">la</wf>
-    <wf wid="w404" sent="11" para="5">Grande-Bretagne</wf>
-    <wf wid="w405" sent="11" para="5">,</wf>
-    <wf wid="w406" sent="11" para="5">le</wf>
-    <wf wid="w407" sent="11" para="5">Danemark</wf>
-    <wf wid="w408" sent="11" para="5">et</wf>
-    <wf wid="w409" sent="11" para="5">la</wf>
-    <wf wid="w410" sent="11" para="5">Belgique</wf>
-    <wf wid="w411" sent="11" para="5">,</wf>
-    <wf wid="w412" sent="11" para="5">qui</wf>
-    <wf wid="w413" sent="11" para="5">effectuent</wf>
-    <wf wid="w414" sent="11" para="5">des</wf>
-    <wf wid="w415" sent="11" para="5">rotations</wf>
-    <wf wid="w416" sent="11" para="5">avec</wf>
-    <wf wid="w417" sent="11" para="5">la</wf>
-    <wf wid="w418" sent="11" para="5">France</wf>
-    <wf wid="w419" sent="11" para="5">.</wf>
-    <wf wid="w420" sent="12" para="6">SOUTIEN</wf>
-    <wf wid="w421" sent="12" para="6">À</wf>
-    <wf wid="w422" sent="12" para="6">DISTANCE</wf>
-    <wf wid="w423" sent="12" para="6">DE</wf>
-    <wf wid="w424" sent="12" para="6">WASHINGTON</wf>
-    <wf wid="w425" sent="12" para="7">Les</wf>
-    <wf wid="w426" sent="12" para="7">Etats-Unis</wf>
-    <wf wid="w427" sent="12" para="7">ont</wf>
-    <wf wid="w428" sent="12" para="7">également</wf>
-    <wf wid="w429" sent="12" para="7">accédé</wf>
-    <wf wid="w430" sent="12" para="7">à</wf>
-    <wf wid="w431" sent="12" para="7">la</wf>
-    <wf wid="w432" sent="12" para="7">demande</wf>
-    <wf wid="w433" sent="12" para="7">de</wf>
-    <wf wid="w434" sent="12" para="7">la</wf>
-    <wf wid="w435" sent="12" para="7">France</wf>
-    <wf wid="w436" sent="12" para="7">et</wf>
-    <wf wid="w437" sent="12" para="7">décidé</wf>
-    <wf wid="w438" sent="12" para="7">de</wf>
-    <wf wid="w439" sent="12" para="7">fournir</wf>
-    <wf wid="w440" sent="12" para="7">des</wf>
-    <wf wid="w441" sent="12" para="7">moyens</wf>
-    <wf wid="w442" sent="12" para="7">aériens</wf>
-    <wf wid="w443" sent="12" para="7">pour</wf>
-    <wf wid="w444" sent="12" para="7">le</wf>
-    <wf wid="w445" sent="12" para="7">transport</wf>
-    <wf wid="w446" sent="12" para="7">de</wf>
-    <wf wid="w447" sent="12" para="7">troupes</wf>
-    <wf wid="w448" sent="12" para="7">et</wf>
-    <wf wid="w449" sent="12" para="7">de</wf>
-    <wf wid="w450" sent="12" para="7">matériel</wf>
-    <wf wid="w451" sent="12" para="7">pour</wf>
-    <wf wid="w452" sent="12" para="7">l'</wf>
-    <wf wid="w453" sent="12" para="7">opération</wf>
-    <wf wid="w454" sent="12" para="7">"</wf>
-    <wf wid="w455" sent="12" para="7">Serval</wf>
-    <wf wid="w456" sent="12" para="7">"</wf>
-    <wf wid="w457" sent="12" para="7">.</wf>
-    <wf wid="w458" sent="13" para="7">"</wf>
-    <wf wid="w459" sent="13" para="7">Nous</wf>
-    <wf wid="w460" sent="13" para="7">avons</wf>
-    <wf wid="w461" sent="13" para="7">accepté</wf>
-    <wf wid="w462" sent="13" para="7">d'</wf>
-    <wf wid="w463" sent="13" para="7">acheminer</wf>
-    <wf wid="w464" sent="13" para="7">des</wf>
-    <wf wid="w465" sent="13" para="7">troupes</wf>
-    <wf wid="w466" sent="13" para="7">et</wf>
-    <wf wid="w467" sent="13" para="7">du</wf>
-    <wf wid="w468" sent="13" para="7">matériel</wf>
-    <wf wid="w469" sent="13" para="7">"</wf>
-    <wf wid="w470" sent="13" para="7">,</wf>
-    <wf wid="w471" sent="13" para="7">a</wf>
-    <wf wid="w472" sent="13" para="7">commenté</wf>
-    <wf wid="w473" sent="13" para="7">Tommy</wf>
-    <wf wid="w474" sent="13" para="7">Vietor</wf>
-    <wf wid="w475" sent="13" para="7">,</wf>
-    <wf wid="w476" sent="13" para="7">porte-parole</wf>
-    <wf wid="w477" sent="13" para="7">du</wf>
-    <wf wid="w478" sent="13" para="7">Conseil</wf>
-    <wf wid="w479" sent="13" para="7">de</wf>
-    <wf wid="w480" sent="13" para="7">sécurité</wf>
-    <wf wid="w481" sent="13" para="7">nationale</wf>
-    <wf wid="w482" sent="13" para="7">de</wf>
-    <wf wid="w483" sent="13" para="7">la</wf>
-    <wf wid="w484" sent="13" para="7">Maison</wf>
-    <wf wid="w485" sent="13" para="7">Blanche</wf>
-    <wf wid="w486" sent="13" para="7">.</wf>
-    <wf wid="w487" sent="14" para="7">Le</wf>
-    <wf wid="w488" sent="14" para="7">gouvernement</wf>
-    <wf wid="w489" sent="14" para="7">français</wf>
-    <wf wid="w490" sent="14" para="7">remboursera</wf>
-    <wf wid="w491" sent="14" para="7">aux</wf>
-    <wf wid="w492" sent="14" para="7">Etats-Unis</wf>
-    <wf wid="w493" sent="14" para="7">les</wf>
-    <wf wid="w494" sent="14" para="7">frais</wf>
-    <wf wid="w495" sent="14" para="7">entraînés</wf>
-    <wf wid="w496" sent="14" para="7">par</wf>
-    <wf wid="w497" sent="14" para="7">ce</wf>
-    <wf wid="w498" sent="14" para="7">soutien</wf>
-    <wf wid="w499" sent="14" para="7">aérien</wf>
-    <wf wid="w500" sent="14" para="7">,</wf>
-    <wf wid="w501" sent="14" para="7">a-t-il</wf>
-    <wf wid="w502" sent="14" para="7">précisé</wf>
-    <wf wid="w503" sent="14" para="7">.</wf>
-    <wf wid="w504" sent="15" para="8">Cette</wf>
-    <wf wid="w505" sent="15" para="8">décision</wf>
-    <wf wid="w506" sent="15" para="8">intervient</wf>
-    <wf wid="w507" sent="15" para="8">après</wf>
-    <wf wid="w508" sent="15" para="8">que</wf>
-    <wf wid="w509" sent="15" para="8">l'</wf>
-    <wf wid="w510" sent="15" para="8">administration</wf>
-    <wf wid="w511" sent="15" para="8">Obama</wf>
-    <wf wid="w512" sent="15" para="8">a</wf>
-    <wf wid="w513" sent="15" para="8">examiné</wf>
-    <wf wid="w514" sent="15" para="8">les</wf>
-    <wf wid="w515" sent="15" para="8">implications</wf>
-    <wf wid="w516" sent="15" para="8">légales</wf>
-    <wf wid="w517" sent="15" para="8">d'</wf>
-    <wf wid="w518" sent="15" para="8">une</wf>
-    <wf wid="w519" sent="15" para="8">telle</wf>
-    <wf wid="w520" sent="15" para="8">assistance</wf>
-    <wf wid="w521" sent="15" para="8">à</wf>
-    <wf wid="w522" sent="15" para="8">la</wf>
-    <wf wid="w523" sent="15" para="8">France</wf>
-    <wf wid="w524" sent="15" para="8">.</wf>
-    <wf wid="w525" sent="16" para="8">L'</wf>
-    <wf wid="w526" sent="16" para="8">armée</wf>
-    <wf wid="w527" sent="16" para="8">de</wf>
-    <wf wid="w528" sent="16" para="8">l'</wf>
-    <wf wid="w529" sent="16" para="8">air</wf>
-    <wf wid="w530" sent="16" para="8">américaine</wf>
-    <wf wid="w531" sent="16" para="8">pourrait</wf>
-    <wf wid="w532" sent="16" para="8">affréter</wf>
-    <wf wid="w533" sent="16" para="8">des</wf>
-    <wf wid="w534" sent="16" para="8">avions</wf>
-    <wf wid="w535" sent="16" para="8">cargos</wf>
-    <wf wid="w536" sent="16" para="8">tels</wf>
-    <wf wid="w537" sent="16" para="8">que</wf>
-    <wf wid="w538" sent="16" para="8">le</wf>
-    <wf wid="w539" sent="16" para="8">C-17</wf>
-    <wf wid="w540" sent="16" para="8">mais</wf>
-    <wf wid="w541" sent="16" para="8">également</wf>
-    <wf wid="w542" sent="16" para="8">le</wf>
-    <wf wid="w543" sent="16" para="8">C-5</wf>
-    <wf wid="w544" sent="16" para="8">,</wf>
-    <wf wid="w545" sent="16" para="8">d'</wf>
-    <wf wid="w546" sent="16" para="8">une</wf>
-    <wf wid="w547" sent="16" para="8">plus</wf>
-    <wf wid="w548" sent="16" para="8">grande</wf>
-    <wf wid="w549" sent="16" para="8">capacité</wf>
-    <wf wid="w550" sent="16" para="8">de</wf>
-    <wf wid="w551" sent="16" para="8">transport</wf>
-    <wf wid="w552" sent="16" para="8">,</wf>
-    <wf wid="w553" sent="16" para="8">dans</wf>
-    <wf wid="w554" sent="16" para="8">un</wf>
-    <wf wid="w555" sent="16" para="8">délai</wf>
-    <wf wid="w556" sent="16" para="8">d'</wf>
-    <wf wid="w557" sent="16" para="8">une</wf>
-    <wf wid="w558" sent="16" para="8">journée</wf>
-    <wf wid="w559" sent="16" para="8">.</wf>
-    <wf wid="w560" sent="17" para="8">Cette</wf>
-    <wf wid="w561" sent="17" para="8">contribution</wf>
-    <wf wid="w562" sent="17" para="8">des</wf>
-    <wf wid="w563" sent="17" para="8">Etats-Unis</wf>
-    <wf wid="w564" sent="17" para="8">s'</wf>
-    <wf wid="w565" sent="17" para="8">ajoute</wf>
-    <wf wid="w566" sent="17" para="8">aux</wf>
-    <wf wid="w567" sent="17" para="8">renseignements</wf>
-    <wf wid="w568" sent="17" para="8">fournis</wf>
-    <wf wid="w569" sent="17" para="8">par</wf>
-    <wf wid="w570" sent="17" para="8">les</wf>
-    <wf wid="w571" sent="17" para="8">militaires</wf>
-    <wf wid="w572" sent="17" para="8">américains</wf>
-    <wf wid="w573" sent="17" para="8">à</wf>
-    <wf wid="w574" sent="17" para="8">leurs</wf>
-    <wf wid="w575" sent="17" para="8">homologues</wf>
-    <wf wid="w576" sent="17" para="8">français</wf>
-    <wf wid="w577" sent="17" para="8">mais</wf>
-    <wf wid="w578" sent="17" para="8">marque</wf>
-    <wf wid="w579" sent="17" para="8">clairement</wf>
-    <wf wid="w580" sent="17" para="8">la</wf>
-    <wf wid="w581" sent="17" para="8">distance</wf>
-    <wf wid="w582" sent="17" para="8">que</wf>
-    <wf wid="w583" sent="17" para="8">Washington</wf>
-    <wf wid="w584" sent="17" para="8">entend</wf>
-    <wf wid="w585" sent="17" para="8">conserver</wf>
-    <wf wid="w586" sent="17" para="8">à</wf>
-    <wf wid="w587" sent="17" para="8">l'</wf>
-    <wf wid="w588" sent="17" para="8">égard</wf>
-    <wf wid="w589" sent="17" para="8">de</wf>
-    <wf wid="w590" sent="17" para="8">ce</wf>
-    <wf wid="w591" sent="17" para="8">conflit</wf>
-    <wf wid="w592" sent="17" para="8">.</wf>
+    <wf wid="w1" sent="1" para="1" offset="0">Ancien</wf>
+    <wf wid="w2" sent="1" para="1" offset="7">chef</wf>
+    <wf wid="w3" sent="1" para="1" offset="12">charismatique</wf>
+    <wf wid="w4" sent="1" para="1" offset="26">d'</wf>
+    <wf wid="w5" sent="1" para="1" offset="28">Al-Qaida</wf>
+    <wf wid="w6" sent="1" para="1" offset="37">au</wf>
+    <wf wid="w7" sent="1" para="1" offset="40">Maghreb</wf>
+    <wf wid="w8" sent="1" para="1" offset="48">islamique</wf>
+    <wf wid="w9" sent="1" para="1" offset="58">–</wf>
+    <wf wid="w10" sent="1" para="1" offset="60">AQMI</wf>
+    <wf wid="w11" sent="1" para="1" offset="64">,</wf>
+    <wf wid="w12" sent="1" para="1" offset="66">l'</wf>
+    <wf wid="w13" sent="1" para="1" offset="68">Algérien</wf>
+    <wf wid="w14" sent="1" para="1" offset="77">Mokhtar</wf>
+    <wf wid="w15" sent="1" para="1" offset="85">Bel-Mokhtar</wf>
+    <wf wid="w16" sent="1" para="1" offset="97">a</wf>
+    <wf wid="w17" sent="1" para="1" offset="99">une</wf>
+    <wf wid="w18" sent="1" para="1" offset="103">trajectoire</wf>
+    <wf wid="w19" sent="1" para="1" offset="115">remarquable</wf>
+    <wf wid="w20" sent="1" para="1" offset="127">dans</wf>
+    <wf wid="w21" sent="1" para="1" offset="132">la</wf>
+    <wf wid="w22" sent="1" para="1" offset="135">nébuleuse</wf>
+    <wf wid="w23" sent="1" para="1" offset="145">islamiste</wf>
+    <wf wid="w24" sent="1" para="1" offset="154">.</wf>
+    <wf wid="w25" sent="2" para="1" offset="156">Né</wf>
+    <wf wid="w26" sent="2" para="1" offset="159">le</wf>
+    <wf wid="w27" sent="2" para="1" offset="162">1er</wf>
+    <wf wid="w28" sent="2" para="1" offset="166">juin</wf>
+    <wf wid="w29" sent="2" para="1" offset="171">1972</wf>
+    <wf wid="w30" sent="2" para="1" offset="176">à</wf>
+    <wf wid="w31" sent="2" para="1" offset="178">Ghardaïa</wf>
+    <wf wid="w32" sent="2" para="1" offset="186">,</wf>
+    <wf wid="w33" sent="2" para="1" offset="188">il</wf>
+    <wf wid="w34" sent="2" para="1" offset="191">s'</wf>
+    <wf wid="w35" sent="2" para="1" offset="193">est</wf>
+    <wf wid="w36" sent="2" para="1" offset="197">engagé</wf>
+    <wf wid="w37" sent="2" para="1" offset="204">dans</wf>
+    <wf wid="w38" sent="2" para="1" offset="209">la</wf>
+    <wf wid="w39" sent="2" para="1" offset="212">guerre</wf>
+    <wf wid="w40" sent="2" para="1" offset="219">en</wf>
+    <wf wid="w41" sent="2" para="1" offset="222">Afghanistan</wf>
+    <wf wid="w42" sent="2" para="1" offset="234">aux</wf>
+    <wf wid="w43" sent="2" para="1" offset="238">côtés</wf>
+    <wf wid="w44" sent="2" para="1" offset="244">des</wf>
+    <wf wid="w45" sent="2" para="1" offset="248">moudjahidin</wf>
+    <wf wid="w46" sent="2" para="1" offset="260">entre</wf>
+    <wf wid="w47" sent="2" para="1" offset="266">1991</wf>
+    <wf wid="w48" sent="2" para="1" offset="271">et</wf>
+    <wf wid="w49" sent="2" para="1" offset="274">1993</wf>
+    <wf wid="w50" sent="2" para="1" offset="279">avant</wf>
+    <wf wid="w51" sent="2" para="1" offset="285">de</wf>
+    <wf wid="w52" sent="2" para="1" offset="288">rejoindre</wf>
+    <wf wid="w53" sent="2" para="1" offset="298">le</wf>
+    <wf wid="w54" sent="2" para="1" offset="301">Groupe</wf>
+    <wf wid="w55" sent="2" para="1" offset="308">salafiste</wf>
+    <wf wid="w56" sent="2" para="1" offset="318">pour</wf>
+    <wf wid="w57" sent="2" para="1" offset="323">la</wf>
+    <wf wid="w58" sent="2" para="1" offset="326">prédication</wf>
+    <wf wid="w59" sent="2" para="1" offset="338">et</wf>
+    <wf wid="w60" sent="2" para="1" offset="341">le</wf>
+    <wf wid="w61" sent="2" para="1" offset="344">combat</wf>
+    <wf wid="w62" sent="2" para="1" offset="351">(</wf>
+    <wf wid="w63" sent="2" para="1" offset="352">GSPC</wf>
+    <wf wid="w64" sent="2" para="1" offset="356">)</wf>
+    <wf wid="w65" sent="2" para="1" offset="358">algérien</wf>
+    <wf wid="w66" sent="2" para="1" offset="366">,</wf>
+    <wf wid="w67" sent="2" para="1" offset="368">dont</wf>
+    <wf wid="w68" sent="2" para="1" offset="373">émane</wf>
+    <wf wid="w69" sent="2" para="1" offset="379">AQMI</wf>
+    <wf wid="w70" sent="2" para="1" offset="383">.</wf>
+    <wf wid="w71" sent="3" para="1" offset="385">Lorsqu'</wf>
+    <wf wid="w72" sent="3" para="1" offset="392">il</wf>
+    <wf wid="w73" sent="3" para="1" offset="395">était</wf>
+    <wf wid="w74" sent="3" para="1" offset="401">affilié</wf>
+    <wf wid="w75" sent="3" para="1" offset="409">à</wf>
+    <wf wid="w76" sent="3" para="1" offset="411">AQMI</wf>
+    <wf wid="w77" sent="3" para="1" offset="415">,</wf>
+    <wf wid="w78" sent="3" para="1" offset="417">Mokhtar</wf>
+    <wf wid="w79" sent="3" para="1" offset="425">Bel-Mokhtar</wf>
+    <wf wid="w80" sent="3" para="1" offset="437">a</wf>
+    <wf wid="w81" sent="3" para="1" offset="439">mené</wf>
+    <wf wid="w82" sent="3" para="1" offset="444">avec</wf>
+    <wf wid="w83" sent="3" para="1" offset="449">sa</wf>
+    <wf wid="w84" sent="3" para="1" offset="452">katiba</wf>
+    <wf wid="w85" sent="3" para="1" offset="459">de</wf>
+    <wf wid="w86" sent="3" para="1" offset="462">nombreuses</wf>
+    <wf wid="w87" sent="3" para="1" offset="473">prises</wf>
+    <wf wid="w88" sent="3" para="1" offset="480">d'</wf>
+    <wf wid="w89" sent="3" para="1" offset="482">otages</wf>
+    <wf wid="w90" sent="3" para="1" offset="488">,</wf>
+    <wf wid="w91" sent="3" para="1" offset="490">dont</wf>
+    <wf wid="w92" sent="3" para="1" offset="495">celles</wf>
+    <wf wid="w93" sent="3" para="1" offset="502">de</wf>
+    <wf wid="w94" sent="3" para="1" offset="505">deux</wf>
+    <wf wid="w95" sent="3" para="1" offset="510">Français</wf>
+    <wf wid="w96" sent="3" para="1" offset="519">à</wf>
+    <wf wid="w97" sent="3" para="1" offset="521">Niamey</wf>
+    <wf wid="w98" sent="3" para="1" offset="527">,</wf>
+    <wf wid="w99" sent="3" para="1" offset="529">au</wf>
+    <wf wid="w100" sent="3" para="1" offset="532">Niger</wf>
+    <wf wid="w101" sent="3" para="1" offset="537">,</wf>
+    <wf wid="w102" sent="3" para="1" offset="539">en</wf>
+    <wf wid="w103" sent="3" para="1" offset="542">janvier</wf>
+    <wf wid="w104" sent="3" para="1" offset="550">2011</wf>
+    <wf wid="w105" sent="3" para="1" offset="554">.</wf>
+    <wf wid="w106" sent="4" para="2" offset="555">Les</wf>
+    <wf wid="w107" sent="4" para="2" offset="559">deux</wf>
+    <wf wid="w108" sent="4" para="2" offset="564">avions</wf>
+    <wf wid="w109" sent="4" para="2" offset="571">de</wf>
+    <wf wid="w110" sent="4" para="2" offset="574">transport</wf>
+    <wf wid="w111" sent="4" para="2" offset="584">Transall</wf>
+    <wf wid="w112" sent="4" para="2" offset="592">,</wf>
+    <wf wid="w113" sent="4" para="2" offset="594">que</wf>
+    <wf wid="w114" sent="4" para="2" offset="598">Berlin</wf>
+    <wf wid="w115" sent="4" para="2" offset="605">s'</wf>
+    <wf wid="w116" sent="4" para="2" offset="607">était</wf>
+    <wf wid="w117" sent="4" para="2" offset="613">engagé</wf>
+    <wf wid="w118" sent="4" para="2" offset="620">à</wf>
+    <wf wid="w119" sent="4" para="2" offset="622">mettre</wf>
+    <wf wid="w120" sent="4" para="2" offset="629">à</wf>
+    <wf wid="w121" sent="4" para="2" offset="631">la</wf>
+    <wf wid="w122" sent="4" para="2" offset="634">disposition</wf>
+    <wf wid="w123" sent="4" para="2" offset="646">de</wf>
+    <wf wid="w124" sent="4" para="2" offset="649">la</wf>
+    <wf wid="w125" sent="4" para="2" offset="652">Cédéao</wf>
+    <wf wid="w126" sent="4" para="2" offset="659">pour</wf>
+    <wf wid="w127" sent="4" para="2" offset="664">contribuer</wf>
+    <wf wid="w128" sent="4" para="2" offset="675">à</wf>
+    <wf wid="w129" sent="4" para="2" offset="677">l'</wf>
+    <wf wid="w130" sent="4" para="2" offset="679">opération</wf>
+    <wf wid="w131" sent="4" para="2" offset="689">militaire</wf>
+    <wf wid="w132" sent="4" para="2" offset="699">lancée</wf>
+    <wf wid="w133" sent="4" para="2" offset="706">le</wf>
+    <wf wid="w134" sent="4" para="2" offset="709">11</wf>
+    <wf wid="w135" sent="4" para="2" offset="712">janvier</wf>
+    <wf wid="w136" sent="4" para="2" offset="720">par</wf>
+    <wf wid="w137" sent="4" para="2" offset="724">Paris</wf>
+    <wf wid="w138" sent="4" para="2" offset="730">au</wf>
+    <wf wid="w139" sent="4" para="2" offset="733">Mali</wf>
+    <wf wid="w140" sent="4" para="2" offset="738">contre</wf>
+    <wf wid="w141" sent="4" para="2" offset="745">des</wf>
+    <wf wid="w142" sent="4" para="2" offset="749">islamistes</wf>
+    <wf wid="w143" sent="4" para="2" offset="759">,</wf>
+    <wf wid="w144" sent="4" para="2" offset="761">ont</wf>
+    <wf wid="w145" sent="4" para="2" offset="765">quitté</wf>
+    <wf wid="w146" sent="4" para="2" offset="772">leur</wf>
+    <wf wid="w147" sent="4" para="2" offset="777">base</wf>
+    <wf wid="w148" sent="4" para="2" offset="782">jeudi</wf>
+    <wf wid="w149" sent="4" para="2" offset="788">soir</wf>
+    <wf wid="w150" sent="4" para="2" offset="792">,</wf>
+    <wf wid="w151" sent="4" para="2" offset="794">a</wf>
+    <wf wid="w152" sent="4" para="2" offset="796">annoncé</wf>
+    <wf wid="w153" sent="4" para="2" offset="804">l'</wf>
+    <wf wid="w154" sent="4" para="2" offset="806">armée</wf>
+    <wf wid="w155" sent="4" para="2" offset="812">allemande</wf>
+    <wf wid="w156" sent="4" para="2" offset="821">.</wf>
+    <wf wid="w157" sent="5" para="2" offset="823">Les</wf>
+    <wf wid="w158" sent="5" para="2" offset="827">deux</wf>
+    <wf wid="w159" sent="5" para="2" offset="832">appareils</wf>
+    <wf wid="w160" sent="5" para="2" offset="842">ont</wf>
+    <wf wid="w161" sent="5" para="2" offset="846">décollé</wf>
+    <wf wid="w162" sent="5" para="2" offset="854">de</wf>
+    <wf wid="w163" sent="5" para="2" offset="857">la</wf>
+    <wf wid="w164" sent="5" para="2" offset="860">base</wf>
+    <wf wid="w165" sent="5" para="2" offset="865">aérienne</wf>
+    <wf wid="w166" sent="5" para="2" offset="874">de</wf>
+    <wf wid="w167" sent="5" para="2" offset="877">Hohn</wf>
+    <wf wid="w168" sent="5" para="2" offset="881">,</wf>
+    <wf wid="w169" sent="5" para="2" offset="883">dans</wf>
+    <wf wid="w170" sent="5" para="2" offset="888">le</wf>
+    <wf wid="w171" sent="5" para="2" offset="891">nord</wf>
+    <wf wid="w172" sent="5" para="2" offset="896">du</wf>
+    <wf wid="w173" sent="5" para="2" offset="899">pays</wf>
+    <wf wid="w174" sent="5" para="2" offset="903">,</wf>
+    <wf wid="w175" sent="5" para="2" offset="905">en</wf>
+    <wf wid="w176" sent="5" para="2" offset="908">direction</wf>
+    <wf wid="w177" sent="5" para="2" offset="918">d'</wf>
+    <wf wid="w178" sent="5" para="2" offset="920">Evreux-Fauville</wf>
+    <wf wid="w179" sent="5" para="2" offset="935">,</wf>
+    <wf wid="w180" sent="5" para="2" offset="937">en</wf>
+    <wf wid="w181" sent="5" para="2" offset="940">France</wf>
+    <wf wid="w182" sent="5" para="2" offset="946">,</wf>
+    <wf wid="w183" sent="5" para="2" offset="948">a</wf>
+    <wf wid="w184" sent="5" para="2" offset="950">indiqué</wf>
+    <wf wid="w185" sent="5" para="2" offset="958">un</wf>
+    <wf wid="w186" sent="5" para="2" offset="961">porte-parole</wf>
+    <wf wid="w187" sent="5" para="2" offset="974">de</wf>
+    <wf wid="w188" sent="5" para="2" offset="977">la</wf>
+    <wf wid="w189" sent="5" para="2" offset="980">Bundeswehr</wf>
+    <wf wid="w190" sent="5" para="2" offset="990">.</wf>
+    <wf wid="w191" sent="6" para="2" offset="992">Du</wf>
+    <wf wid="w192" sent="6" para="2" offset="995">matériel</wf>
+    <wf wid="w193" sent="6" para="2" offset="1004">médical</wf>
+    <wf wid="w194" sent="6" para="2" offset="1012">de</wf>
+    <wf wid="w195" sent="6" para="2" offset="1015">l'</wf>
+    <wf wid="w196" sent="6" para="2" offset="1017">armée</wf>
+    <wf wid="w197" sent="6" para="2" offset="1023">française</wf>
+    <wf wid="w198" sent="6" para="2" offset="1033">doit</wf>
+    <wf wid="w199" sent="6" para="2" offset="1038">être</wf>
+    <wf wid="w200" sent="6" para="2" offset="1043">chargé</wf>
+    <wf wid="w201" sent="6" para="2" offset="1050">dans</wf>
+    <wf wid="w202" sent="6" para="2" offset="1055">les</wf>
+    <wf wid="w203" sent="6" para="2" offset="1059">avions</wf>
+    <wf wid="w204" sent="6" para="2" offset="1065">,</wf>
+    <wf wid="w205" sent="6" para="2" offset="1067">qui</wf>
+    <wf wid="w206" sent="6" para="2" offset="1071">redécolleront</wf>
+    <wf wid="w207" sent="6" para="2" offset="1085">vendredi</wf>
+    <wf wid="w208" sent="6" para="2" offset="1094">en</wf>
+    <wf wid="w209" sent="6" para="2" offset="1097">direction</wf>
+    <wf wid="w210" sent="6" para="2" offset="1107">de</wf>
+    <wf wid="w211" sent="6" para="2" offset="1110">l'</wf>
+    <wf wid="w212" sent="6" para="2" offset="1112">Afrique</wf>
+    <wf wid="w213" sent="6" para="2" offset="1119">.</wf>
+    <wf wid="w214" sent="7" para="3" offset="1119">Du</wf>
+    <wf wid="w215" sent="7" para="3" offset="1122">matériel</wf>
+    <wf wid="w216" sent="7" para="3" offset="1131">et</wf>
+    <wf wid="w217" sent="7" para="3" offset="1134">des</wf>
+    <wf wid="w218" sent="7" para="3" offset="1138">vivres</wf>
+    <wf wid="w219" sent="7" para="3" offset="1145">continuent</wf>
+    <wf wid="w220" sent="7" para="3" offset="1156">enfin</wf>
+    <wf wid="w221" sent="7" para="3" offset="1162">d'</wf>
+    <wf wid="w222" sent="7" para="3" offset="1164">être</wf>
+    <wf wid="w223" sent="7" para="3" offset="1169">acheminés</wf>
+    <wf wid="w224" sent="7" para="3" offset="1179">au</wf>
+    <wf wid="w225" sent="7" para="3" offset="1182">Mali</wf>
+    <wf wid="w226" sent="7" para="3" offset="1187">avec</wf>
+    <wf wid="w227" sent="7" para="3" offset="1192">le</wf>
+    <wf wid="w228" sent="7" para="3" offset="1195">soutien</wf>
+    <wf wid="w229" sent="7" para="3" offset="1203">d'</wf>
+    <wf wid="w230" sent="7" para="3" offset="1205">avions</wf>
+    <wf wid="w231" sent="7" para="3" offset="1212">de</wf>
+    <wf wid="w232" sent="7" para="3" offset="1215">transport</wf>
+    <wf wid="w233" sent="7" para="3" offset="1225">C17</wf>
+    <wf wid="w234" sent="7" para="3" offset="1229">et</wf>
+    <wf wid="w235" sent="7" para="3" offset="1232">C130</wf>
+    <wf wid="w236" sent="7" para="3" offset="1237">mis</wf>
+    <wf wid="w237" sent="7" para="3" offset="1241">à</wf>
+    <wf wid="w238" sent="7" para="3" offset="1243">disposition</wf>
+    <wf wid="w239" sent="7" para="3" offset="1255">de</wf>
+    <wf wid="w240" sent="7" para="3" offset="1258">l'</wf>
+    <wf wid="w241" sent="7" para="3" offset="1260">armée</wf>
+    <wf wid="w242" sent="7" para="3" offset="1266">de</wf>
+    <wf wid="w243" sent="7" para="3" offset="1269">l'</wf>
+    <wf wid="w244" sent="7" para="3" offset="1271">air</wf>
+    <wf wid="w245" sent="7" para="3" offset="1275">par</wf>
+    <wf wid="w246" sent="7" para="3" offset="1279">la</wf>
+    <wf wid="w247" sent="7" para="3" offset="1282">Grande-Bretagne</wf>
+    <wf wid="w248" sent="7" para="3" offset="1297">,</wf>
+    <wf wid="w249" sent="7" para="3" offset="1299">le</wf>
+    <wf wid="w250" sent="7" para="3" offset="1302">Danemark</wf>
+    <wf wid="w251" sent="7" para="3" offset="1311">et</wf>
+    <wf wid="w252" sent="7" para="3" offset="1314">la</wf>
+    <wf wid="w253" sent="7" para="3" offset="1317">Belgique</wf>
+    <wf wid="w254" sent="7" para="3" offset="1325">,</wf>
+    <wf wid="w255" sent="7" para="3" offset="1327">qui</wf>
+    <wf wid="w256" sent="7" para="3" offset="1331">effectuent</wf>
+    <wf wid="w257" sent="7" para="3" offset="1342">des</wf>
+    <wf wid="w258" sent="7" para="3" offset="1346">rotations</wf>
+    <wf wid="w259" sent="7" para="3" offset="1356">avec</wf>
+    <wf wid="w260" sent="7" para="3" offset="1361">la</wf>
+    <wf wid="w261" sent="7" para="3" offset="1364">France</wf>
+    <wf wid="w262" sent="7" para="3" offset="1370">.</wf>
+    <wf wid="w263" sent="8" para="4" offset="1370">Les</wf>
+    <wf wid="w264" sent="8" para="4" offset="1374">deux</wf>
+    <wf wid="w265" sent="8" para="4" offset="1379">avions</wf>
+    <wf wid="w266" sent="8" para="4" offset="1386">de</wf>
+    <wf wid="w267" sent="8" para="4" offset="1389">transport</wf>
+    <wf wid="w268" sent="8" para="4" offset="1399">Transall</wf>
+    <wf wid="w269" sent="8" para="4" offset="1407">,</wf>
+    <wf wid="w270" sent="8" para="4" offset="1409">que</wf>
+    <wf wid="w271" sent="8" para="4" offset="1413">Berlin</wf>
+    <wf wid="w272" sent="8" para="4" offset="1420">s'</wf>
+    <wf wid="w273" sent="8" para="4" offset="1422">était</wf>
+    <wf wid="w274" sent="8" para="4" offset="1428">engagé</wf>
+    <wf wid="w275" sent="8" para="4" offset="1435">à</wf>
+    <wf wid="w276" sent="8" para="4" offset="1437">mettre</wf>
+    <wf wid="w277" sent="8" para="4" offset="1444">à</wf>
+    <wf wid="w278" sent="8" para="4" offset="1446">la</wf>
+    <wf wid="w279" sent="8" para="4" offset="1449">disposition</wf>
+    <wf wid="w280" sent="8" para="4" offset="1461">de</wf>
+    <wf wid="w281" sent="8" para="4" offset="1464">la</wf>
+    <wf wid="w282" sent="8" para="4" offset="1467">Cédéao</wf>
+    <wf wid="w283" sent="8" para="4" offset="1474">pour</wf>
+    <wf wid="w284" sent="8" para="4" offset="1479">contribuer</wf>
+    <wf wid="w285" sent="8" para="4" offset="1490">à</wf>
+    <wf wid="w286" sent="8" para="4" offset="1492">l'</wf>
+    <wf wid="w287" sent="8" para="4" offset="1494">opération</wf>
+    <wf wid="w288" sent="8" para="4" offset="1504">militaire</wf>
+    <wf wid="w289" sent="8" para="4" offset="1514">lancée</wf>
+    <wf wid="w290" sent="8" para="4" offset="1521">le</wf>
+    <wf wid="w291" sent="8" para="4" offset="1524">11</wf>
+    <wf wid="w292" sent="8" para="4" offset="1527">janvier</wf>
+    <wf wid="w293" sent="8" para="4" offset="1535">par</wf>
+    <wf wid="w294" sent="8" para="4" offset="1539">Paris</wf>
+    <wf wid="w295" sent="8" para="4" offset="1545">au</wf>
+    <wf wid="w296" sent="8" para="4" offset="1548">Mali</wf>
+    <wf wid="w297" sent="8" para="4" offset="1553">contre</wf>
+    <wf wid="w298" sent="8" para="4" offset="1560">des</wf>
+    <wf wid="w299" sent="8" para="4" offset="1564">islamistes</wf>
+    <wf wid="w300" sent="8" para="4" offset="1574">,</wf>
+    <wf wid="w301" sent="8" para="4" offset="1576">ont</wf>
+    <wf wid="w302" sent="8" para="4" offset="1580">quitté</wf>
+    <wf wid="w303" sent="8" para="4" offset="1587">leur</wf>
+    <wf wid="w304" sent="8" para="4" offset="1592">base</wf>
+    <wf wid="w305" sent="8" para="4" offset="1597">jeudi</wf>
+    <wf wid="w306" sent="8" para="4" offset="1603">soir</wf>
+    <wf wid="w307" sent="8" para="4" offset="1607">,</wf>
+    <wf wid="w308" sent="8" para="4" offset="1609">a</wf>
+    <wf wid="w309" sent="8" para="4" offset="1611">annoncé</wf>
+    <wf wid="w310" sent="8" para="4" offset="1619">l'</wf>
+    <wf wid="w311" sent="8" para="4" offset="1621">armée</wf>
+    <wf wid="w312" sent="8" para="4" offset="1627">allemande</wf>
+    <wf wid="w313" sent="8" para="4" offset="1636">.</wf>
+    <wf wid="w314" sent="9" para="4" offset="1638">Les</wf>
+    <wf wid="w315" sent="9" para="4" offset="1642">deux</wf>
+    <wf wid="w316" sent="9" para="4" offset="1647">appareils</wf>
+    <wf wid="w317" sent="9" para="4" offset="1657">ont</wf>
+    <wf wid="w318" sent="9" para="4" offset="1661">décollé</wf>
+    <wf wid="w319" sent="9" para="4" offset="1669">de</wf>
+    <wf wid="w320" sent="9" para="4" offset="1672">la</wf>
+    <wf wid="w321" sent="9" para="4" offset="1675">base</wf>
+    <wf wid="w322" sent="9" para="4" offset="1680">aérienne</wf>
+    <wf wid="w323" sent="9" para="4" offset="1689">de</wf>
+    <wf wid="w324" sent="9" para="4" offset="1692">Hohn</wf>
+    <wf wid="w325" sent="9" para="4" offset="1696">,</wf>
+    <wf wid="w326" sent="9" para="4" offset="1698">dans</wf>
+    <wf wid="w327" sent="9" para="4" offset="1703">le</wf>
+    <wf wid="w328" sent="9" para="4" offset="1706">nord</wf>
+    <wf wid="w329" sent="9" para="4" offset="1711">du</wf>
+    <wf wid="w330" sent="9" para="4" offset="1714">pays</wf>
+    <wf wid="w331" sent="9" para="4" offset="1718">,</wf>
+    <wf wid="w332" sent="9" para="4" offset="1720">en</wf>
+    <wf wid="w333" sent="9" para="4" offset="1723">direction</wf>
+    <wf wid="w334" sent="9" para="4" offset="1733">d'</wf>
+    <wf wid="w335" sent="9" para="4" offset="1735">Evreux-Fauville</wf>
+    <wf wid="w336" sent="9" para="4" offset="1750">,</wf>
+    <wf wid="w337" sent="9" para="4" offset="1752">en</wf>
+    <wf wid="w338" sent="9" para="4" offset="1755">France</wf>
+    <wf wid="w339" sent="9" para="4" offset="1761">,</wf>
+    <wf wid="w340" sent="9" para="4" offset="1763">a</wf>
+    <wf wid="w341" sent="9" para="4" offset="1765">indiqué</wf>
+    <wf wid="w342" sent="9" para="4" offset="1773">un</wf>
+    <wf wid="w343" sent="9" para="4" offset="1776">porte-parole</wf>
+    <wf wid="w344" sent="9" para="4" offset="1789">de</wf>
+    <wf wid="w345" sent="9" para="4" offset="1792">la</wf>
+    <wf wid="w346" sent="9" para="4" offset="1795">Bundeswehr</wf>
+    <wf wid="w347" sent="9" para="4" offset="1805">.</wf>
+    <wf wid="w348" sent="10" para="4" offset="1807">Du</wf>
+    <wf wid="w349" sent="10" para="4" offset="1810">matériel</wf>
+    <wf wid="w350" sent="10" para="4" offset="1819">médical</wf>
+    <wf wid="w351" sent="10" para="4" offset="1827">de</wf>
+    <wf wid="w352" sent="10" para="4" offset="1830">l'</wf>
+    <wf wid="w353" sent="10" para="4" offset="1832">armée</wf>
+    <wf wid="w354" sent="10" para="4" offset="1838">française</wf>
+    <wf wid="w355" sent="10" para="4" offset="1848">doit</wf>
+    <wf wid="w356" sent="10" para="4" offset="1853">être</wf>
+    <wf wid="w357" sent="10" para="4" offset="1858">chargé</wf>
+    <wf wid="w358" sent="10" para="4" offset="1865">dans</wf>
+    <wf wid="w359" sent="10" para="4" offset="1870">les</wf>
+    <wf wid="w360" sent="10" para="4" offset="1874">avions</wf>
+    <wf wid="w361" sent="10" para="4" offset="1880">,</wf>
+    <wf wid="w362" sent="10" para="4" offset="1882">qui</wf>
+    <wf wid="w363" sent="10" para="4" offset="1886">redécolleront</wf>
+    <wf wid="w364" sent="10" para="4" offset="1900">vendredi</wf>
+    <wf wid="w365" sent="10" para="4" offset="1909">en</wf>
+    <wf wid="w366" sent="10" para="4" offset="1912">direction</wf>
+    <wf wid="w367" sent="10" para="4" offset="1922">de</wf>
+    <wf wid="w368" sent="10" para="4" offset="1925">l'</wf>
+    <wf wid="w369" sent="10" para="4" offset="1927">Afrique</wf>
+    <wf wid="w370" sent="10" para="4" offset="1934">.</wf>
+    <wf wid="w371" sent="11" para="5" offset="1934">Du</wf>
+    <wf wid="w372" sent="11" para="5" offset="1937">matériel</wf>
+    <wf wid="w373" sent="11" para="5" offset="1946">et</wf>
+    <wf wid="w374" sent="11" para="5" offset="1949">des</wf>
+    <wf wid="w375" sent="11" para="5" offset="1953">vivres</wf>
+    <wf wid="w376" sent="11" para="5" offset="1960">continuent</wf>
+    <wf wid="w377" sent="11" para="5" offset="1971">enfin</wf>
+    <wf wid="w378" sent="11" para="5" offset="1977">d'</wf>
+    <wf wid="w379" sent="11" para="5" offset="1979">être</wf>
+    <wf wid="w380" sent="11" para="5" offset="1984">acheminés</wf>
+    <wf wid="w381" sent="11" para="5" offset="1994">au</wf>
+    <wf wid="w382" sent="11" para="5" offset="1997">Mali</wf>
+    <wf wid="w383" sent="11" para="5" offset="2002">avec</wf>
+    <wf wid="w384" sent="11" para="5" offset="2007">le</wf>
+    <wf wid="w385" sent="11" para="5" offset="2010">soutien</wf>
+    <wf wid="w386" sent="11" para="5" offset="2018">d'</wf>
+    <wf wid="w387" sent="11" para="5" offset="2020">avions</wf>
+    <wf wid="w388" sent="11" para="5" offset="2027">de</wf>
+    <wf wid="w389" sent="11" para="5" offset="2030">transport</wf>
+    <wf wid="w390" sent="11" para="5" offset="2040">C17</wf>
+    <wf wid="w391" sent="11" para="5" offset="2044">et</wf>
+    <wf wid="w392" sent="11" para="5" offset="2047">C130</wf>
+    <wf wid="w393" sent="11" para="5" offset="2052">mis</wf>
+    <wf wid="w394" sent="11" para="5" offset="2056">à</wf>
+    <wf wid="w395" sent="11" para="5" offset="2058">disposition</wf>
+    <wf wid="w396" sent="11" para="5" offset="2070">de</wf>
+    <wf wid="w397" sent="11" para="5" offset="2073">l'</wf>
+    <wf wid="w398" sent="11" para="5" offset="2075">armée</wf>
+    <wf wid="w399" sent="11" para="5" offset="2081">de</wf>
+    <wf wid="w400" sent="11" para="5" offset="2084">l'</wf>
+    <wf wid="w401" sent="11" para="5" offset="2086">air</wf>
+    <wf wid="w402" sent="11" para="5" offset="2090">par</wf>
+    <wf wid="w403" sent="11" para="5" offset="2094">la</wf>
+    <wf wid="w404" sent="11" para="5" offset="2097">Grande-Bretagne</wf>
+    <wf wid="w405" sent="11" para="5" offset="2112">,</wf>
+    <wf wid="w406" sent="11" para="5" offset="2114">le</wf>
+    <wf wid="w407" sent="11" para="5" offset="2117">Danemark</wf>
+    <wf wid="w408" sent="11" para="5" offset="2126">et</wf>
+    <wf wid="w409" sent="11" para="5" offset="2129">la</wf>
+    <wf wid="w410" sent="11" para="5" offset="2132">Belgique</wf>
+    <wf wid="w411" sent="11" para="5" offset="2140">,</wf>
+    <wf wid="w412" sent="11" para="5" offset="2142">qui</wf>
+    <wf wid="w413" sent="11" para="5" offset="2146">effectuent</wf>
+    <wf wid="w414" sent="11" para="5" offset="2157">des</wf>
+    <wf wid="w415" sent="11" para="5" offset="2161">rotations</wf>
+    <wf wid="w416" sent="11" para="5" offset="2171">avec</wf>
+    <wf wid="w417" sent="11" para="5" offset="2176">la</wf>
+    <wf wid="w418" sent="11" para="5" offset="2179">France</wf>
+    <wf wid="w419" sent="11" para="5" offset="2185">.</wf>
+    <wf wid="w420" sent="12" para="6" offset="2185">SOUTIEN</wf>
+    <wf wid="w421" sent="12" para="6" offset="2193">À</wf>
+    <wf wid="w422" sent="12" para="6" offset="2195">DISTANCE</wf>
+    <wf wid="w423" sent="12" para="6" offset="2204">DE</wf>
+    <wf wid="w424" sent="12" para="6" offset="2207">WASHINGTON</wf>
+    <wf wid="w425" sent="12" para="7" offset="2216">Les</wf>
+    <wf wid="w426" sent="12" para="7" offset="2220">Etats-Unis</wf>
+    <wf wid="w427" sent="12" para="7" offset="2231">ont</wf>
+    <wf wid="w428" sent="12" para="7" offset="2235">également</wf>
+    <wf wid="w429" sent="12" para="7" offset="2245">accédé</wf>
+    <wf wid="w430" sent="12" para="7" offset="2252">à</wf>
+    <wf wid="w431" sent="12" para="7" offset="2254">la</wf>
+    <wf wid="w432" sent="12" para="7" offset="2257">demande</wf>
+    <wf wid="w433" sent="12" para="7" offset="2265">de</wf>
+    <wf wid="w434" sent="12" para="7" offset="2268">la</wf>
+    <wf wid="w435" sent="12" para="7" offset="2271">France</wf>
+    <wf wid="w436" sent="12" para="7" offset="2278">et</wf>
+    <wf wid="w437" sent="12" para="7" offset="2281">décidé</wf>
+    <wf wid="w438" sent="12" para="7" offset="2288">de</wf>
+    <wf wid="w439" sent="12" para="7" offset="2291">fournir</wf>
+    <wf wid="w440" sent="12" para="7" offset="2299">des</wf>
+    <wf wid="w441" sent="12" para="7" offset="2303">moyens</wf>
+    <wf wid="w442" sent="12" para="7" offset="2310">aériens</wf>
+    <wf wid="w443" sent="12" para="7" offset="2318">pour</wf>
+    <wf wid="w444" sent="12" para="7" offset="2323">le</wf>
+    <wf wid="w445" sent="12" para="7" offset="2326">transport</wf>
+    <wf wid="w446" sent="12" para="7" offset="2336">de</wf>
+    <wf wid="w447" sent="12" para="7" offset="2339">troupes</wf>
+    <wf wid="w448" sent="12" para="7" offset="2347">et</wf>
+    <wf wid="w449" sent="12" para="7" offset="2350">de</wf>
+    <wf wid="w450" sent="12" para="7" offset="2353">matériel</wf>
+    <wf wid="w451" sent="12" para="7" offset="2362">pour</wf>
+    <wf wid="w452" sent="12" para="7" offset="2367">l'</wf>
+    <wf wid="w453" sent="12" para="7" offset="2369">opération</wf>
+    <wf wid="w454" sent="12" para="7" offset="2379">"</wf>
+    <wf wid="w455" sent="12" para="7" offset="2380">Serval</wf>
+    <wf wid="w456" sent="12" para="7" offset="2386">"</wf>
+    <wf wid="w457" sent="12" para="7" offset="2387">.</wf>
+    <wf wid="w458" sent="13" para="7" offset="2389">"</wf>
+    <wf wid="w459" sent="13" para="7" offset="2390">Nous</wf>
+    <wf wid="w460" sent="13" para="7" offset="2395">avons</wf>
+    <wf wid="w461" sent="13" para="7" offset="2401">accepté</wf>
+    <wf wid="w462" sent="13" para="7" offset="2409">d'</wf>
+    <wf wid="w463" sent="13" para="7" offset="2411">acheminer</wf>
+    <wf wid="w464" sent="13" para="7" offset="2421">des</wf>
+    <wf wid="w465" sent="13" para="7" offset="2425">troupes</wf>
+    <wf wid="w466" sent="13" para="7" offset="2433">et</wf>
+    <wf wid="w467" sent="13" para="7" offset="2436">du</wf>
+    <wf wid="w468" sent="13" para="7" offset="2439">matériel</wf>
+    <wf wid="w469" sent="13" para="7" offset="2447">"</wf>
+    <wf wid="w470" sent="13" para="7" offset="2448">,</wf>
+    <wf wid="w471" sent="13" para="7" offset="2450">a</wf>
+    <wf wid="w472" sent="13" para="7" offset="2452">commenté</wf>
+    <wf wid="w473" sent="13" para="7" offset="2461">Tommy</wf>
+    <wf wid="w474" sent="13" para="7" offset="2467">Vietor</wf>
+    <wf wid="w475" sent="13" para="7" offset="2473">,</wf>
+    <wf wid="w476" sent="13" para="7" offset="2475">porte-parole</wf>
+    <wf wid="w477" sent="13" para="7" offset="2488">du</wf>
+    <wf wid="w478" sent="13" para="7" offset="2491">Conseil</wf>
+    <wf wid="w479" sent="13" para="7" offset="2499">de</wf>
+    <wf wid="w480" sent="13" para="7" offset="2502">sécurité</wf>
+    <wf wid="w481" sent="13" para="7" offset="2511">nationale</wf>
+    <wf wid="w482" sent="13" para="7" offset="2521">de</wf>
+    <wf wid="w483" sent="13" para="7" offset="2524">la</wf>
+    <wf wid="w484" sent="13" para="7" offset="2527">Maison</wf>
+    <wf wid="w485" sent="13" para="7" offset="2534">Blanche</wf>
+    <wf wid="w486" sent="13" para="7" offset="2541">.</wf>
+    <wf wid="w487" sent="14" para="7" offset="2543">Le</wf>
+    <wf wid="w488" sent="14" para="7" offset="2546">gouvernement</wf>
+    <wf wid="w489" sent="14" para="7" offset="2559">français</wf>
+    <wf wid="w490" sent="14" para="7" offset="2568">remboursera</wf>
+    <wf wid="w491" sent="14" para="7" offset="2580">aux</wf>
+    <wf wid="w492" sent="14" para="7" offset="2584">Etats-Unis</wf>
+    <wf wid="w493" sent="14" para="7" offset="2595">les</wf>
+    <wf wid="w494" sent="14" para="7" offset="2599">frais</wf>
+    <wf wid="w495" sent="14" para="7" offset="2605">entraînés</wf>
+    <wf wid="w496" sent="14" para="7" offset="2615">par</wf>
+    <wf wid="w497" sent="14" para="7" offset="2619">ce</wf>
+    <wf wid="w498" sent="14" para="7" offset="2622">soutien</wf>
+    <wf wid="w499" sent="14" para="7" offset="2630">aérien</wf>
+    <wf wid="w500" sent="14" para="7" offset="2636">,</wf>
+    <wf wid="w501" sent="14" para="7" offset="2638">a-t-il</wf>
+    <wf wid="w502" sent="14" para="7" offset="2645">précisé</wf>
+    <wf wid="w503" sent="14" para="7" offset="2652">.</wf>
+    <wf wid="w504" sent="15" para="8" offset="2652">Cette</wf>
+    <wf wid="w505" sent="15" para="8" offset="2658">décision</wf>
+    <wf wid="w506" sent="15" para="8" offset="2667">intervient</wf>
+    <wf wid="w507" sent="15" para="8" offset="2678">après</wf>
+    <wf wid="w508" sent="15" para="8" offset="2684">que</wf>
+    <wf wid="w509" sent="15" para="8" offset="2688">l'</wf>
+    <wf wid="w510" sent="15" para="8" offset="2690">administration</wf>
+    <wf wid="w511" sent="15" para="8" offset="2705">Obama</wf>
+    <wf wid="w512" sent="15" para="8" offset="2711">a</wf>
+    <wf wid="w513" sent="15" para="8" offset="2713">examiné</wf>
+    <wf wid="w514" sent="15" para="8" offset="2721">les</wf>
+    <wf wid="w515" sent="15" para="8" offset="2725">implications</wf>
+    <wf wid="w516" sent="15" para="8" offset="2738">légales</wf>
+    <wf wid="w517" sent="15" para="8" offset="2746">d'</wf>
+    <wf wid="w518" sent="15" para="8" offset="2748">une</wf>
+    <wf wid="w519" sent="15" para="8" offset="2752">telle</wf>
+    <wf wid="w520" sent="15" para="8" offset="2758">assistance</wf>
+    <wf wid="w521" sent="15" para="8" offset="2769">à</wf>
+    <wf wid="w522" sent="15" para="8" offset="2771">la</wf>
+    <wf wid="w523" sent="15" para="8" offset="2774">France</wf>
+    <wf wid="w524" sent="15" para="8" offset="2780">.</wf>
+    <wf wid="w525" sent="16" para="8" offset="2782">L'</wf>
+    <wf wid="w526" sent="16" para="8" offset="2784">armée</wf>
+    <wf wid="w527" sent="16" para="8" offset="2790">de</wf>
+    <wf wid="w528" sent="16" para="8" offset="2793">l'</wf>
+    <wf wid="w529" sent="16" para="8" offset="2795">air</wf>
+    <wf wid="w530" sent="16" para="8" offset="2799">américaine</wf>
+    <wf wid="w531" sent="16" para="8" offset="2810">pourrait</wf>
+    <wf wid="w532" sent="16" para="8" offset="2819">affréter</wf>
+    <wf wid="w533" sent="16" para="8" offset="2828">des</wf>
+    <wf wid="w534" sent="16" para="8" offset="2832">avions</wf>
+    <wf wid="w535" sent="16" para="8" offset="2839">cargos</wf>
+    <wf wid="w536" sent="16" para="8" offset="2846">tels</wf>
+    <wf wid="w537" sent="16" para="8" offset="2851">que</wf>
+    <wf wid="w538" sent="16" para="8" offset="2855">le</wf>
+    <wf wid="w539" sent="16" para="8" offset="2858">C-17</wf>
+    <wf wid="w540" sent="16" para="8" offset="2863">mais</wf>
+    <wf wid="w541" sent="16" para="8" offset="2868">également</wf>
+    <wf wid="w542" sent="16" para="8" offset="2878">le</wf>
+    <wf wid="w543" sent="16" para="8" offset="2881">C-5</wf>
+    <wf wid="w544" sent="16" para="8" offset="2884">,</wf>
+    <wf wid="w545" sent="16" para="8" offset="2886">d'</wf>
+    <wf wid="w546" sent="16" para="8" offset="2888">une</wf>
+    <wf wid="w547" sent="16" para="8" offset="2892">plus</wf>
+    <wf wid="w548" sent="16" para="8" offset="2897">grande</wf>
+    <wf wid="w549" sent="16" para="8" offset="2904">capacité</wf>
+    <wf wid="w550" sent="16" para="8" offset="2913">de</wf>
+    <wf wid="w551" sent="16" para="8" offset="2916">transport</wf>
+    <wf wid="w552" sent="16" para="8" offset="2925">,</wf>
+    <wf wid="w553" sent="16" para="8" offset="2927">dans</wf>
+    <wf wid="w554" sent="16" para="8" offset="2932">un</wf>
+    <wf wid="w555" sent="16" para="8" offset="2935">délai</wf>
+    <wf wid="w556" sent="16" para="8" offset="2941">d'</wf>
+    <wf wid="w557" sent="16" para="8" offset="2943">une</wf>
+    <wf wid="w558" sent="16" para="8" offset="2947">journée</wf>
+    <wf wid="w559" sent="16" para="8" offset="2954">.</wf>
+    <wf wid="w560" sent="17" para="8" offset="2957">Cette</wf>
+    <wf wid="w561" sent="17" para="8" offset="2963">contribution</wf>
+    <wf wid="w562" sent="17" para="8" offset="2976">des</wf>
+    <wf wid="w563" sent="17" para="8" offset="2980">Etats-Unis</wf>
+    <wf wid="w564" sent="17" para="8" offset="2991">s'</wf>
+    <wf wid="w565" sent="17" para="8" offset="2993">ajoute</wf>
+    <wf wid="w566" sent="17" para="8" offset="3000">aux</wf>
+    <wf wid="w567" sent="17" para="8" offset="3004">renseignements</wf>
+    <wf wid="w568" sent="17" para="8" offset="3019">fournis</wf>
+    <wf wid="w569" sent="17" para="8" offset="3027">par</wf>
+    <wf wid="w570" sent="17" para="8" offset="3031">les</wf>
+    <wf wid="w571" sent="17" para="8" offset="3035">militaires</wf>
+    <wf wid="w572" sent="17" para="8" offset="3046">américains</wf>
+    <wf wid="w573" sent="17" para="8" offset="3057">à</wf>
+    <wf wid="w574" sent="17" para="8" offset="3059">leurs</wf>
+    <wf wid="w575" sent="17" para="8" offset="3065">homologues</wf>
+    <wf wid="w576" sent="17" para="8" offset="3076">français</wf>
+    <wf wid="w577" sent="17" para="8" offset="3085">mais</wf>
+    <wf wid="w578" sent="17" para="8" offset="3090">marque</wf>
+    <wf wid="w579" sent="17" para="8" offset="3097">clairement</wf>
+    <wf wid="w580" sent="17" para="8" offset="3108">la</wf>
+    <wf wid="w581" sent="17" para="8" offset="3111">distance</wf>
+    <wf wid="w582" sent="17" para="8" offset="3120">que</wf>
+    <wf wid="w583" sent="17" para="8" offset="3124">Washington</wf>
+    <wf wid="w584" sent="17" para="8" offset="3135">entend</wf>
+    <wf wid="w585" sent="17" para="8" offset="3142">conserver</wf>
+    <wf wid="w586" sent="17" para="8" offset="3152">à</wf>
+    <wf wid="w587" sent="17" para="8" offset="3154">l'</wf>
+    <wf wid="w588" sent="17" para="8" offset="3156">égard</wf>
+    <wf wid="w589" sent="17" para="8" offset="3162">de</wf>
+    <wf wid="w590" sent="17" para="8" offset="3165">ce</wf>
+    <wf wid="w591" sent="17" para="8" offset="3168">conflit</wf>
+    <wf wid="w592" sent="17" para="8" offset="3175">.</wf>
   </text>
 </KAF>
