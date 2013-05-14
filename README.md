@@ -2,82 +2,64 @@
 
 ## Initial Version
 
-TODO: Write a gem description
+This module uses (internally) Apache OpenNLP programatically to perform POS tagging.
+The OpenNLP pos-model has been trained using the French TreeBank corpus.
+
+Using a 75% of the corpus as training set and the remaining 25% as test, the OpenNLP self evaluation tool gives a 91,5% of precission.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Branch: refactoring
 
-    gem 'Vicom-pos-tagger-lite_FR_kernel', :git=>"git@github.com/opener-project/Vicom-pos-tagger-lite_FR_kernel.git"
+To install this gem you need to have installed: Java 6, Apache Maven3, Ruby, RubyGems and of course git itself.
 
-And then execute:
+Clone the repo
 
-    $ bundle install
+    git clone git@github.com/opener-project/Vicom-pos-tagger-lite_FR_kernel.git
 
-Or install it yourself as:
+Then go to the core directory inside the repo, you will see a src folder, and a pom.xml (which tells to Maven how to build all the java stuff)
+Execute:
 
-    $ gem specific_install Vicom-pos-tagger-lite_FR_kernel -l https://github.com/opener-project/Vicom-pos-tagger-lite_FR_kernel.git
+	mvn clean package
 
+This will compile the java source code, download all the dependencies, and create a single selfcontained uber jar inside a "target" folder.
 
-If you dont have specifi_install already:
+Then you can go back to the root of the repository (where the .gemspec file is located) and issue
 
-    $ gem install specific_install
+	gem build Vicom-pos-tagger-lite_FR_kernel.gemspec
+
+If no error happens, then you can install the gem
+
+	gem install Vicom-pos-tagger-lite_FR_kernel
+
+Note: to install a gem to a system location you will probably need sudo permissions
 
 ## Usage
 
-Once installed as a gem you can access the gem from anywhere:
+Once installed as a gem you can access the gem from anywhere, as a regular shell command.
+The command reads the standard input, so you have to pipe the content to it.
 
-Vicom-pos-tagger-lite_FR_kernel needs 1 parameters:
+    $ cat kaf_file.kaf | Vicom-pos-tagger-lite_FR_kernel
 
-1. Tagger model's directory path.
-2. You can also specify a 2nd parameter to use static timestamp at KAF header: -n.
+
 
 For example:
 
-$ Vicom-pos-tagger-lite_FR_kernel ./ french.txt
-
-01. `<KAF version="v1.opener" xml:lang="fr">`
-02. `  <kafHeader>`
-03. `    <fileDesc filename="french" filetype="TXT"/>`
-04. `    <linguisticProcessors layer="text">`
-05. `      <lp name="openlp-fr-tok" timestamp="2013-02-22T12:59:16Z" version="1.0"/>`
-06. `    </linguisticProcessors>`
-07. `    <linguisticProcessors layer="terms">`
-08. `      <lp name="opennlp-pos-treetagger-fr" timestamp="2013-02-11T11:07:17Z" version="1.0"/>`
-09. `      <lp name="opennlp-multiword-fr" timestamp="2013-02-11T11:07:17Z" version="1.0"/>`
-10. `    </linguisticProcessors>`
-11. `  </kafHeader>`
-12. `  <text></text>`
-13. `  <terms>`
-14. `    <term lemma="ancien" pos="G" tid="t1" type="open">`
-15. `      <span>`
-16. `        <!--Ancien-->`
-17. `        <target id="w1"/>`
-18. `      </span>`
-19. `    </term>`
-20. `    <term lemma="chef" pos="N" tid="t2" type="open">`
-21. `      <span>`
-22. `        <!--chef-->`
-23. `        <target id="w2"/>`
-24. `      </span>`
-25. `    </term>`
-26. `    <term lemma="charismatique" pos="G" tid="t3" type="open">`
-27. `      <span>`
-28. `        <!--charismatique-->`
-29. `        <target id="w3"/>`
-30. `      </span>`
-31. `    </term>`
-32. `    <term lemma="d'" pos="P" tid="t4" type="close">`
-33. `      <span>`
-34. `        <!--d'-->`
-35. `        <target id="w4"/>`
-36. `      </span>`
-37. `    </term>`
-38. `  </terms>`
-39. `</KAF>`
+$ cat fremch.kaf | Vicom-pos-tagger-lite_FR_kernel
 
 
-Will output:
+## Issues to fix
+
+The gem is not admitting a parameter to set a static timestamp in KAF header.
+It does internally for cucumber test, but not when the gem is called from the command line.
+
+Many things have to be revised. In the gemspec file, the gem-files included are picked issuing a 'git ls-files' command.
+This is does not work if a non-git-tracked files is going to be used inside the gem, like the maven generated jar file.
+This jar artifact should not be tracked by git, as it is a binary artifact generated from the source (and it weights many MB)
+For now it has been fixed adding a push(PATH_TO_JAR_FILE) to that field, but it is a little bit dirty workaround, since it needs the actual jar file name hardcoded.
+Similar issue arises inside lib/Vicom-pos-tagger-lite_FR_kernel.rb which requires the exact name of the jar to create the "@kernel" variable.
+This means that in case the jar name changes, those files have to be manually adapted (bad thing...).
+
 
 ## Contributing
 

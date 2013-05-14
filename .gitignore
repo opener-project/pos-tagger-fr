@@ -6,3 +6,9 @@ Gemfile.lock
 *.swp
 *~
 .rvmrc
+target/
+*.gem
+.settings/
+.classpath
+.project
+dependency-reduced-pom.xml

@@ -1,0 +1,118 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.vicomtech.opener.fr.postagger</groupId>
+	<artifactId>Vicom-postagger_FR</artifactId>
+	<packaging>jar</packaging>
+	<version>0.9</version>
+	<name>Vicom-postagger_FR</name>
+	<url>http://maven.apache.org</url>
+	
+	
+	<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<repositories>
+		<repository>
+			<id>maven-dropbox</id>
+			<url>https://dl.dropboxusercontent.com/u/7852658/maven-custom-repository</url>
+		</repository>
+		<repository>
+			<id>org.apache.opennlp</id>
+			<url>https://repository.apache.org/content/groups/snapshots</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.opennlp</groupId>
+			<artifactId>opennlp-tools</artifactId>
+			<version>1.5.3</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.vicomtech.opener</groupId>
+			<artifactId>fr-postagger-resources</artifactId>
+			<version>0.9</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.openerproject.kaf</groupId>
+			<artifactId>opener-kaf-parser</artifactId>
+			<version>2.3</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<resource>
+				<directory>src/test/resources</directory>
+			</resource>
+		</resources>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>2.0</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<transformers>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+									<manifestEntries>
+										<Main-Class>org.vicomtech.opener.fr.postagger.Kaf</Main-Class>
+									</manifestEntries>
+								</transformer>
+							</transformers>
+							<artifactSet>
+								<excludes></excludes>
+							</artifactSet>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.14.1</version>
+				<configuration>
+					<argLine>-Xms256m -Xmx512m</argLine>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

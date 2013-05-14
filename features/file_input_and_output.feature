@@ -9,5 +9,5 @@ Feature: Using a dutch file as input and other file as an output
     Then the output should match the fixture "<output_file>"
   Examples:
     | input_file	| output_file		|
-    | french.kaf        | french_tagged.kaf	|
+    | french.kaf        | french_tagged_with-morphofeat.kaf	|
 
