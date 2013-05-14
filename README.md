@@ -2,7 +2,10 @@
 
 ## Initial Version
 
-TODO: Write a gem description
+This module uses (internally) Apache OpenNLP programatically to perform POS tagging.
+The OpenNLP pos-model has been trained using the French TreeBank corpus.
+
+Using a 75% of the corpus as training set and the remaining 25% as test, the OpenNLP self evaluation tool gives a 91,5% of precission.
 
 ## Installation
 
