@@ -4,9 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-import eu.kyotoproject.kaf.KafSaxParser;
-import eu.kyotoproject.kaf.KafTerm;
-import eu.kyotoproject.kaf.TermComponent;
+import eu.openerproject.kaf.layers.KafTerm;
+import eu.openerproject.kaf.layers.KafTermComponent;
+import eu.openerproject.kaf.reader.KafSaxParser;
+
+//import eu.kyotoproject.kaf.KafSaxParser;
+//import eu.kyotoproject.kaf.KafTerm;
+//import eu.kyotoproject.kaf.TermComponent;
 
 public class KafTextLayer {
 	
@@ -32,11 +36,11 @@ public class KafTextLayer {
     public void getKafWordsWids() {
 		String word;
         String wid;
-        words = new String[parser.getKafWordFormList().size()];
-        wids = new String[parser.getKafWordFormList().size()];
-        for (int i = 0; i < parser.getKafWordFormList().size(); i++) {
-        	word = parser.getKafWordFormList().get(i).getWf();
-        	wid = parser.getKafWordFormList().get(i).getWid();
+        words = new String[parser.getWordList().size()];
+        wids = new String[parser.getWordList().size()];
+        for (int i = 0; i < parser.getWordList().size(); i++) {
+        	word = parser.getWordList().get(i).getWordform();
+        	wid = parser.getWordList().get(i).getWid();
         	words[i] = word;
         	wids[i] = wid;
         }
@@ -187,8 +191,8 @@ public class KafTextLayer {
 		}
     }
     
-    public TermComponent builKafTermComponent(String cid, String pos, String lemma) {
-    	TermComponent tc = new TermComponent();
+    public KafTermComponent builKafTermComponent(String cid, String pos, String lemma) {
+    	KafTermComponent tc = new KafTermComponent();
 		tc.setId(cid);
 		tc.setPos(pos);
 		tc.setLemma(lemma);

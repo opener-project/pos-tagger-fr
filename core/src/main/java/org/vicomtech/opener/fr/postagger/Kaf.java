@@ -2,12 +2,20 @@ package org.vicomtech.opener.fr.postagger;
 
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Iterator;
+import java.util.TimeZone;
 
-import eu.kyotoproject.kaf.KafSaxParser;
-import eu.kyotoproject.kaf.KafTerm;
-import eu.kyotoproject.kaf.TermComponent;
+import eu.openerproject.kaf.layers.KafTarget;
+import eu.openerproject.kaf.layers.KafTerm;
+import eu.openerproject.kaf.layers.KafTermComponent;
+import eu.openerproject.kaf.reader.KafSaxParser;
+
+//import eu.kyotoproject.kaf.KafSaxParser;
+//import eu.kyotoproject.kaf.KafTerm;
+//import eu.kyotoproject.kaf.TermComponent;
 
 public class Kaf {
 
@@ -16,6 +24,17 @@ public class Kaf {
 	static public void main(String[] args) {
 		Kaf kaf=new Kaf();
 		kaf.execute(System.in, System.out, args);
+	}
+	
+	private static String timestamp() {
+		Calendar cal = Calendar.getInstance();
+    	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    	sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+    	String date = sdf.format(cal.getTime());
+    	sdf = new SimpleDateFormat("HH:mm:ss");
+    	sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+    	String time = sdf.format(cal.getTime());
+    	return date + "T" + time + "Z";
 	}
 	
 	public void execute(InputStream in, OutputStream out, String[]args){
@@ -34,12 +53,11 @@ public class Kaf {
 
 		parser.parseFile(in);
 		if (!staticTimestamp) {
-			parser.addLP("terms", "opennlp-pos-treetagger-fr", "1.0");
-			parser.addLP("terms", "opennlp-multiword-fr", "1.0");
+			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0", timestamp());
+			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0", timestamp());
 		} else {
-			parser.addLP_notimestamp("terms", "opennlp-pos-treetagger-fr",
-					"1.0");
-			parser.addLP_notimestamp("terms", "opennlp-multiword-fr", "1.0");
+			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0", "2013-02-11T11:07:17Z");
+			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0", "2013-02-11T11:07:17Z");
 		}
 
 		ktl = new KafTextLayer(parser);
@@ -58,7 +76,7 @@ public class Kaf {
 
 		// Kaf construction
 		KafTerm kt;
-		TermComponent tc;
+		KafTermComponent tc;
 		ArrayList<String> termPoSTags = new ArrayList<String>(); // <PoS#word_id>
 		int c = 0;
 		String head_word;
@@ -91,7 +109,7 @@ public class Kaf {
 					lemma = lemmatizationMap.getLemma(ktl.getKafWord(i),
 							ktl.getKafPoS(i));
 
-					kt.addSpans(ktl.getKafWid(i));
+					kt.getSpan().add(new KafTarget(ktl.getKafWid(i)));
 					// if multiword component is a compound
 					if (ktl.isCompound(i)) {
 						compound_lemma = "";
@@ -143,7 +161,7 @@ public class Kaf {
 				}
 				// word was not multiword fix
 				if (mw == 2) {
-					kt.setComponents(new ArrayList<TermComponent>());
+					kt.setComponents(new ArrayList<KafTermComponent>());
 					kt.setHead("");
 				}
 				// set term's head and PoS. The candidates are at the
@@ -164,7 +182,7 @@ public class Kaf {
 				kt.setType(ktl.getKafType(kt.getPos()));
 				kt.setLemma(lemmatizationMap.getLemma(ktl.getKafWord(i),
 						ktl.getKafPoS(i)));
-				kt.addSpans(ktl.getKafWid(i));
+				kt.getSpan().add(new KafTarget(ktl.getKafWid(i)));
 				// word is a compound
 				if (ktl.isCompound(i)) {
 					compound_lemma = "";
@@ -200,11 +218,11 @@ public class Kaf {
 				}
 			}
 			tid++;
-			parser.kafTermList.add(kt);
+			parser.getTermList().add(kt);
 		}
 
 		// try {
-		parser.writeKafToStream(out);
+		parser.writeKafToStream(out,false);
 
 	}
 
