@@ -30,11 +30,13 @@ public class Kaf {
 		
 		Boolean staticTimestamp = false;
 		if (args.length > 0) {
-			if(args[0].equalsIgnoreCase("help")){
-				System.out.println("Usage: \n[-t] for static timestamp (for test purposes)");
-				return;
-			}else if(args[0].equalsIgnoreCase("-t")){
-				staticTimestamp = true;
+			for (int i = 0; i < args.length; i++) {
+				if(args[i].equalsIgnoreCase("help")){
+					System.out.println("Usage: \n[-t] for static timestamp (for test purposes)");
+					return;
+				}else if(args[i].equalsIgnoreCase("-t")){
+					staticTimestamp = true;
+				}
 			}
 		}
 		LemmatizationMap lemmatizationMap = new LemmatizationMap();
