@@ -26,17 +26,6 @@ public class Kaf {
 		kaf.execute(System.in, System.out, args);
 	}
 	
-	private static String timestamp() {
-		Calendar cal = Calendar.getInstance();
-    	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-    	sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
-    	String date = sdf.format(cal.getTime());
-    	sdf = new SimpleDateFormat("HH:mm:ss");
-    	sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
-    	String time = sdf.format(cal.getTime());
-    	return date + "T" + time + "Z";
-	}
-	
 	public void execute(InputStream in, OutputStream out, String[]args){
 		
 		Boolean staticTimestamp = false;
@@ -53,8 +42,8 @@ public class Kaf {
 
 		parser.parseFile(in);
 		if (!staticTimestamp) {
-			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0", timestamp());
-			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0", timestamp());
+			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0");
+			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0");
 		} else {
 			parser.getMetadata().addLayer("terms", "opennlp-pos-treetagger-fr", "1.0", "2013-02-11T11:07:17Z");
 			parser.getMetadata().addLayer("terms", "opennlp-multiword-fr", "1.0", "2013-02-11T11:07:17Z");
