@@ -8,5 +8,5 @@ def kernel_root
 end
 
 def kernel
-  Opener::Kernel::Vicom::POSTagger::Lite::FR.new
+  Opener::POSTaggers::FR.new
 end

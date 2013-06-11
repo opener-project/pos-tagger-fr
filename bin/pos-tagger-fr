@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 $:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
 
-require 'Vicom-pos-tagger-lite_FR_kernel'
+require 'opener-pos-tagger-fr'
 
-kernel = Opener::Kernel::Vicom::POSTagger::Lite::FR.new
+kernel = Opener::POSTaggers::FR.new
 #command = "#{kernel.command(:input=>ARGV[0], :arguments=>ARGV[1..-1])}"
 command = "#{kernel.command(ARGV)}"
 
