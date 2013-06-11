@@ -1,10 +1,5 @@
 #!/usr/bin/env ruby
-$:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
+require_relative '../lib/opener/pos_taggers/fr'
 
-require 'opener-pos-tagger-fr'
-
-kernel = Opener::POSTaggers::FR.new
-#command = "#{kernel.command(:input=>ARGV[0], :arguments=>ARGV[1..-1])}"
-command = "#{kernel.command(ARGV)}"
-
-puts `#{command}`
+kernel = Opener::POSTaggers::ES.new
+puts kernel.run

@@ -1,21 +1,25 @@
 require "bundler/gem_tasks"
 
-task :default => :install do
-  puts "Tasks completed"
+CORE = File.expand_path('../core', __FILE__)
+
+desc 'Removes all built files'
+task :clean do
+  Dir.chdir(CORE) do
+    sh 'mvn clean'
+  end
 end
 
-task :maven do
- puts "Changing to core dir"
- Dir.chdir("core") do
- puts "Executing maven tasks"
-  sh "mvn clean package"
-    end
+desc 'Generates JAR files'
+task :generate => :clean do
+  Dir.chdir(CORE) do
+    sh "mvn package"
+  end
 end
 
-task :build => :maven do
-
+desc 'Runs the tests'
+task :test => :generate do
+  sh 'cucumber features'
 end
 
-task :install => :build do
-
-end
+task :build   => :generate
+task :default => :test
