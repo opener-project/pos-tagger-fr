@@ -1,4 +1,4 @@
-# Opener::Kernel::Vicom::POSTagger::Lite::FR
+# Opener::POSTaggers::FR
 
 ## Initial Version
 
@@ -15,7 +15,7 @@ To install this gem you need to have installed: Java 6, Apache Maven3, Ruby, Rub
 
 Clone the repo
 
-    git clone git@github.com/opener-project/Vicom-pos-tagger-lite_FR_kernel.git
+    git clone git@github.com/opener-project/pos-tagger-fr.git
 
 Then go to the core directory inside the repo, you will see a src folder, and a pom.xml (which tells to Maven how to build all the java stuff)
 Execute:
@@ -26,11 +26,11 @@ This will compile the java source code, download all the dependencies, and creat
 
 Then you can go back to the root of the repository (where the .gemspec file is located) and issue
 
-	gem build Vicom-pos-tagger-lite_FR_kernel.gemspec
+	gem build opener-pos-tagger-fr.gemspec
 
 If no error happens, then you can install the gem
 
-	gem install Vicom-pos-tagger-lite_FR_kernel
+	gem install opener-pos-tagger-fr
 
 Note: to install a gem to a system location you will probably need sudo permissions
 
@@ -39,13 +39,13 @@ Note: to install a gem to a system location you will probably need sudo permissi
 Once installed as a gem you can access the gem from anywhere, as a regular shell command.
 The command reads the standard input, so you have to pipe the content to it.
 
-    $ cat kaf_file.kaf | Vicom-pos-tagger-lite_FR_kernel
+    $ cat kaf_file.kaf | pos-tagger-fr
 
 
 
 For example:
 
-$ cat fremch.kaf | Vicom-pos-tagger-lite_FR_kernel
+$ cat fremch.kaf | pos-tagger-fr
 
 
 ## Issues to fix
