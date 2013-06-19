@@ -31,7 +31,7 @@ public class Kaf {
 		Boolean staticTimestamp = false;
 		if (args.length > 0) {
 			for (int i = 0; i < args.length; i++) {
-				if(args[i].equalsIgnoreCase("help")){
+				if(args[i].equalsIgnoreCase("--help")){
 					System.out.println("Usage: \n[-t] for static timestamp (for test purposes)");
 					return;
 				}else if(args[i].equalsIgnoreCase("-t")){
