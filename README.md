@@ -1,4 +1,4 @@
-[![Build Status](https://drone.io/github.com/opener-project/tokenizer-fr/status.png)](https://drone.io/github.com/opener-project/tokenizer-fr/latest)
+[![Build Status](https://drone.io/github.com/opener-project/pos-tagger-fr/status.png)](https://drone.io/github.com/opener-project/pos-tagger-fr/latest)
 
 # French POS Tagger
 
