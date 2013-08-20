@@ -1,3 +1,5 @@
+[![Build Status](https://drone.io/github.com/opener-project/tokenizer-fr/status.png)](https://drone.io/github.com/opener-project/tokenizer-fr/latest)
+
 # French POS Tagger
 
 This repository contains the source code for the French POS tagger of the
