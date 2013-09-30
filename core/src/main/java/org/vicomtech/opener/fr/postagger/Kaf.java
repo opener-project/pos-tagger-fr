@@ -2,24 +2,20 @@ package org.vicomtech.opener.fr.postagger;
 
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Iterator;
-import java.util.TimeZone;
 
 import eu.openerproject.kaf.layers.KafTarget;
 import eu.openerproject.kaf.layers.KafTerm;
 import eu.openerproject.kaf.layers.KafTermComponent;
 import eu.openerproject.kaf.reader.KafSaxParser;
 
-//import eu.kyotoproject.kaf.KafSaxParser;
-//import eu.kyotoproject.kaf.KafTerm;
-//import eu.kyotoproject.kaf.TermComponent;
 
 public class Kaf {
 
 	private KafTextLayer ktl;
+	//Load only once the lemmatization map!
+	private static LemmatizationMap lemmatizationMap = new LemmatizationMap();
 
 	static public void main(String[] args) {
 		Kaf kaf=new Kaf();
@@ -39,7 +35,7 @@ public class Kaf {
 				}
 			}
 		}
-		LemmatizationMap lemmatizationMap = new LemmatizationMap();
+		//LemmatizationMap lemmatizationMap = new LemmatizationMap();
 		KafSaxParser parser = new KafSaxParser();
 
 		parser.parseFile(in);

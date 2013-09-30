@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-tokenizer-fr" version="1.0" timestamp="2013-09-26T14:30:34Z"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0"><![CDATA[This]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="5"><![CDATA[is]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="8"><![CDATA[a]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="10"><![CDATA[test]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="15"><![CDATA[for]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="19"><![CDATA[Barack]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="26"><![CDATA[Obama]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="32"><![CDATA[in]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="35"><![CDATA[the]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="39"><![CDATA[city]]></wf>
+    <wf wid="w11" sent="1" para="1" offset="44"><![CDATA[of]]></wf>
+    <wf wid="w12" sent="1" para="1" offset="47"><![CDATA[Washington]]></wf>
+  </text>
+</KAF>
