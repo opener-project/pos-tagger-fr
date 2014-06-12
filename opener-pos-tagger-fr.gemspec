@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.name          = "opener-pos-tagger-fr"
   gem.version       = Opener::POSTaggers::FR::VERSION
   gem.authors       = ["development@olery.com"]
-  gem.summary       = "POS tagging for french"
+  gem.summary       = "POS tagging for French"
   gem.description   = gem.summary
   gem.homepage      = "http://opener-project.github.com/"
   gem.has_rdoc      = "yard"
@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'opener-build-tools'
 
-  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'rspec', '~> 3.0'
   gem.add_development_dependency 'cucumber'
   gem.add_development_dependency 'rake'
 end
